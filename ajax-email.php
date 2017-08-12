@@ -1,7 +1,7 @@
 <?php
 
 /* SETTINGS */
-//$yourEmail = "roman.rudnik@gmail.com";
+//$yourEmail = "itactiletrack@gmail.com";
 $yourEmail = "itactiletrack@gmail.com";
 $emailSubject = "Tactile Track Preorder";
 
