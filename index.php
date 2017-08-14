@@ -1,102 +1,160 @@
 <!doctype html>
 <html>
-    <head>
-		<meta charset="utf-8">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta http-equiv="Content-Language" content="ru" />
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
-        <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <!-- Page title -->
-        <title>Браслет-навигатор Tactile Track</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="ru" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Raleway:300,500,800|Source+Sans+Pro:100,300,400,600,700,900" rel="stylesheet" type="text/css" />
-        
-        
-        <!-- Styles -->
-        <link rel="stylesheet" href="css/slides.css" name="main-styles">
+    <!-- Page title -->
+    <title>Браслет-навигатор Tactile Track</title>
 
-        <!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
-        <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
-                
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet"> 
-		<link href="http://tactiletrack.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-		<link href="http://tactiletrack.com/favicon.ico" rel="icon" type="image/x-icon" />
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '1827022840908361');
- fbq('track', 'ViewContent');
- fbq('track', 'PageView');
- fbq('track', 'Search');
- fbq('track', 'Lead');
- fbq('track', 'Purchase', {value: '0.00', currency:'RUB'});
-</script>
-<noscript>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Raleway:300,500,800|Source+Sans+Pro:100,300,400,600,700,900" rel="stylesheet" type="text/css" />
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/slides.css" name="main-styles">
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
+    <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
+    <link href="http://tactiletrack.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="http://tactiletrack.com/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1827022840908361');
+        fbq('track', 'ViewContent');
+        fbq('track', 'PageView');
+        fbq('track', 'Search');
+        fbq('track', 'Lead');
+        fbq('track', 'Purchase', {
+            value: '0.00',
+            currency: 'RUB'
+        });
+
+    </script>
+    <noscript>
  <img height="1" width="1" 
 src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 &noscript=1"/>
 </noscript>
-<!-- End Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-102047541-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-102047541-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
-
-
-<!-- Yandex.Metrika counter -->
-<script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
-<script type="text/javascript">
-try {
-    var yaCounter41790099 = new Ya.Metrika({
-        id:41790099,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-    });
-} catch(e) { }
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/41790099" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+    </script>
 
 
+    <!-- Yandex.Metrika counter -->
+    <script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        try {
+            var yaCounter41790099 = new Ya.Metrika({
+                id: 41790099,
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true
+            });
+        } catch (e) {}
 
-<script>
-function onClick() {
-	ga('send', 'event', { eventCategory: 'form', eventAction: 'submit', eventLabel: 'Pre-Order', eventValue: 1});
-	fbq('track', 'Lead');
-};
-</script>
-<?php 
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/41790099" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+
+    <script>
+        function onClick() {
+            ga('send', 'event', {
+                eventCategory: 'form',
+                eventAction: 'submit',
+                eventLabel: 'Pre-Order',
+                eventValue: 1
+            });
+            fbq('track', 'Lead');
+        };
+
+    </script>
+    <?php 
 		$path = "./clickfrogru_tcp.php";
 		include_once($path);
 	?>
-<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-137953-d6NsQ';</script>
-    </head>
-    <body class="slides whiteSlide animated">
-<div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div><script type="text/javascript">(function(d, w) {var clickfrog = function() {if(!d.getElementById('clickfrog_js_container')) {var sc = document.createElement('script');sc.type = 'text/javascript';sc.async = true;sc.src = "//stat.clickfrog.ru/c.js?r="+Math.random();sc.id = 'clickfrog_js_container';var c = document.getElementById('clickfrog_counter_container');c.parentNode.insertBefore(sc, c);}};if(w.opera == "[object Opera]"){d.addEventListener("DOMContentLoaded",clickfrog,false);}else {clickfrog();}})(document, window);</script><noscript><div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img" style="width:0px; height:0px;" alt=""/></div></noscript><script type="text/javascript">var clickfrogru_uidh='66d580d33512ffec2ea4f564a7973dc1';</script>
-      
+    <script type="text/javascript">
+        (window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-137953-d6NsQ';
 
-<!-- SVG Library -->
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    </script>
+</head>
+
+<body class="slides whiteSlide animated">
+    <div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div>
+    <script type="text/javascript">
+        (function(d, w) {
+            var clickfrog = function() {
+                if (!d.getElementById('clickfrog_js_container')) {
+                    var sc = document.createElement('script');
+                    sc.type = 'text/javascript';
+                    sc.async = true;
+                    sc.src = "//stat.clickfrog.ru/c.js?r=" + Math.random();
+                    sc.id = 'clickfrog_js_container';
+                    var c = document.getElementById('clickfrog_counter_container');
+                    c.parentNode.insertBefore(sc, c);
+                }
+            };
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", clickfrog, false);
+            } else {
+                clickfrog();
+            }
+        })(document, window);
+
+    </script><noscript><div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img" style="width:0px; height:0px;" alt=""/></div></noscript>
+    <script type="text/javascript">
+        var clickfrogru_uidh = '66d580d33512ffec2ea4f564a7973dc1';
+
+    </script>
+
+
+    <!-- SVG Library -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   
   <symbol id="logo" viewBox="0 0 106 31"><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
   
@@ -165,55 +223,55 @@ function onClick() {
   <symbol id="right" viewBox="-2 6 16 16"><path d="M13.7 13.3l-5-5c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l3.3 3.3h-11.6c-.6 0-1 .4-1 1s.4 1 1 1h11.6l-3.3 3.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3s.5-.1.7-.3l5-5c.2-.2.3-.5.3-.7s-.1-.5-.3-.7z"/></symbol>
 </svg>
 
-<!-- Navigation -->
-<nav class="side">
-  <div class="navigation">
-    <ul></ul>
-  </div>
-</nav>
+    <!-- Navigation -->
+    <nav class="side">
+        <div class="navigation">
+            <ul></ul>
+        </div>
+    </nav>
 
-<!-- Panel top #03 -->
-<nav class="panel top small forceMobileView">
-  <div class="sections desktop">
-    <div class="left">
-	<a href="#home"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
-	</div>
-    
-    <div class="center">
-      <ul class="menu uppercase">
-        <li><a href="#home">Что это</a></li>
-        <li><a href="#HowitWorks">Как работает</a></li>
-        <li><a href="#WhyToBuy">Преимущества</a></li>
-      </ul>
-    </div>
-    <div class="right">
-	<span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
-	<a class="button menuButton" href="#Models">Сделать предзаказ</a></div>
-  </div>
-  <div class="sections compact hidden">
-    <div class="left"><a href="#home"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a></div>
-    <div class="right">
-		<span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
-		<span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
-	</div>
-  </div>
-</nav>
+    <!-- Panel top #03 -->
+    <nav class="panel top small forceMobileView">
+        <div class="sections desktop">
+            <div class="left">
+                <a href="#home"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
+            </div>
 
-<!-- Sidebar -->
-<nav class="sidebar blueGrey" data-sidebar-id="1">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <a href="#home" class="logo"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
-    <ul class="mainMenu uppercase small">
-      <li><a href="#home">Что это</a></li>
-      <li><a href="#HowitWorks">Как он работает</a></li>
-      <li><a href="#WhyToBuy">Преимущества</a></li>
-      <li><a href="#unique">Технические характеристики</a></li>
-      <li><a href="#Opinions">Мнения и отзывы</a></li>
-      <li><a href="#Models">Модели</a>
-      <li><a href="#Order">Разместить предзаказ</a></li>
-    </ul>
-    <!--<ul class="subMenu small">
+            <div class="center">
+                <ul class="menu uppercase">
+                    <li><a href="#home">Что это</a></li>
+                    <li><a href="#HowitWorks">Как работает</a></li>
+                    <li><a href="#WhyToBuy">Преимущества</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
+                <a class="button menuButton" href="#Models">Сделать предзаказ</a></div>
+        </div>
+        <div class="sections compact hidden">
+            <div class="left"><a href="#home"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a></div>
+            <div class="right">
+                <span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
+                <span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <nav class="sidebar blueGrey" data-sidebar-id="1">
+        <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+        <div class="content">
+            <a href="#home" class="logo"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
+            <ul class="mainMenu uppercase small">
+                <li><a href="#home">Что это</a></li>
+                <li><a href="#HowitWorks">Как он работает</a></li>
+                <li><a href="#WhyToBuy">Преимущества</a></li>
+                <li><a href="#unique">Технические характеристики</a></li>
+                <li><a href="#Opinions">Мнения и отзывы</a></li>
+                <li><a href="#Models">Модели</a>
+                    <li><a href="#Order">Разместить предзаказ</a></li>
+            </ul>
+            <!--<ul class="subMenu small">
       <li><a href="#">About Us</a></li>
       <li><a href="#">Blog</a></li>
       <li><a href="#">Press & Media</a></li>
@@ -221,355 +279,399 @@ function onClick() {
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">Contact Us</a></li>
     </ul>-->
-    <ul class="social small">
-	  <li><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></li>
-	  <li><a href="https://www.facebook.com/tactile.track" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
-      <!--<li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+            <ul class="social small">
+                <li>
+                    <a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a>
+                </li>
+                <li><a href="https://www.facebook.com/tactile.track" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+                <!--<li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>-->
-    </ul>
-  </div>
-</nav>
+            </ul>
+        </div>
+    </nav>
 
 
-<!-- Slide #11 1 -->
-<section class="slide fade-1 kenBurns" name="home" data-title="Что это">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <div class="fix-10-12">
-          <h1 class="small ae-2">Браслет-навигатор Tactile Track</h1>
-          <div class="ae-3">
-            <p>Показывает ваш маршрут при помощи вибрации</p>
-          </div>
-        </div>
-		
-        <div class="fix-10-12 ae-5" data-action="">
-          <div><img style="margin:2% 0 0; width:auto; max-width:100%; height:auto;" src="assets/img/rr_TactileTrackBracelet.png" width="496" height="301"/></div>
-        </div>
-      
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_1.jpg)"></div>  
-</section>
+    <!-- Slide #11 1 -->
+    <section class="slide fade-1 kenBurns" name="home" data-title="Что это">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
 
-<!-- Slide #27 2 -->
-<section class="slide fade kenBurns" name="HowitWorks" data-title="Как он работает">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        
-        <div class="fix-12-12">
-          <ul class="grid">
-            <li class="col-5-12 cell-27">
-              <div class="fix-4-12 parent ae-1 fromAbove" style="">	
-					<img class="above_image_down" src="assets/img/rr_bracelet.png" />
-					<img class="above_image_up" src="assets/img/rr_bracelet animation_empty.gif" />
-			  </div>
-            </li>
-            <li class="col-7-12 left">
-              <h2 class="small ae-2 fromRight">Как работает Tactile Track</h1>
-              <div class="ae-3 fromRight">
-                <!--<p>Вы надеваете браслет, и за 100 метров (настраивается в приложении) до поворота он начинает вибрировать с той стороны, с в которую вам надо повернуть. Вибрирует справа - вам направо, вибрирует сверху - вам вперед, вибрирует слева - вам налево.</p>-->
-                <p>Подключив браслет к своему смартфону через Bluetooth, в приложении компаньоне "Tactile Track" прокладываете маршрут, и нажимаете кнопку GO. Теперь можно убрать смартфон в карман и начать движение. Перед поворотом, заранее, браслет завибрирует с той стороны, куда вам надо повернуть. Вибрирует справа - вам направо, вибрирует сверху - вам вперед, вибрирует слева - вам налево.</p>
-				<p>А нажав кнопку HOME на браслете, вы проложите кратчайший маршрут в исходную точку, причем не доставая смартфон из кармана.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_2.jpg)"></div>
-</section>
-
-<!-- Slide #47 6 -->
-<section class="slide fade kenBurns" name="WhyToBuy" data-title="Преимущества">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <div class="fix-12-12 toCenter">
-          <h2 class="small ae-1">Размер и качество экрана вашего навигатора больше не имеют значения, когда у вас есть Tactile Track</h1>
-        </div>
-        <div class="fix-12-12">
-          <ul class="grid grid-47 later equal">
-            <li class="col-4-12 equalElement">
-							<div class="fix-4-12 ae-3">
-							  <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTEuOTgzIDUxMS45ODMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMS45ODMgNTExLjk4MzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00ODAuMjAxLDE5Mi4wOTVDNDczLjQ4MywxNDguOTQsNDU4LDExMC42NjcsNDM0LjIwMyw3OC4zMzJjLTE0LjY3Mi0xOS45MzctNDIuODg5LTM5LjcwMS03Ny40Mi01NC4yMjUgICAgQzMxOS44MzIsOC41NjEsMjc4LjIwOCwwLDIzOS41NTMsMGMtNDIuNjU1LDAtODAuNzE2LDkuODI3LTExMy4xMzcsMjkuMjAyQzg4LjcxNCw1MS43MjQsNjAuMTgzLDg2LjQ4MSw0MS41OSwxMzIuNDk2ICAgIGMtMzIuOTgzLDgxLjY0NSw0LjA5NCwxNjguNTI1LDguNDIyLDE3OC4xNjZjMC45NjksMi4xNDEsMi42MjUsMy45MjIsNC43MTgsNS4wMzFsMzE3LjI3MSwxNjkuMDQxICAgIGMxLjU3OCwwLjg0NCwzLjI5NywxLjI1LDUuMDE2LDEuMjVjMS45NjksMCwzLjkyMi0wLjU0Nyw1LjY1Ni0xLjYyNWMzMi40OTgtMjAuMjgxLDYyLjczMi02Ni45MDQsODEuNTI4LTEyMy4wOSAgICBjMC4wNjItMC4xNzIsMC4xNDEtMC4zNDQsMC4xODgtMC41MzFjMC4wMTYtMC4wNjIsMC4wMzEtMC4xMDksMC4wNDctMC4xNTZjNS4yMzQtMTUuNzgxLDkuNTc4LTMyLjI4MSwxMi44MTItNDkuMTcgICAgQzQ4NS4wMTMsMjcwLjgwMyw0ODYuMDQ1LDIyOS41MzksNDgwLjIwMSwxOTIuMDk1eiBNMzc2LjM2MSw0NjIuODlMNjguMDU4LDI5OC42MTVjLTMuNS04LjQwNi0xMS4zNzUtMjkuMzUyLTE1LjcxOC01Ni42NDYgICAgYy02LTM3LjY3MS0yLjk1My03MS44MTEsOS4wMzEtMTAxLjQ4MWMxNi44MTItNDEuNjA3LDQyLjM3NC03Mi44ODgsNzUuOTgyLTkyLjk3NGMyOS4wNjItMTcuMzc0LDYzLjQ1MS0yNi4xNzksMTAyLjItMjYuMTc5ICAgIGMzNS44NzQsMCw3NC41NzYsNy45NjksMTA4Ljk2NSwyMi40MzdjMzEuMDc3LDEzLjA3OCw1Ni4wNDUsMzAuMjgsNjguNDk3LDQ3LjIxYzE2LjEyNSwyMS45MDUsMjguMDk0LDQ2Ljg4OSwzNS43MTksNzQuNTM2ICAgIGMtMTUuMjUtMi4xNDctNDAuNDgzLTUuOTgzLTY5LjUyOS0xMS40OTljLTYyLjIzMi0xMS44MDUtMTEzLjU5LTI1Ljg5Ny0xNDguNTU4LTQwLjc0OWMtMC4xNDEtMC4wNjItMC4yODEtMC4xMDktMC40MjItMC4xNjQgICAgYy02LjI1LTIuNzM0LTEzLjE1Ni00LjI1OC0yMC40MDYtNC4yNThjLTI4LjE1NSwwLTUxLjA3NiwyMi44ODMtNTEuMTM5LDUxLjAzYzAsMC4wMjMsMCwwLjA1NSwwLDAuMDc4YzAsMCwwLDAuMDIzLDAsMC4wMzF2MC4wMDggICAgYy0wLjAxNiwyLjk3NywwLjAxNiw2Mi44MTEsMTUuMTQsOTMuODY0YzUuMzU5LDEwLjk3NSwyNi43MzMsMjcuOTQzLDE0NC43Myw3MC41MmM0OC44NDIsMTcuNjQxLDk3LjE2OCwzMy4zNDQsMTE3LjkwMiwzOS45ODQgICAgQzQyNC4yOTcsNDA4LjI1Miw0MDAuODkxLDQ0NC45MjQsMzc2LjM2MSw0NjIuODl6IE0yNDMuNjQ2LDE1OS45OTVjMCwxNi40MzctMTMuMzc1LDI5LjgxMi0yOS44MjcsMjkuODEyICAgIGMtMTYuNDM3LDAtMjkuODEyLTEzLjM3NS0yOS44MTItMjkuODEyYzAtMTYuNDM4LDEzLjM3NS0yOS44MTIsMjkuODEyLTI5LjgxMkMyMzAuMjcyLDEzMC4xODMsMjQzLjY0NiwxNDMuNTU3LDI0My42NDYsMTU5Ljk5NXogICAgIE00NTYuMjk3LDMwNy4zOTdjLTIuMzkxLDEyLjQ4NC01LjQ1MywyNC43OTUtOS4wNjIsMzYuNzQ4Yy0yMC4xODgtNi40NjktNjcuNTc2LTIxLjg3NS0xMTUuNzkzLTM5LjIzMiAgICBjLTM3LjEwOS0xMy4zNTktNjcuMzg5LTI1LjIzNC04OS45OTgtMzUuMjk3Yy0zOC4zNzQtMTcuMDY4LTQzLjkwNS0yNC4yNjQtNDQuNDgzLTI1LjE3OGMtNS4xNzEtMTAuNjgtOC4yODEtMjYuMjEtMTAuMTU2LTQxLjA0NiAgICBjNy44NDQsNC45MDYsMTcuMTA5LDcuNzUsMjcuMDE1LDcuNzVjMjguMjAzLDAsNTEuMTU1LTIyLjk0NCw1MS4xNTUtNTEuMTQ2YzAtNC42NzItMC42NDEtOS4xODgtMS44MjgtMTMuNDkyICAgIGM3NC42NjksMjQuMjEsMTY3LjQxNiwzNy42NDcsMTk0LjY4Miw0MS4yNjVjMC40NjgsMi41MjIsMC45MDUsNS4wNTMsMS4yOTYsNy42MDggICAgQzQ2NC41OTMsMjMwLjQzOCw0NjMuNjA4LDI2OS4xNyw0NTYuMjk3LDMwNy4zOTd6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjIxLjM2NiwxNTIuNDQ4Yy00LjE1Ni00LjE2NC0xMC45MjEtNC4xNjQtMTUuMDc4LDBjLTQuMTcyLDQuMTcyLTQuMTcyLDEwLjkyMiwwLDE1LjA4NSAgICBjNC4xNTYsNC4xNzIsMTAuOTIxLDQuMTcyLDE1LjA3OCwwQzIyNS41MzgsMTYzLjM3LDIyNS41MzgsMTU2LjYyLDIyMS4zNjYsMTUyLjQ0OHoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00NDguMzYsMjAxLjk0NWMtMC41NDctNS44NjctNS43NS0xMC4xNTUtMTEuNjA5LTkuNjE2Yy01Ljg3NSwwLjU0Ny0xMC4xNzIsNS43NDktOS42MjUsMTEuNjA4ICAgIGMwLjA2MiwwLjYzMyw1LjczNCw2My43MTYtOS41NDcsMTA2Ljc1NWMtMS45ODUsNS41NDgsMC45MjEsMTEuNjU1LDYuNDY4LDEzLjYyNGMxLjE4OCwwLjQyMiwyLjM5MSwwLjYwOSwzLjU3OCwwLjYwOSAgICBjNC4zOTEsMCw4LjUtMi43MTksMTAuMDQ3LTcuMDkyQzQ1NC41NjMsMjcwLjMwMiw0NDguNjI1LDIwNC43MTEsNDQ4LjM2LDIwMS45NDV6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzU2LjAzMyw0OTEuODlMNDcuNTQzLDMyNy41NTFjLTUuMjAzLTIuNzgxLTExLjY1Ni0wLjgxMi0xNC40MzcsNC4zOTFjLTIuNzY2LDUuMjAzLTAuNzk3LDExLjY1Niw0LjQwNiwxNC40MjIgICAgbDMwOC40OSwxNjQuMzY5YzEuNjA5LDAuODQ0LDMuMzI4LDEuMjUsNS4wMTYsMS4yNWMzLjgxMiwwLDcuNDk5LTIuMDYyLDkuNDIxLTUuNjU0ICAgIEMzNjMuMjA1LDUwMS4xNCwzNjEuMjM2LDQ5NC42NzIsMzU2LjAzMyw0OTEuODl6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
-                <h3 class="uppercase">Меньше падений</h3>
-							  <p class="small">Во время скоростной езды не надо отвлекаться на экран, а значит больше внимания дороге, меньше ДТП и падений.</p>
-              </div>
-            </li>
-            <li class="col-4-12 equalElement">
-							<div class="fix-4-12 ae-4">
-                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyOTguMjM2IDI5OC4yMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5OC4yMzYgMjk4LjIzNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8ZyBpZD0iWE1MSURfMTUxMl8iPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik0yODQuODI2LDE0NS44MzhsLTM4LjUwNy0zMS45NTJsLTguMDQtMTIuNjE5bDEuNzAyLTE5Ljc5NmwwLjAxMi0wLjE0NGMwLjgzMy05LjY4My02LjM2LTE4LjE0Mi0xNS45NjUtMTguOTY4ICAgICBsLTMxLjE0Ny0yLjY3OGMtNy44NzEtMC42NzctMTUuMDkxLDMuOTkyLTE3Ljg1MywxMS4xNDdsMTUuNzc5LTIuMjM4bC00Ni4wMTEsMTcuOTI1Yy0zLjYwNiwxLjQwNS02LjM2NCw0LjUzNC03LjIxOSw4LjQ0NyAgICAgbC0xMC4wMjIsNDUuODkzYy0xLjM4NSw2LjMzOSwyLjYzMSwxMi42MDksOC45NzgsMTMuOTk1YzYuMzYzLDEuMzksMTIuNjE4LTIuNjcsMTMuOTk2LTguOTc4bDguNjc4LTM5LjczNGw0MS42NjYtMTYuMjMzICAgICBsLTMwLjA1NiwyMS43NjJsLTMuODA0LDUzLjY2MWMwLjEyOSwxLjA5OS0wLjg4Ni01LjQ2Myw4LjQ4MSw1NC4ybC0yMi40ODUsNTkuNjE1Yy0yLjc1LDcuMjksMC45MzEsMTUuNDMsOC4yMjMsMTguMTgxICAgICBjNy4yOTQsMi43NSwxNS40MzItMC45MzQsMTguMTgtOC4yMjNsMjMuOC02My4xMDJjMC44NjItMi4yODUsMS4xMTYtNC43NTUsMC43MzctNy4xNjdjLTAuNzI2LTQuNjI1LTcuMDczLTQ1LjA1Mi04LjAwOS01MS4wMTggICAgIGw3LjQ0MiwwLjY0bDIyLjUxMiw0OS44MTVsMTUuNjgzLDY4Ljk4MWMxLjcyNyw3LjU5Nyw5LjI4NywxMi4zNTcsMTYuODg2LDEwLjYzYzcuNTk5LTEuNzI4LDEyLjM1Ny05LjI4OCwxMC42My0xNi44ODYgICAgIGwtMTUuOTk4LTcwLjM2OGMtMC4yMDktMC45MjItMC41MTItMS44MjEtMC45MDItMi42ODNsLTE5LjM5My00Mi45MTRjMi4wMjUtMjMuNTUxLDEuNzcxLTIwLjYwNSwyLjU1Ny0yOS43NDJsMzQuNDgyLDI4LjYxMiAgICAgYzQuOTg5LDQuMTQxLDEyLjM4OSwzLjQ1LDE2LjUyOC0xLjUzN0MyOTAuNTA0LDE1Ny4zNzcsMjg5LjgxNSwxNDkuOTc3LDI4NC44MjYsMTQ1LjgzOHoiIGZpbGw9IiNGRkZGRkYiLz4KCQkJPHBhdGggZD0iTTExNi4xNTcsMTQ2LjA5OWMtMC41NDItNC41MzgsMC4zMTMtNy4zODgsMS4zMS0xMS45NWwtMTYuODI3LTEwLjIxN2MwLDAtMi45OTgtMzEuMjk4LTMuNTc2LTQyLjg2NyAgICAgYy0wLjQ4My05LjY3LTYuMzE5LTE4LjEzOS0xNS45NjUtMTguOTY4bC0zMS4xNDgtMi42NzhjLTkuNjQ3LTAuODI5LTE4LjEzOSw2LjMxOS0xOC45NjgsMTUuOTY1bC0xLjcsMTkuNzdsMjAuMTktMTcuODUyICAgICBMMjAuOTM3LDExNy42Yy0yLjI4LDMuMjIxLTIuNzg5LDcuMzYtMS4zNzUsMTEuMDI2bDE2LjkwNCw0My44MjhjMi4zNjMsNi4xMjYsOS4yMzksOS4wMzgsMTUuMjAxLDYuNzM5ICAgICBjNi4wNDQtMi4zMzIsOS4wODEtOS4xMyw2LjczOS0xNS4yMDFjLTEuNzg0LTQuNjI0LTEyLjk1Ny0zMy41OTQtMTQuNjM1LTM3Ljk0NmwyNS44NDItMzYuNDk0bC0xMy43NjEsMzYuNDVsMTMuMDg1LDMzLjkyNyAgICAgYzQuNTYyLDExLjgyOS0xLjI3NCwyNS4xOTEtMTMuMjA4LDI5Ljc5M2MtMTEuODk4LDQuNTg5LTI1LjIyMS0xLjM0Ny0yOS43OTQtMTMuMjA4bC0zLjMwOS04LjU3OWwtMy42ODEsMTYuNTc2ICAgICBjLTAuNDM1LDEuOTYsMC4wNDIsNC4wMTIsMS4yOTksNS41NzhzMy4xNTYsMi40NzcsNS4xNjQsMi40NzdoODAuOTU4Yy0wLjM4MS00LjU2NC0yLjk1MS0zNS4zNjktMy4zMTMtMzkuNzA3ICAgICBjMTguMjgxLDExLjEwMSwxOC44MTgsMTIuMDExLDIzLjA1LDEyLjAxMWMxLjE3MiwwLDIuMzM0LTAuMTgsMy40NDktMC41MjFDMTIyLjMwOSwxNjEuMDcyLDExNy4xMjYsMTU0LjIxMywxMTYuMTU3LDE0Ni4wOTl6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxwYXRoIGQ9Ik0yMTMuNzM5LDUyLjA3YzE0LjIyNSwxLjIyMywyNi44NDctOS4zMDgsMjguMDc5LTIzLjYzM2MxLjIyOC0xNC4yOC05LjM1NC0yNi44NTEtMjMuNjMzLTI4LjA3OSAgICAgcy0yNi44NTEsOS4zNTQtMjguMDc5LDIzLjYzM0MxODguODcxLDM4LjM2NCwxOTkuNTc1LDUwLjg1MywyMTMuNzM5LDUyLjA3eiIgZmlsbD0iI0ZGRkZGRiIvPgoJCQk8cGF0aCBkPSJNNTkuMDQxLDIwNS45OEgzMC40NzdsMi4wODYsMTMuMjg3bC0yMi40ODUsNTkuNjE1Yy0yLjc0OSw3LjI5LDAuOTMxLDE1LjQzLDguMjIzLDE4LjE4MSAgICAgYzcuMjk0LDIuNzUsMTUuNDMyLTAuOTM0LDE4LjE4LTguMjIzbDIzLjgtNjMuMTAxYzAuODYyLTIuMjg1LDEuMTE2LTQuNzU1LDAuNzM3LTcuMTY3TDU5LjA0MSwyMDUuOTh6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxwYXRoIGQ9Ik0xMDguNDkyLDIwNS45OGMtMi44NTIsMC0yNi42OTYsMC0zMC45NjYsMGw1LjQzNSwxMi4wMjhsMTUuNjg0LDY4Ljk4MWMxLjcyNyw3LjU5Nyw5LjI4NywxMi4zNTcsMTYuODg2LDEwLjYzICAgICBjNy41OTktMS43MjgsMTIuMzU3LTkuMjg4LDEwLjYzLTE2Ljg4NkMxMTAuNDksMjExLjg5NCwxMTAuMTc1LDIwOC42NjgsMTA4LjQ5MiwyMDUuOTh6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxjaXJjbGUgY3g9IjczLjAzMiIgY3k9IjI1Ljk1MSIgcj0iMjUuOTUxIiBmaWxsPSIjRkZGRkZGIi8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
-                <h3 class="uppercase">Наслаждайся прогулкой</h3>
-                <p class="small">Не нужно постоянно доставать смартфон или карту для сверки маршрута. Можно просто наслаждаться прогулкой.</p>
-              </div>
-            </li>
-            <li class="col-4-12 equalElement">
-							<div class="fix-4-12 ae-5">
-                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMSkiPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik00OTEuMzczLTFoLTYzLjE0N2MtMTAuMjIxLDAtMTguMjUxLDcuMjUxLTE5LjQ1MywxNy4wNjdoLTQyLjg0Yy00LjI3NCwwLTcuMzUxLDIuMzg0LTguMjUzLDYuMTQ5bC0yNy4wNjgsMzIuNDgxICAgICBDMzI0LjY2NywyMy4xMDMsMjk2Ljc4Ny0xLDI2My41MzMtMWMtMzQuNjE1LDAtNjMuNDA2LDI2LjExNi02Ny42OTUsNTkuNjE0TDE1MS45MywyMC45NzhjLTEuMjMtMy4wNDItNC4wNzgtNC45MTEtNy44NjMtNC45MTEgICAgIGgtNDIuODRDMTAwLjAyNCw2LjI1MSw5MS45OTQtMSw4MS43NzMtMUgxOC42MjdDNy41MzMtMS0xLDcuNTMzLTEsMTguNjI3djExLjk0N0MtMSw0MS42NjcsNy41MzMsNTAuMiwxOC42MjcsNTAuMmg2My4xNDcgICAgIGMxMC4yMjEsMCwxOC4yNTEtNy4yNTEsMTkuNDUzLTE3LjA2N2gzOC44NThsNTYuNzYzLDQ4LjY1NGMyLjUxNywxMS40OTgsNy45NTIsMjEuOTMxLDE1LjQ4NiwzMC40ODV2NTcuMzk0aC0xMC4yNCAgICAgYy0xNy45MiwwLTMzLjI4LDEzLjY1My0zNC4xMzMsMzEuNTczbC0xMy42NTMsMTk2LjI2N2MwLDkuMzg3LDMuNDEzLDE4Ljc3Myw5LjM4NywyNS42czE1LjM2LDExLjA5MywyNC43NDcsMTEuMDkzaDE1LjM2djE3LjA2NyAgICAgYzAsMzMuMjgsMjYuNDUzLDU5LjczMyw1OS43MzMsNTkuNzMzYzMzLjI4LDAsNTkuNzMzLTI2LjQ1Myw1OS43MzMtNTkuNzMzVjQzNC4yaDE1LjM2YzkuMzg3LDAsMTguNzczLTQuMjY3LDI0Ljc0Ny0xMC4yNCAgICAgYzYuODI3LTYuODI3LDEwLjI0LTE2LjIxMyw5LjM4Ny0yNS42bC0xMy42NTMtMTk2LjI2N2MtMC44NTMtMTguNzczLTE2LjIxMy0zMi40MjctMzQuMTMzLTMyLjQyN2gtMTAuMjR2LTU3LjM5NCAgICAgYzcuNTg0LTguNjExLDEzLjA0NC0xOS4xMjUsMTUuNTM5LTMwLjcxNGw0MC4zNTQtNDguNDI1aDM4LjE0N2MxLjIwMyw5LjgxNiw5LjIzMiwxNy4wNjcsMTkuNDUzLDE3LjA2N2g2My4xNDcgICAgIEM1MDIuNDY3LDUwLjIsNTExLDQxLjY2Nyw1MTEsMzAuNTczVjE4LjYyN0M1MTEsNy41MzMsNTAyLjQ2Ny0xLDQ5MS4zNzMtMXogTTg0LjMzMywzMC41NzNjMCwxLjcwNy0wLjg1MywyLjU2LTIuNTYsMi41NkgxOC42MjcgICAgIGMtMS43MDcsMC0yLjU2LTAuODUzLTIuNTYtMi41NlYxOC42MjdjMC0xLjcwNywwLjg1My0yLjU2LDIuNTYtMi41Nmg2My4xNDdjMS43MDcsMCwyLjU2LDAuODUzLDIuNTYsMi41NlYzMC41NzN6ICAgICAgTTE4OC40NCw0MTcuMTMzYy01LjEyLDAtOS4zODctMS43MDctMTIuOC01LjEyYy0yLjU2LTMuNDEzLTQuMjY3LTguNTMzLTQuMjY3LTEyLjhsMTMuNjUzLTE5Ni4yNjcgICAgIGMwLjg1My05LjM4Nyw3LjY4LTE2LjIxMywxNy4wNjctMTYuMjEzaDEwLjI0djEzMS4xMTNjLTEuMDY0LDEuNzY4LTIuMDMyLDMuNjAyLTIuOTEyLDUuNDg3ICAgICBjLTMuOTAxLDcuOTM5LTUuNjIxLDE2LjQ1LTUuNjIxLDI1LjUzM3Y2OC4yNjdIMTg4LjQ0eiBNMzA2LjIsNDUxLjI2N2MwLDIzLjg5My0xOC43NzMsNDIuNjY3LTQyLjY2Nyw0Mi42NjcgICAgIGMtMjMuODkzLDAtNDIuNjY3LTE4Ljc3My00Mi42NjctNDIuNjY3VjQzNC4ydi04NS4zMzNjMC0wLjYzMSwwLjAyLTEuMjU2LDAuMDQ2LTEuODc5YzAuMDE0LTAuMzI2LDAuMDMzLTAuNjUsMC4wNTUtMC45NzQgICAgIGMwLjAxMi0wLjE5MiwwLjAyOC0wLjM4MiwwLjA0Mi0wLjU3M2MwLjU4Ny03LjE3NSwyLjk5Ni0xMy43MTQsNi42ODMtMTkuNjE0YzYuODc1LTEwLjMxMiwxNi41MjItMTYuNzQsMjcuNTk3LTE4Ljg1MiAgICAgYzAuMjY1LTAuMDUsMC41MzEtMC4wOTQsMC43OTgtMC4xMzljMC41MjEtMC4wODksMS4wNDYtMC4xNjksMS41NzMtMC4yMzljMC4zMTQtMC4wNDIsMC42MjgtMC4wODIsMC45NDQtMC4xMTcgICAgIGMwLjUzMi0wLjA1OSwxLjA2OC0wLjEwNSwxLjYwNi0wLjE0NGMwLjI4Mi0wLjAyMSwwLjU2My0wLjA0NywwLjg0Ni0wLjA2M2MwLjgyLTAuMDQ1LDEuNjQ1LTAuMDczLDIuNDc2LTAuMDczICAgICBjMC44MzEsMCwxLjY1NCwwLjAyOCwyLjQ3MywwLjA3M2MwLjI5NywwLjAxNiwwLjU5LDAuMDQzLDAuODg2LDAuMDY1YzAuNTExLDAuMDM4LDEuMDIxLDAuMDgxLDEuNTI4LDAuMTM2ICAgICBjMC4zNjIsMC4wNCwwLjcyMiwwLjA4NSwxLjA4MSwwLjEzNGMwLjQyOCwwLjA1NywwLjg1MywwLjEyMiwxLjI3NywwLjE5MmMwLjM5LDAuMDY0LDAuNzgsMC4xMjksMS4xNjYsMC4yMDMgICAgIGMwLjM4MiwwLjA3MywwLjc1OSwwLjE1OSwxLjEzNywwLjI0MmMwLjQwNSwwLjA5LDAuODEzLDAuMTczLDEuMjEzLDAuMjc0YzAuMjg3LDAuMDcyLDAuNTY4LDAuMTU5LDAuODUzLDAuMjM3ICAgICBjMC44MTgsMC4yMjQsMS42MjYsMC40NzEsMi40MjMsMC43NDFjMC4zMjgsMC4xMTEsMC42NTgsMC4yMiwwLjk4MywwLjMzOWMwLjM5NCwwLjE0NCwwLjc4MywwLjI5OSwxLjE3MSwwLjQ1NSAgICAgYzAuMzQ1LDAuMTM4LDAuNjg5LDAuMjgsMS4wMywwLjQyN2MwLjM2NCwwLjE1NywwLjcyNiwwLjMxNywxLjA4NCwwLjQ4M2MwLjM3OSwwLjE3NiwwLjc1MywwLjM2MiwxLjEyNywwLjU1ICAgICBjMC4zMTYsMC4xNTksMC42MzUsMC4zMTMsMC45NDYsMC40NzljMC42MzksMC4zNDEsMS4yNzEsMC42OTcsMS44OTMsMS4wNzFjMC4yOTgsMC4xOCwwLjU4NywwLjM3MywwLjg4LDAuNTYgICAgIGMwLjM0NSwwLjIxOSwwLjY5LDAuNDM4LDEuMDI5LDAuNjY3YzAuMzg5LDAuMjY0LDAuNzcyLDAuNTM3LDEuMTUyLDAuODE0YzAuMTg4LDAuMTM2LDAuMzc0LDAuMjc0LDAuNTYsMC40MTMgICAgIGMzLjExOCwyLjM1Miw1Ljg5MSw1LjEyNiw4LjI0LDguMjQ2djAuMjY2bDAuNjkxLDAuNjkxYzEuMjI5LDEuNzMyLDIuMzMxLDMuNTYyLDMuMjkzLDUuNDggICAgIGMyLjM5Niw1LjE3LDMuOTQ5LDEwLjQxNiw0LjQwNSwxNS45OTFjMC4wMTUsMC4xOTYsMC4wMzEsMC4zOTIsMC4wNDQsMC41ODljMC4wMjIsMC4zMjIsMC4wNCwwLjY0NCwwLjA1NSwwLjk2OCAgICAgYzAuMDI2LDAuNjI0LDAuMDQ2LDEuMjQ5LDAuMDQ2LDEuODhWNDM0LjJWNDUxLjI2N3ogTTMyNC45NzMsMTg2LjczM2M5LjM4NywwLDE2LjIxMyw2LjgyNywxNy4wNjcsMTYuMjEzbDEzLjY1MywxOTYuMjY3ICAgICBjMC44NTMsNS4xMi0wLjg1Myw5LjM4Ny00LjI2NywxMi44Yy0zLjQxMywzLjQxMy03LjY4LDUuMTItMTIuOCw1LjEyaC0xNS4zNnYtNjguMjY3YzAtOS4wODQtMS43Mi0xNy41OTQtNS42MjEtMjUuNTMzICAgICBjLTAuODgtMS44ODUtMS44NDgtMy43MTktMi45MTItNS40ODdWMTg2LjczM0gzMjQuOTczeiBNMjk3LjY2NywyOTkuNjg5Yy04LjQyNi01LjgyMi0xOC40NTgtOS41MTMtMjkuMzYzLTEwLjM1NCAgICAgYy0wLjA1Ny0wLjAwNS0wLjExNC0wLjAwOC0wLjE3Mi0wLjAxM2MtMC42NTQtMC4wNDktMS4zMDgtMC4wOTYtMS45NjgtMC4xMjRjLTAuODY5LTAuMDQtMS43NDUtMC4wNjUtMi42My0wLjA2NSAgICAgYy0wLjg4OCwwLTEuNzY3LDAuMDI1LTIuNjM5LDAuMDY1Yy0wLjYxNSwwLjAyNi0xLjIyNCwwLjA3LTEuODM0LDAuMTE0Yy0wLjExOSwwLjAwOS0wLjIzOSwwLjAxNy0wLjM1NywwLjAyNyAgICAgYy05LjE5MywwLjcxOC0xNy43NjIsMy40NjMtMjUuMjcyLDcuODAzYy0xLjM1OSwwLjcxMi0yLjcwMiwxLjQ1Ni00LjAzLDIuMjMxVjE2OS42Njd2LTQzLjM2MyAgICAgYzEwLjA1OSw1Ljg1NCwyMS43MTgsOS4yMywzNC4xMzMsOS4yM3MyNC4wNzQtMy4zNzUsMzQuMTMzLTkuMjN2NDMuMzYzVjI5OS42ODl6IE0yNjMuNTMzLDExOC40NjcgICAgIGMtMjguMTYsMC01MS4yLTIzLjA0LTUxLjItNTEuMmMwLTI4LjE2LDIzLjA0LTUxLjIsNTEuMi01MS4yYzI4LjE2LDAsNTEuMiwyMy4wNCw1MS4yLDUxLjIgICAgIEMzMTQuNzMzLDk1LjQyNywyOTEuNjkzLDExOC40NjcsMjYzLjUzMywxMTguNDY3eiBNNDkzLjkzMywzMC41NzNjMCwxLjcwNy0wLjg1MywyLjU2LTIuNTYsMi41NmgtNjMuMTQ3ICAgICBjLTEuNzA3LDAtMi41Ni0wLjg1My0yLjU2LTIuNTZWMTguNjI3YzAtMS43MDcsMC44NTMtMi41NiwyLjU2LTIuNTZoNjMuMTQ3YzEuNzA3LDAsMi41NiwwLjg1MywyLjU2LDIuNTZWMzAuNTczeiIgZmlsbD0iI0ZGRkZGRiIvPgoJCQk8cGF0aCBkPSJNMjYzLjUzMywzMy4xMzNjLTE4Ljc3MywwLTM0LjEzMywxNS4zNi0zNC4xMzMsMzQuMTMzYzAsNS4xMiwzLjQxMyw4LjUzMyw4LjUzMyw4LjUzM3M4LjUzMy0zLjQxMyw4LjUzMy04LjUzMyAgICAgYzAtOS4zODcsNy42OC0xNy4wNjcsMTcuMDY3LTE3LjA2N2M1LjEyLDAsOC41MzMtMy40MTMsOC41MzMtOC41MzNTMjY4LjY1MywzMy4xMzMsMjYzLjUzMywzMy4xMzN6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
-                <h3 class="uppercase">Не надо крепить на руле</h3>
-                <p class="small">Не надо ломать голову как установить смартфон на руле и надежно закрепить его там</p>
-              </div>
-            </li>
-            <li class="col-4-12 equalElement">
-							<div class="fix-4-12 ae-6">
-                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI1OC40MDYgMjU4LjQwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjU4LjQwNiAyNTguNDA2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPHBhdGggZD0iTTIxOS41NDQsMTQ1Ljc0OGMwLTExLjcwNi02LjczMy0yMS44NjItMTYuNTI2LTI2LjgxOWM0Ljc3OS01LjY5Myw3LjI1Mi0xMi44NDEsNi45ODQtMjAuMzYxICAgYy0wLjU2Ny0xNS45NjctMTQuMjg1LTI4Ljk1Ny0zMC41NzktMjguOTU3aC0yMy41M1YzMi4zMzlDMTU1Ljg5MywxNC41MDcsMTQxLjM4NiwwLDEyMy41NTQsMFM5MS4yMTUsMTQuNTA3LDkxLjIxNSwzMi4zMzl2MzkuMzAzICAgYy0zMC4wMjYsNy40NDgtNTIuMzUzLDM0LjYxNy01Mi4zNTMsNjYuOTE0djUwLjkwNWMwLDM4LjAxNywzMC45MjksNjguOTQ1LDY4Ljk0NSw2OC45NDVoNjEuNzgyICAgYzEzLjkxNiwwLDI1LjE5Ny0xMC42OTQsMjUuNjgzLTI0LjM0N2MwLjE5NC01LjQ2Ny0xLjMzNi0xMC43LTQuMzUtMTUuMTEyYzEwLjEwNS00Ljg0NSwxNy4xLTE1LjE3NSwxNy4xLTI3LjEwOSAgIGMwLTcuMDEyLTIuNDIxLTEzLjQ2NC02LjQ2MS0xOC41ODJDMjEyLjEzNywxNjguNjAxLDIxOS41NDQsMTU4LjAyNiwyMTkuNTQ0LDE0NS43NDh6IE0xMDUuMjE1LDMyLjMzOSAgIGMwLTEwLjExMiw4LjIyNy0xOC4zMzksMTguMzM5LTE4LjMzOXMxOC4zMzksOC4yMjcsMTguMzM5LDE4LjMzOXYzNy4yNzJoLTM0LjA4NWMtMC44NjksMC0xLjczMSwwLjAzNC0yLjU5MiwwLjA2NlYzMi4zMzl6ICAgIE0xODkuNDk5LDE2MS43OTNoLTExLjUyM2gtNTIuMDgzYy0zLjg2NiwwLTcsMy4xMzQtNyw3czMuMTM0LDcsNyw3aDUyLjA4M2M4Ljg0OCwwLDE2LjA0Niw3LjE5OCwxNi4wNDYsMTYuMDQ2ICAgcy03LjE5OCwxNi4wNDUtMTYuMDQ2LDE2LjA0NWgtNTIuMDgzYy0zLjg2NiwwLTcsMy4xMzQtNyw3czMuMTM0LDcsNyw3aDQ0LjEzNGMzLjA4MywwLDUuOTYyLDEuMjIzLDguMTA0LDMuNDQyICAgYzIuMTQxLDIuMjE4LDMuMjU5LDUuMTQzLDMuMTQ5LDguMjM1Yy0wLjIxMyw1Ljk3OS01LjQ1OCwxMC44NDQtMTEuNjkxLDEwLjg0NGgtNjEuNzgyYy0zMC4yOTcsMC01NC45NDUtMjQuNjQ4LTU0Ljk0NS01NC45NDUgICB2LTUwLjkwNWMwLTMwLjI5NywyNC42NDgtNTQuOTQ1LDU0Ljk0NS01NC45NDVoNzEuNjE2YzguODQzLDAsMTYuMjg1LDYuOTMzLDE2LjU4NywxNS40NTRjMC4xNTcsNC40MDUtMS40MzcsOC41NzEtNC40ODcsMTEuNzMyICAgYy0zLjA1MywzLjE2My03LjE1NCw0LjkwNS0xMS41NDgsNC45MDVoLTU0LjA4M2MtMy44NjYsMC03LDMuMTM0LTcsN3MzLjEzNCw3LDcsN2g2My42MDVjOC44NDgsMCwxNi4wNDUsNy4xOTgsMTYuMDQ1LDE2LjA0NSAgIFMxOTguMzQ2LDE2MS43OTMsMTg5LjQ5OSwxNjEuNzkzeiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
-                <h3 class="uppercase">Удобно использовать</h3>
-                <p class="small">Нет экрана - нет бликов от солнца, нету страха поцарапать, испачкать или намочить смартфон</p>
-              </div>
-            </li>
-            <li class="col-4-12 equalElement">
-							<div class="fix-4-12 ae-7">
-				<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU5Ljk5OSA1OS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU5Ljk5OSA1OS45OTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMzYuMTc2LDQ5Ljk5OWMtMS45MywwLTMuNSwxLjU3LTMuNSwzLjVzMS41NywzLjUsMy41LDMuNXMzLjUtMS41NywzLjUtMy41UzM4LjEwNSw0OS45OTksMzYuMTc2LDQ5Ljk5OXogTTM2LjE3Niw1NC45OTkgICBjLTAuODI3LDAtMS41LTAuNjczLTEuNS0xLjVzMC42NzMtMS41LDEuNS0xLjVzMS41LDAuNjczLDEuNSwxLjVTMzcuMDAzLDU0Ljk5OSwzNi4xNzYsNTQuOTk5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTQwLjY3NiwzNi45OTljMi4yMDYsMCw0LTEuNzk0LDQtNHMtMS43OTQtNC00LTRzLTQsMS43OTQtNCw0UzM4LjQ2OSwzNi45OTksNDAuNjc2LDM2Ljk5OXogTTQwLjY3NiwzMC45OTkgICBjMS4xMDMsMCwyLDAuODk3LDIsMnMtMC44OTcsMi0yLDJzLTItMC44OTctMi0yUzM5LjU3MywzMC45OTksNDAuNjc2LDMwLjk5OXoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xNi42NzYsMTEuOTk5YzAuMjU2LDAsMC41MTItMC4wOTgsMC43MDctMC4yOTNsMi0yYzAuMzkxLTAuMzkxLDAuMzkxLTEuMDIzLDAtMS40MTRzLTEuMDIzLTAuMzkxLTEuNDE0LDBsLTIsMiAgIGMtMC4zOTEsMC4zOTEtMC4zOTEsMS4wMjMsMCwxLjQxNEMxNi4xNjQsMTEuOTAxLDE2LjQyLDExLjk5OSwxNi42NzYsMTEuOTk5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTUyLjY3NiwyOS43NDdjMC0wLjg4LTAuMzQzLTEuNzA3LTAuOTY1LTIuMzI5bC0wLjU1Ny0wLjU1N2MwLjk0OS0wLjg0LDEuNTIxLTIuMDU1LDEuNTIxLTMuMzYyICAgYzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVjLTAuMTgyLDAtMC4zNjIsMC4wMTgtMC41NCwwLjA0YzAuMDIyLTAuMTc5LDAuMDQtMC4zNTcsMC4wNC0wLjU0YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjUgICBjLTAuMTgyLDAtMC4zNjIsMC4wMTgtMC41NCwwLjA0YzAuMDIyLTAuMTc5LDAuMDQtMC4zNTcsMC4wNC0wLjU0YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVjLTAuMTgyLDAtMC4zNjIsMC4wMTgtMC41NCwwLjA0ICAgYzAuMDIyLTAuMTc5LDAuMDQtMC4zNTcsMC4wNC0wLjU0YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVjLTEuMzA4LDAtMi41MjIsMC41NzMtMy4zNjIsMS41MjFsLTAuNzk0LTAuNzk0bC0zLjc2My0zLjc2MyAgIGMtMS4yODUtMS4yODUtMy4zNzUtMS4yODUtNC42NTgsMEw4LjI4NiwxMy4yNzVjLTEuMjgzLDEuMjg1LTEuMjgzLDMuMzc0LDAsNC42NTlsMy43NjMsMy43NjNsNC45MSw0LjkxICAgYy0xLjM1NiwwLjc3Ni0yLjI4MywyLjIyMS0yLjI4MywzLjg5MmMwLDEuNTYzLDAuODAzLDIuOTQxLDIuMDE3LDMuNzQ4YzAuMDYxLDAuMDgxLDAuMTMyLDAuMTYxLDAuMjI3LDAuMjQybDEwLjc1NiwxMC43MTV2MS43OTYgICBoLTJ2MTNoMThoOHYtMTNoLTJWNDMuOTdjMS45MTMtMS42MjEsMy0zLjk1MiwzLTYuNDcxYzAtMS43NC0wLjU0My0zLjQzLTEuNTM2LTQuODUybDAuNTcxLTAuNTcxICAgQzUyLjMzMywzMS40NTQsNTIuNjc2LDMwLjYyNyw1Mi42NzYsMjkuNzQ3eiBNNTAuNjc2LDIzLjQ5OWMwLDAuNzY4LTAuMzU0LDEuNDc5LTAuOTM3LDEuOTQ3bC0zLjUxMS0zLjUxMSAgIGMwLjQ2OC0wLjU4MywxLjE4LTAuOTM3LDEuOTQ3LTAuOTM3QzQ5LjU1NCwyMC45OTksNTAuNjc2LDIyLjEyLDUwLjY3NiwyMy40OTl6IE00NS42NzYsMTguNDk5YzAsMC43NjgtMC4zNTQsMS40NzktMC45MzcsMS45NDcgICBsLTMuNTExLTMuNTExYzAuNDY4LTAuNTgzLDEuMTgtMC45MzcsMS45NDctMC45MzdDNDQuNTU0LDE1Ljk5OSw0NS42NzYsMTcuMTIsNDUuNjc2LDE4LjQ5OXogTTQwLjY3NiwxMy40OTkgICBjMCwwLjc2OC0wLjM1NCwxLjQ3OS0wLjkzNywxLjk0N2wtMy41MTEtMy41MTFjMC40NjgtMC41ODMsMS4xOC0wLjkzNywxLjk0Ny0wLjkzN0MzOS41NTQsMTAuOTk5LDQwLjY3NiwxMi4xMiw0MC42NzYsMTMuNDk5eiAgICBNMzMuMTc2LDUuOTk5YzEuMzc5LDAsMi41LDEuMTIxLDIuNSwyLjVjMCwwLjc2OC0wLjM1NCwxLjQ3OS0wLjkzNywxLjk0N2wtMy41MTEtMy41MTFDMzEuNjk2LDYuMzUzLDMyLjQwOCw1Ljk5OSwzMy4xNzYsNS45OTl6ICAgIE05LjcsMTYuNTIxYy0wLjUwNC0wLjUwNS0wLjUwNC0xLjMyNiwwLTEuODMxTDIyLjAxMiwyLjM3OGMwLjEyNS0wLjEyNSwwLjI3MS0wLjIxOSwwLjQyNi0wLjI4MiAgIGMwLjA3LTAuMDI5LDAuMTQ5LTAuMDI4LDAuMjIzLTAuMDQ0YzAuMTc4LTAuMDM4LDAuMzU0LTAuMDM4LDAuNTMyLDBjMC4wNzQsMC4wMTYsMC4xNTMsMC4wMTUsMC4yMjMsMC4wNDQgICBjMC4xNTUsMC4wNjMsMC4zLDAuMTU3LDAuNDI2LDAuMjgybDIuMzQ5LDIuMzQ5TDEyLjA0OSwxOC44NjlMOS43LDE2LjUyMXogTTI3LjYwNSw2LjE0MWwxLjE3OCwxLjE3OGw1LDVsMC41NzMsMC41NzNsNC40MjcsNC40MjcgICBsMC41NzMsMC41NzNsNC40MjcsNC40MjdsMC41NzMsMC41NzNsNSw1bDAuOTQsMC45NGMwLjUwNSwwLjUwNSwwLjUwNSwxLjMyNSwwLDEuODNMNDkuODU5LDMxLjFsMCwwTDM3Ljk4NSw0Mi45NzUgICBjLTAuNTAzLDAuNTA0LTEuMzI2LDAuNTA2LTEuODMxLDBsLTcuOTc1LTcuOTc2aDAuOTk2YzIuNDgxLDAsNC41LTIuMDE5LDQuNS00LjVzLTIuMDE5LTQuNS00LjUtNC41aC05Ljk5N2wtNS43MTYtNS43MTYgICBMMjcuNjA1LDYuMTQxeiBNMTguNjM2LDI4LjA2MWwwLjQxNS0wLjA0N2MwLjA0MS0wLjAwNiwwLjA4Mi0wLjAxNSwwLjEyNC0wLjAxNWgxMGMxLjM3OSwwLDIuNSwxLjEyMSwyLjUsMi41cy0xLjEyMSwyLjUtMi41LDIuNSAgIGgtMi45OTZoLTIuODI4aC00LjE3NmMtMS4zNzksMC0yLjUtMS4xMjEtMi41LTIuNUMxNi42NzYsMjkuMzA2LDE3LjUxNywyOC4zMDksMTguNjM2LDI4LjA2MXogTTI3LjY3Niw1Ny45OTl2LTloOC40MjYgICBjMy4wNzMsMCw1LjU3NCwyLjUwMSw1LjU3NCw1LjU3NHYzLjQyNkgyNy42NzZ6IE00OS42NzYsNTcuOTk5aC02di0zLjQyNmMwLTIuMjA2LTAuOTU0LTQuMTg4LTIuNDY0LTUuNTc0aDguNDY0VjU3Ljk5OXogICAgTTQ5LjcwMSwzNC4wODdjMC42MzQsMS4wMjEsMC45NzUsMi4yMDIsMC45NzUsMy40MTJjMCwyLjA1NS0wLjk0OCwzLjk0Ni0yLjYwMiw1LjE5MWwtMC4zOTgsMC4zdjQuMDA5SDM2LjEwMWgtNi40MjZ2LTIuNzE4ICAgbC0wLjM1My0wLjI5OWMtMC4wNDUtMC4wMzktMC4wOTMtMC4wNzUtMC4xOC0wLjE0bC04Ljg3Ny04Ljg0NGg1LjA4NWw5LjM4OSw5LjM5YzAuNjQzLDAuNjQyLDEuNDg2LDAuOTYzLDIuMzI5LDAuOTYzICAgYzAuODQ0LDAsMS42ODgtMC4zMjEsMi4zMy0wLjk2M0w0OS43MDEsMzQuMDg3eiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
-                
-                <h3 class="uppercase">Целый сматрфон</h3>
-                <p class="small">Разбить смартфон тоже не выйдет, т.к. с Tacticle Track он безопасно лежит в кармане</p>
-              </div>
-            </li>
-            <li class="col-4-12 equalElement">
-							<div class="fix-4-12 ae-8">
-                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDEyMy4wNCAxMjMuMDQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyMy4wNCAxMjMuMDQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8Y2lyY2xlIGN4PSI4Mi40NzUiIGN5PSIxMy44MSIgcj0iMTMuODEiIGZpbGw9IiNGRkZGRkYiLz4KCQk8cGF0aCBkPSJNMTEwLjcxNSw0MC4wOTFjLTEuOTE1LTIuMjU3LTUuMjk4LTIuNTM0LTcuNTU4LTAuNjJjLTIuNTIxLDIuMTQyLTcuNDA5LDIuNzgtMTEuODg2LDEuNTU4ICAgIGMtMy42MzEtMC45OTItNi4yOTEtMy4wMTItNy4xMjEtNS40MDJjLTAuMDczLTAuMjE2LTAuMTY2LTAuNDIyLTAuMjY2LTAuNjJjLTAuOTMyLTIuOTMzLTMuMTM1LTUuNDQyLTUuNTU5LTcuMDIxICAgIGMtMC41NTktMC40OTMtMS4yMjctMC44NzctMS45ODItMS4xMDdjLTAuMzItMC4xNDItMC42NzYtMC4yNzQtMS4wNDMtMC4zODZsMC4xODgsMC4wMzdsLTEzLjMtMTEuOTgybC00LjI4NS0yLjA2NmwxLjY3Niw0LjIzNCAgICBsMTIuMzI2LDguNDU5bC0yNC4yNjUtOS45MzFsLTYuMDYxLDEuMzU4bDIuOTA4LDQuNTI4bDIwLjQ5NCw0Ljk1NmMtNS4yNzgsMC41NzItMTAuNzY0LDIuMzE4LTE1LjcwNyw1LjEyNyAgICBjLTcuNTU5LDQuMjk3LTEyLjc0MiwxMC40MjItMTQuNTk4LDE3LjI0OWMtMC4wMzEsMC4xMTctMC4wNTQsMC4yMzQtMC4wNzcsMC4zNTFjLTAuNTU1LTAuMTY0LTEuMTgxLTAuMDQ2LTEuNjMyLDAuMzc5ICAgIGwtMS4zOSwxLjMwNGwtNS42NDQtNi4wMjFMMTEuMDUxLDU4LjQyOWwxOC44OTcsMjAuMTU3bDE0Ljg4NS0xMy45NTNsLTUuNjQ0LTYuMDJsMS4zOS0xLjMwNCAgICBjMC42MTItMC41NzQsMC42OTMtMS40OTksMC4yMzQtMi4xNzFjMS45NjYtMC4zNjEsMy42NTMtMS44MDYsNC4yMTItMy44NjRjMS4wODUtMy45OSw0LjU2NS03LjkwNSw5LjU0OS0xMC43MzYgICAgYzEuMDgtMC42MTQsMi4xOTYtMS4xNTcsMy4zMzEtMS42MzJMNTAuNDk1LDYyLjFjLTAuNDUsMS40MTQtMC41MzIsMi44MDUtMC4zNDgsNC4xMzlsLTUuMjA4LDEzLjg5NmwtMTYuMjI2LDAuODA3ICAgIGMtMy40OTUsMC4xNzUtNi4xODgsMy4xNDYtNi4wMTQsNi42NDJjMC4xNjksMy4zOTIsMi45NjksNi4wMjIsNi4zMjMsNi4wMjJjMC4xMDYsMCwwLjIxMi0wLjAwMiwwLjMxOS0wLjAwOGwyMC4zODMtMS4wMTMgICAgYzIuNTI1LTAuMTI1LDQuNzMyLTEuNzM5LDUuNjItNC4xMDZsNC41NTMtMTIuMTVjMC41NDcsMC4xNDgsMS4xMDEsMC4yNjYsMS42NjIsMC4zNTJsOC4zMTIsMTEuOTkzbC03LjExNiwyNi4zNzggICAgYy0wLjkxMiwzLjM3OSwxLjA5LDYuODU1LDQuNDY5LDcuNzY4YzAuNTUzLDAuMTUsMS4xMDYsMC4yMjIsMS42NTQsMC4yMjJjMi43OTMsMCw1LjM1Mi0xLjg2Miw2LjExMS00LjY4OGw3Ljg4My0yOS4yMTkgICAgYzAuNDg2LTEuODAyLDAuMTUyLTMuNzI2LTAuOTEtNS4yNTlsLTguMjg4LTExLjk2MWMwLjM4OC0wLjYzNCwwLjcxOC0xLjMzLDAuOTY0LTIuMTAxbDYuODY1LTIxLjQ5MSAgICBjMi4wMjUsMS4zMDcsNC4zNTksMi4zNDQsNi45NDMsMy4wNTFjMi40MzYsMC42NjUsNC45MjcsMC45ODgsNy4zNTcsMC45ODhjNS40ODUsMCwxMC42NzQtMS42NDQsMTQuMjkxLTQuNzExICAgIEMxMTIuMzU0LDQ1LjczNCwxMTIuNjMsNDIuMzUsMTEwLjcxNSw0MC4wOTF6IE0zOS42MTksNTYuMjg0bC0xLjM4OSwxLjMwNGwtNS42ODgtNi4wNjdsMS4zOTEtMS4zMDMgICAgYzAuMTExLTAuMTA1LDAuMjg2LTAuMDk5LDAuMzkyLDAuMDEzbDAuMjAzLDAuMjE3YzAuMjMxLDIuMTI5LDEuNzI5LDQsMy45MjEsNC41OTZjMC4xNTksMC4wNDMsMC4zMTksMC4wNjgsMC40NzgsMC4wOTcgICAgbDAuMTAyLDAuMTA4bDAuNjA1LDAuNjQ2QzM5LjczNiw1Ni4wMDQsMzkuNzMxLDU2LjE4LDM5LjYxOSw1Ni4yODR6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
-                <h3 class="uppercase">Не сбивается ритм бега</h3>
-                <p class="small">Бегунам не нужно останавливаться для сверки маршрута, соответственно не сбивается ритм бега.</p>
-              </div>
-            </li>
-          </ul>
-		  <br />
-		  <p class="small ae-9" style="font-size:16px;">* Браслет-навигатор реализуется напрямую от его производителя с гарантийными обязательствами на срок <strong>12 месяцев</strong>.</p>
-		  <p class="small ae-9" style="font-size:16px;">* При обнаружении любого недостатка в полученном товаре его можно вернуть в течение <strong>14</strong> дней с момента получения.</p>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_6.jpg)"></div>
-</section>
-
-<!-- Slide #58 -->
-<section class="slide fade kenBurns" name="NoProblems" data-title="Наслаждайся путешествием!">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-12-12 left">
-          <h1 class="ae-1 small">Просто наслаждайся дорогой и путешествием!</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_7.jpg)"></div>
-</section>
-
-
-<!-- Slide #32 4 -->
-<section class="slide fade kenBurns fromLeft" name="unique" data-title="Технические характеристики">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-12-12">
-          <ul class="grid">
-            <li class="col-12-12 left cell-32">
-              <h1 class="small ae-2">Технические характеристики</h1>
-              <div class="ae-3"><p>Tactile Track — специально создан для тех, кто ведет активный образ жизни и предпочитает пешие прогулки, походы, самостоятельные экскурсии, вело- и мотопоездки.</p></div>              
-            </li>  
-          </ul>	 
-		  <ul class="grid" style=="margin-top: 0px">
-            <li class="col-6-12 left box-73">
-              <ul class="items-32" style="margin-top: 0px;">
-                <li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Поддержка платформ</strong>: Android 4.3+, IOS 5.0+</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Размеры</strong>:  23 x 245 x 12 мм</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Время в режиме активности</strong>: 39 часов</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Время в режиме ожидания</strong>: 30 дней</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Влагозащита</strong>: IP67</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Интерфейсы связи</strong>: Bluetooth Smart, ANT+</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Вес</strong>: 37 г</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small"><strong>Ёмкость аккумулятора</strong>: 125мАч, Li-ion Polimer</p></div>
-                </li>
-				<li class="fix-6-12 toLeft ">
-                  <div class="ae-6"><p class="small">Дополнительное ПО</p></div>
-                </li>
-              </ul>	
-            </li>
-            <li class="col-6-12 left ae-1 fromRight done" data-action="">
-              <img class="shiftImage shiftImageVertical" src="assets/img/rr_4br.png" alt="Браслет Tacticle Track" width="500">
-            </li>
-          </ul>
-		  
-		  		  
-			  
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_4.jpg)"></div>
-</section>
-       
+                    <div class="fix-10-12">
+                        <h1 class="small ae-2"><strong>Браслет Tactile Track - </strong>первый в мире тактильный навигатор.</h1>
+                        <div class="ae-3">
+                            <p>Укажет маршрут вибросигналом, не отвлекая взгляд от дороги</p>
+                        </div>
                     </div>
-                    <div class="quoteName fromRight"><span class="quoteTitle sourceSans">,</span></div>
-                  </li> 
-                </ul>
-                
-                <!-- controller -->
-                <ul class="controller dots noSelect center ae-8 noSelect" data-slider-id="quotes">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-				  <li class="dot"></li>
-				  <li class="dot"></li>
-				  <li class="dot"></li>
-				  <li class="dot"></li>
-                </ul>
-          
-		  </div>
+
+                    <div class="fix-10-12 ae-5" data-action="">
+                        <div><img style="margin:2% 0 0; width:auto; max-width:100%; height:auto;" src="assets/img/rr_TactileTrackBracelet.png" width="496" height="301" /></div>
+                    </div>
+
+                    <p class="small ae-9" style="font-size:16px; margin-top: 50px;"><a href="#">* уникальная запатентованная технология</a></</p>
+
+                </div>
+            </div>
         </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_8.jpg)"></div>
-</section>
+        <div class="background" style="background-image:url(assets/img/rr_1.jpg)"></div>
+    </section>
 
-<!-- Slide #70 -->
-<section class="slide fade kenBurns" name="Models" data-title="Модели">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-
-        <div class="fix-8-12"> 
-		<h1 class="small ae-1">Какая модель тебе подходит?</h1>
-          <ul class="grid fixedSpaces equal fromCenter">
-            <li class="col-6-12">
-              <a href="#Order" class="box-70 ae-1" style="background-color:#BDD6D3;">
-                <div>
-					<img src="assets/img/rr_model1.png" alt="Image">
+    <!-- pop up video -->
+    <div class="popup autoplay" data-popup-id="10-0">
+        <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+                    <div class="fix-10-12">
+                        <div class="embedVideo popupContent">
+                            <iframe src="https://player.vimeo.com/video/172999205?color=ff0179&amp;portrait=0&amp;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" mark_dailymotion="1"></iframe>
+                        </div>
+                    </div>
                 </div>
-                <div class="info-70">
-                  <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
-                  <div class="title-70">Модель TT01</div>
-                  <p class="small equalElement">Стильный черно-красный окрас</p>
-                  <button class="button round pink uppercase wide cropBottom">Заказать</button>
-                </div>
-              </a>
-            </li>
-            <li class="col-6-12">
-              <a href="#Order" class="box-70 ae-2" style="background-color:#C3CCDD;">
-                <div >
-                  <img src="assets/img/rr_model2.png" alt="Image">
-                </div>
-                <div class="info-70">
-                  <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
-                  <div class="title-70">Модель TT02</div>
-                  <p class="small equalElement">Нежные красно-розовые оттенки</p>
-                  <button class="button round pink uppercase wide cropBottom">Заказать</button>
-                </div>
-              </a>
-            </li>
-          </ul>
+            </div>
         </div>
-        
-      </div> 
     </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_9.jpg)"></div>
-  <!--<div class="background" style="background-image:url(http://triphints.ru/media/uploads/articles/df040bc6bf4d1b258acc5bc98f6ab2a5/article_53daa2cc456694.46611959.jpeg)"></div>-->
-</section>
 
-<!-- Slide #55 -->
-<section class="slide fade kenBurns" name="Order" data-title="Оформить предзаказ" >
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-      
-        <h1 class="small ae-1">Сделайте предзаказ и получите скидку 30% </h1>
-        <div class="ae-1"><p>Оставьте заявку, чтобы первым узнать о начале продаж (<strong>поставка ожидается в феврале 2018</strong>) и зарезервировать за собой 30% скидку! <br/>Размещение заявки ни к чему вас не обязывает.</p></div>
-        <div class="fix-6-12 box-55">
-          <div class="pad shadow selected ae-2">
-            <form id="contact-form" action="ajax-email.php" method="post" class="wide center">
-              <label class="uppercase ae-4" for="name55">Ваше имя и фамилия</label>
-              <input class="stroke round ae-5 wide" id="name55" type="name" name="name55" placeholder="Иван Иванов" required/>
-              <label class="uppercase ae-6" for="email55">Email</label>
-              <input class="stroke round ae-7 wide" id="email55" type="email" name="email55" placeholder="имя@почта.com" required/>
-			  
-			  
-			<ul class="grid" style=="margin-top: 0px">
-            <li class="col-6-12">
-				<label class="uppercase ae-6" for="email55">Модель</label>			  				
-				<select class="stroke round ae-7 wide" id="model55" name="model55" style="height:53px;   
-				background:#fff;
-				padding:13px 19px 14px;
-				margin-top: 8px;
-				font-family:'Open Sans Condensed', sans-serif;
-				text-align: center;
-				border:none;
-				font-size:18px;
-				color:#242424;
-				outline:none;
-				border-radius:3px;
-				width:100%;
-				font-weight:600;
-				-webkit-box-shadow: 0 0 0 1px rgba(41,41,41,0.2) inset;
-				box-shadow: 0 0 0 1px rgba(41,41,41,0.2) inset;
-				-webkit-appearance:none;
-				-moz-appearance:none;
-				appearance:none;">
+    <!-- Slide #27 2 -->
+    <section class="slide fade kenBurns" name="HowitWorks" data-title="Как он работает">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+
+                    <div class="fix-12-12">
+                        <ul class="grid">
+                            <li class="col-5-12 cell-27">
+                                <div class="fix-4-12 parent ae-1 fromAbove" style="">
+                                    <img class="above_image_down" src="assets/img/rr_bracelet.png" />
+                                    <img class="above_image_up" src="assets/img/rr_bracelet animation_empty.gif" />
+                                </div>
+                            </li>
+                            <li class="col-7-12 left">
+                                <h2 class="small ae-2 fromRight">Как работает Tactile Track</h1>
+                                    <div class="ae-3 fromRight">
+                                        <!--<p>Вы надеваете браслет, и за 100 метров (настраивается в приложении) до поворота он начинает вибрировать с той стороны, с в которую вам надо повернуть. Вибрирует справа - вам направо, вибрирует сверху - вам вперед, вибрирует слева - вам налево.</p>-->
+                                        <p>Подключив браслет к своему смартфону через Bluetooth, в приложении компаньоне "Tactile Track" прокладываете маршрут, и нажимаете кнопку GO. Теперь можно убрать смартфон в карман и начать движение. Перед поворотом, заранее, браслет завибрирует с той стороны, куда вам надо повернуть.</p>
+                                        <p>А нажав кнопку HOME на браслете, вы проложите кратчайший маршрут в исходную точку, причем не доставая смартфон из кармана.</p>
+                                    </div>
+                            </li>
+                            <li class="col-12-12">
+                                <!--               
+                <div class="headerplay button play small white popupTrigger ae-5 fromCenter play-10" data-popup-id="10-0">
+                    <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+                </div>
+                -->
+                                <div class="headerplay button small uppercase round white popupTrigger ae-5 fromCenter play-10 margin-top-5" data-popup-id="10-0">Посмотреть видео</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/rr_2.jpg)"></div>
+    </section>
+
+    <!-- Slide #47 6 -->
+    <section class="slide fade kenBurns" name="WhyToBuy" data-title="Преимущества">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+
+                    <div class="fix-12-12 toCenter">
+                        <h2 class="small margin-bottom-7 ae-1">Почему Tactile Track удобнее любого навигатора или смартфона?</h1>
+                    </div>
+                    <div class="fix-12-12">
+                        <ul class="grid grid-47 later equal">
+                            <li class="col-4-12 equalElement margin-bottom-2">
+                                <div class="fix-4-12 ae-3">
+                                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTEuOTgzIDUxMS45ODMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMS45ODMgNTExLjk4MzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00ODAuMjAxLDE5Mi4wOTVDNDczLjQ4MywxNDguOTQsNDU4LDExMC42NjcsNDM0LjIwMyw3OC4zMzJjLTE0LjY3Mi0xOS45MzctNDIuODg5LTM5LjcwMS03Ny40Mi01NC4yMjUgICAgQzMxOS44MzIsOC41NjEsMjc4LjIwOCwwLDIzOS41NTMsMGMtNDIuNjU1LDAtODAuNzE2LDkuODI3LTExMy4xMzcsMjkuMjAyQzg4LjcxNCw1MS43MjQsNjAuMTgzLDg2LjQ4MSw0MS41OSwxMzIuNDk2ICAgIGMtMzIuOTgzLDgxLjY0NSw0LjA5NCwxNjguNTI1LDguNDIyLDE3OC4xNjZjMC45NjksMi4xNDEsMi42MjUsMy45MjIsNC43MTgsNS4wMzFsMzE3LjI3MSwxNjkuMDQxICAgIGMxLjU3OCwwLjg0NCwzLjI5NywxLjI1LDUuMDE2LDEuMjVjMS45NjksMCwzLjkyMi0wLjU0Nyw1LjY1Ni0xLjYyNWMzMi40OTgtMjAuMjgxLDYyLjczMi02Ni45MDQsODEuNTI4LTEyMy4wOSAgICBjMC4wNjItMC4xNzIsMC4xNDEtMC4zNDQsMC4xODgtMC41MzFjMC4wMTYtMC4wNjIsMC4wMzEtMC4xMDksMC4wNDctMC4xNTZjNS4yMzQtMTUuNzgxLDkuNTc4LTMyLjI4MSwxMi44MTItNDkuMTcgICAgQzQ4NS4wMTMsMjcwLjgwMyw0ODYuMDQ1LDIyOS41MzksNDgwLjIwMSwxOTIuMDk1eiBNMzc2LjM2MSw0NjIuODlMNjguMDU4LDI5OC42MTVjLTMuNS04LjQwNi0xMS4zNzUtMjkuMzUyLTE1LjcxOC01Ni42NDYgICAgYy02LTM3LjY3MS0yLjk1My03MS44MTEsOS4wMzEtMTAxLjQ4MWMxNi44MTItNDEuNjA3LDQyLjM3NC03Mi44ODgsNzUuOTgyLTkyLjk3NGMyOS4wNjItMTcuMzc0LDYzLjQ1MS0yNi4xNzksMTAyLjItMjYuMTc5ICAgIGMzNS44NzQsMCw3NC41NzYsNy45NjksMTA4Ljk2NSwyMi40MzdjMzEuMDc3LDEzLjA3OCw1Ni4wNDUsMzAuMjgsNjguNDk3LDQ3LjIxYzE2LjEyNSwyMS45MDUsMjguMDk0LDQ2Ljg4OSwzNS43MTksNzQuNTM2ICAgIGMtMTUuMjUtMi4xNDctNDAuNDgzLTUuOTgzLTY5LjUyOS0xMS40OTljLTYyLjIzMi0xMS44MDUtMTEzLjU5LTI1Ljg5Ny0xNDguNTU4LTQwLjc0OWMtMC4xNDEtMC4wNjItMC4yODEtMC4xMDktMC40MjItMC4xNjQgICAgYy02LjI1LTIuNzM0LTEzLjE1Ni00LjI1OC0yMC40MDYtNC4yNThjLTI4LjE1NSwwLTUxLjA3NiwyMi44ODMtNTEuMTM5LDUxLjAzYzAsMC4wMjMsMCwwLjA1NSwwLDAuMDc4YzAsMCwwLDAuMDIzLDAsMC4wMzF2MC4wMDggICAgYy0wLjAxNiwyLjk3NywwLjAxNiw2Mi44MTEsMTUuMTQsOTMuODY0YzUuMzU5LDEwLjk3NSwyNi43MzMsMjcuOTQzLDE0NC43Myw3MC41MmM0OC44NDIsMTcuNjQxLDk3LjE2OCwzMy4zNDQsMTE3LjkwMiwzOS45ODQgICAgQzQyNC4yOTcsNDA4LjI1Miw0MDAuODkxLDQ0NC45MjQsMzc2LjM2MSw0NjIuODl6IE0yNDMuNjQ2LDE1OS45OTVjMCwxNi40MzctMTMuMzc1LDI5LjgxMi0yOS44MjcsMjkuODEyICAgIGMtMTYuNDM3LDAtMjkuODEyLTEzLjM3NS0yOS44MTItMjkuODEyYzAtMTYuNDM4LDEzLjM3NS0yOS44MTIsMjkuODEyLTI5LjgxMkMyMzAuMjcyLDEzMC4xODMsMjQzLjY0NiwxNDMuNTU3LDI0My42NDYsMTU5Ljk5NXogICAgIE00NTYuMjk3LDMwNy4zOTdjLTIuMzkxLDEyLjQ4NC01LjQ1MywyNC43OTUtOS4wNjIsMzYuNzQ4Yy0yMC4xODgtNi40NjktNjcuNTc2LTIxLjg3NS0xMTUuNzkzLTM5LjIzMiAgICBjLTM3LjEwOS0xMy4zNTktNjcuMzg5LTI1LjIzNC04OS45OTgtMzUuMjk3Yy0zOC4zNzQtMTcuMDY4LTQzLjkwNS0yNC4yNjQtNDQuNDgzLTI1LjE3OGMtNS4xNzEtMTAuNjgtOC4yODEtMjYuMjEtMTAuMTU2LTQxLjA0NiAgICBjNy44NDQsNC45MDYsMTcuMTA5LDcuNzUsMjcuMDE1LDcuNzVjMjguMjAzLDAsNTEuMTU1LTIyLjk0NCw1MS4xNTUtNTEuMTQ2YzAtNC42NzItMC42NDEtOS4xODgtMS44MjgtMTMuNDkyICAgIGM3NC42NjksMjQuMjEsMTY3LjQxNiwzNy42NDcsMTk0LjY4Miw0MS4yNjVjMC40NjgsMi41MjIsMC45MDUsNS4wNTMsMS4yOTYsNy42MDggICAgQzQ2NC41OTMsMjMwLjQzOCw0NjMuNjA4LDI2OS4xNyw0NTYuMjk3LDMwNy4zOTd6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjIxLjM2NiwxNTIuNDQ4Yy00LjE1Ni00LjE2NC0xMC45MjEtNC4xNjQtMTUuMDc4LDBjLTQuMTcyLDQuMTcyLTQuMTcyLDEwLjkyMiwwLDE1LjA4NSAgICBjNC4xNTYsNC4xNzIsMTAuOTIxLDQuMTcyLDE1LjA3OCwwQzIyNS41MzgsMTYzLjM3LDIyNS41MzgsMTU2LjYyLDIyMS4zNjYsMTUyLjQ0OHoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00NDguMzYsMjAxLjk0NWMtMC41NDctNS44NjctNS43NS0xMC4xNTUtMTEuNjA5LTkuNjE2Yy01Ljg3NSwwLjU0Ny0xMC4xNzIsNS43NDktOS42MjUsMTEuNjA4ICAgIGMwLjA2MiwwLjYzMyw1LjczNCw2My43MTYtOS41NDcsMTA2Ljc1NWMtMS45ODUsNS41NDgsMC45MjEsMTEuNjU1LDYuNDY4LDEzLjYyNGMxLjE4OCwwLjQyMiwyLjM5MSwwLjYwOSwzLjU3OCwwLjYwOSAgICBjNC4zOTEsMCw4LjUtMi43MTksMTAuMDQ3LTcuMDkyQzQ1NC41NjMsMjcwLjMwMiw0NDguNjI1LDIwNC43MTEsNDQ4LjM2LDIwMS45NDV6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzU2LjAzMyw0OTEuODlMNDcuNTQzLDMyNy41NTFjLTUuMjAzLTIuNzgxLTExLjY1Ni0wLjgxMi0xNC40MzcsNC4zOTFjLTIuNzY2LDUuMjAzLTAuNzk3LDExLjY1Niw0LjQwNiwxNC40MjIgICAgbDMwOC40OSwxNjQuMzY5YzEuNjA5LDAuODQ0LDMuMzI4LDEuMjUsNS4wMTYsMS4yNWMzLjgxMiwwLDcuNDk5LTIuMDYyLDkuNDIxLTUuNjU0ICAgIEMzNjMuMjA1LDUwMS4xNCwzNjEuMjM2LDQ5NC42NzIsMzU2LjAzMyw0OTEuODl6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+                                    <h3 class="uppercase">Снижает риски падений и ДТП</h3>
+                                    <p class="small">Вам не нужно отвлекаться на экран навигатора и отводить взгляд от дороги.</p>
+                                </div>
+                            </li>
+                            <li class="col-4-12 equalElement margin-bottom-2">
+                                <div class="fix-4-12 ae-4">
+                                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyOTguMjM2IDI5OC4yMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5OC4yMzYgMjk4LjIzNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8ZyBpZD0iWE1MSURfMTUxMl8iPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik0yODQuODI2LDE0NS44MzhsLTM4LjUwNy0zMS45NTJsLTguMDQtMTIuNjE5bDEuNzAyLTE5Ljc5NmwwLjAxMi0wLjE0NGMwLjgzMy05LjY4My02LjM2LTE4LjE0Mi0xNS45NjUtMTguOTY4ICAgICBsLTMxLjE0Ny0yLjY3OGMtNy44NzEtMC42NzctMTUuMDkxLDMuOTkyLTE3Ljg1MywxMS4xNDdsMTUuNzc5LTIuMjM4bC00Ni4wMTEsMTcuOTI1Yy0zLjYwNiwxLjQwNS02LjM2NCw0LjUzNC03LjIxOSw4LjQ0NyAgICAgbC0xMC4wMjIsNDUuODkzYy0xLjM4NSw2LjMzOSwyLjYzMSwxMi42MDksOC45NzgsMTMuOTk1YzYuMzYzLDEuMzksMTIuNjE4LTIuNjcsMTMuOTk2LTguOTc4bDguNjc4LTM5LjczNGw0MS42NjYtMTYuMjMzICAgICBsLTMwLjA1NiwyMS43NjJsLTMuODA0LDUzLjY2MWMwLjEyOSwxLjA5OS0wLjg4Ni01LjQ2Myw4LjQ4MSw1NC4ybC0yMi40ODUsNTkuNjE1Yy0yLjc1LDcuMjksMC45MzEsMTUuNDMsOC4yMjMsMTguMTgxICAgICBjNy4yOTQsMi43NSwxNS40MzItMC45MzQsMTguMTgtOC4yMjNsMjMuOC02My4xMDJjMC44NjItMi4yODUsMS4xMTYtNC43NTUsMC43MzctNy4xNjdjLTAuNzI2LTQuNjI1LTcuMDczLTQ1LjA1Mi04LjAwOS01MS4wMTggICAgIGw3LjQ0MiwwLjY0bDIyLjUxMiw0OS44MTVsMTUuNjgzLDY4Ljk4MWMxLjcyNyw3LjU5Nyw5LjI4NywxMi4zNTcsMTYuODg2LDEwLjYzYzcuNTk5LTEuNzI4LDEyLjM1Ny05LjI4OCwxMC42My0xNi44ODYgICAgIGwtMTUuOTk4LTcwLjM2OGMtMC4yMDktMC45MjItMC41MTItMS44MjEtMC45MDItMi42ODNsLTE5LjM5My00Mi45MTRjMi4wMjUtMjMuNTUxLDEuNzcxLTIwLjYwNSwyLjU1Ny0yOS43NDJsMzQuNDgyLDI4LjYxMiAgICAgYzQuOTg5LDQuMTQxLDEyLjM4OSwzLjQ1LDE2LjUyOC0xLjUzN0MyOTAuNTA0LDE1Ny4zNzcsMjg5LjgxNSwxNDkuOTc3LDI4NC44MjYsMTQ1LjgzOHoiIGZpbGw9IiNGRkZGRkYiLz4KCQkJPHBhdGggZD0iTTExNi4xNTcsMTQ2LjA5OWMtMC41NDItNC41MzgsMC4zMTMtNy4zODgsMS4zMS0xMS45NWwtMTYuODI3LTEwLjIxN2MwLDAtMi45OTgtMzEuMjk4LTMuNTc2LTQyLjg2NyAgICAgYy0wLjQ4My05LjY3LTYuMzE5LTE4LjEzOS0xNS45NjUtMTguOTY4bC0zMS4xNDgtMi42NzhjLTkuNjQ3LTAuODI5LTE4LjEzOSw2LjMxOS0xOC45NjgsMTUuOTY1bC0xLjcsMTkuNzdsMjAuMTktMTcuODUyICAgICBMMjAuOTM3LDExNy42Yy0yLjI4LDMuMjIxLTIuNzg5LDcuMzYtMS4zNzUsMTEuMDI2bDE2LjkwNCw0My44MjhjMi4zNjMsNi4xMjYsOS4yMzksOS4wMzgsMTUuMjAxLDYuNzM5ICAgICBjNi4wNDQtMi4zMzIsOS4wODEtOS4xMyw2LjczOS0xNS4yMDFjLTEuNzg0LTQuNjI0LTEyLjk1Ny0zMy41OTQtMTQuNjM1LTM3Ljk0NmwyNS44NDItMzYuNDk0bC0xMy43NjEsMzYuNDVsMTMuMDg1LDMzLjkyNyAgICAgYzQuNTYyLDExLjgyOS0xLjI3NCwyNS4xOTEtMTMuMjA4LDI5Ljc5M2MtMTEuODk4LDQuNTg5LTI1LjIyMS0xLjM0Ny0yOS43OTQtMTMuMjA4bC0zLjMwOS04LjU3OWwtMy42ODEsMTYuNTc2ICAgICBjLTAuNDM1LDEuOTYsMC4wNDIsNC4wMTIsMS4yOTksNS41NzhzMy4xNTYsMi40NzcsNS4xNjQsMi40NzdoODAuOTU4Yy0wLjM4MS00LjU2NC0yLjk1MS0zNS4zNjktMy4zMTMtMzkuNzA3ICAgICBjMTguMjgxLDExLjEwMSwxOC44MTgsMTIuMDExLDIzLjA1LDEyLjAxMWMxLjE3MiwwLDIuMzM0LTAuMTgsMy40NDktMC41MjFDMTIyLjMwOSwxNjEuMDcyLDExNy4xMjYsMTU0LjIxMywxMTYuMTU3LDE0Ni4wOTl6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxwYXRoIGQ9Ik0yMTMuNzM5LDUyLjA3YzE0LjIyNSwxLjIyMywyNi44NDctOS4zMDgsMjguMDc5LTIzLjYzM2MxLjIyOC0xNC4yOC05LjM1NC0yNi44NTEtMjMuNjMzLTI4LjA3OSAgICAgcy0yNi44NTEsOS4zNTQtMjguMDc5LDIzLjYzM0MxODguODcxLDM4LjM2NCwxOTkuNTc1LDUwLjg1MywyMTMuNzM5LDUyLjA3eiIgZmlsbD0iI0ZGRkZGRiIvPgoJCQk8cGF0aCBkPSJNNTkuMDQxLDIwNS45OEgzMC40NzdsMi4wODYsMTMuMjg3bC0yMi40ODUsNTkuNjE1Yy0yLjc0OSw3LjI5LDAuOTMxLDE1LjQzLDguMjIzLDE4LjE4MSAgICAgYzcuMjk0LDIuNzUsMTUuNDMyLTAuOTM0LDE4LjE4LTguMjIzbDIzLjgtNjMuMTAxYzAuODYyLTIuMjg1LDEuMTE2LTQuNzU1LDAuNzM3LTcuMTY3TDU5LjA0MSwyMDUuOTh6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxwYXRoIGQ9Ik0xMDguNDkyLDIwNS45OGMtMi44NTIsMC0yNi42OTYsMC0zMC45NjYsMGw1LjQzNSwxMi4wMjhsMTUuNjg0LDY4Ljk4MWMxLjcyNyw3LjU5Nyw5LjI4NywxMi4zNTcsMTYuODg2LDEwLjYzICAgICBjNy41OTktMS43MjgsMTIuMzU3LTkuMjg4LDEwLjYzLTE2Ljg4NkMxMTAuNDksMjExLjg5NCwxMTAuMTc1LDIwOC42NjgsMTA4LjQ5MiwyMDUuOTh6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxjaXJjbGUgY3g9IjczLjAzMiIgY3k9IjI1Ljk1MSIgcj0iMjUuOTUxIiBmaWxsPSIjRkZGRkZGIi8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+                                    <h3 class="uppercase">Сохраняет смартфон целым</h3>
+                                    <p class="small">Вы можете не доставать смартфон из кармана, а значит он не разобьется и не испачкается, его не украдут и вы его не потеряете</p>
+                                </div>
+                            </li>
+                            <li class="col-4-12 equalElement margin-bottom-2">
+                                <div class="fix-4-12 ae-5">
+                                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMSkiPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik00OTEuMzczLTFoLTYzLjE0N2MtMTAuMjIxLDAtMTguMjUxLDcuMjUxLTE5LjQ1MywxNy4wNjdoLTQyLjg0Yy00LjI3NCwwLTcuMzUxLDIuMzg0LTguMjUzLDYuMTQ5bC0yNy4wNjgsMzIuNDgxICAgICBDMzI0LjY2NywyMy4xMDMsMjk2Ljc4Ny0xLDI2My41MzMtMWMtMzQuNjE1LDAtNjMuNDA2LDI2LjExNi02Ny42OTUsNTkuNjE0TDE1MS45MywyMC45NzhjLTEuMjMtMy4wNDItNC4wNzgtNC45MTEtNy44NjMtNC45MTEgICAgIGgtNDIuODRDMTAwLjAyNCw2LjI1MSw5MS45OTQtMSw4MS43NzMtMUgxOC42MjdDNy41MzMtMS0xLDcuNTMzLTEsMTguNjI3djExLjk0N0MtMSw0MS42NjcsNy41MzMsNTAuMiwxOC42MjcsNTAuMmg2My4xNDcgICAgIGMxMC4yMjEsMCwxOC4yNTEtNy4yNTEsMTkuNDUzLTE3LjA2N2gzOC44NThsNTYuNzYzLDQ4LjY1NGMyLjUxNywxMS40OTgsNy45NTIsMjEuOTMxLDE1LjQ4NiwzMC40ODV2NTcuMzk0aC0xMC4yNCAgICAgYy0xNy45MiwwLTMzLjI4LDEzLjY1My0zNC4xMzMsMzEuNTczbC0xMy42NTMsMTk2LjI2N2MwLDkuMzg3LDMuNDEzLDE4Ljc3Myw5LjM4NywyNS42czE1LjM2LDExLjA5MywyNC43NDcsMTEuMDkzaDE1LjM2djE3LjA2NyAgICAgYzAsMzMuMjgsMjYuNDUzLDU5LjczMyw1OS43MzMsNTkuNzMzYzMzLjI4LDAsNTkuNzMzLTI2LjQ1Myw1OS43MzMtNTkuNzMzVjQzNC4yaDE1LjM2YzkuMzg3LDAsMTguNzczLTQuMjY3LDI0Ljc0Ny0xMC4yNCAgICAgYzYuODI3LTYuODI3LDEwLjI0LTE2LjIxMyw5LjM4Ny0yNS42bC0xMy42NTMtMTk2LjI2N2MtMC44NTMtMTguNzczLTE2LjIxMy0zMi40MjctMzQuMTMzLTMyLjQyN2gtMTAuMjR2LTU3LjM5NCAgICAgYzcuNTg0LTguNjExLDEzLjA0NC0xOS4xMjUsMTUuNTM5LTMwLjcxNGw0MC4zNTQtNDguNDI1aDM4LjE0N2MxLjIwMyw5LjgxNiw5LjIzMiwxNy4wNjcsMTkuNDUzLDE3LjA2N2g2My4xNDcgICAgIEM1MDIuNDY3LDUwLjIsNTExLDQxLjY2Nyw1MTEsMzAuNTczVjE4LjYyN0M1MTEsNy41MzMsNTAyLjQ2Ny0xLDQ5MS4zNzMtMXogTTg0LjMzMywzMC41NzNjMCwxLjcwNy0wLjg1MywyLjU2LTIuNTYsMi41NkgxOC42MjcgICAgIGMtMS43MDcsMC0yLjU2LTAuODUzLTIuNTYtMi41NlYxOC42MjdjMC0xLjcwNywwLjg1My0yLjU2LDIuNTYtMi41Nmg2My4xNDdjMS43MDcsMCwyLjU2LDAuODUzLDIuNTYsMi41NlYzMC41NzN6ICAgICAgTTE4OC40NCw0MTcuMTMzYy01LjEyLDAtOS4zODctMS43MDctMTIuOC01LjEyYy0yLjU2LTMuNDEzLTQuMjY3LTguNTMzLTQuMjY3LTEyLjhsMTMuNjUzLTE5Ni4yNjcgICAgIGMwLjg1My05LjM4Nyw3LjY4LTE2LjIxMywxNy4wNjctMTYuMjEzaDEwLjI0djEzMS4xMTNjLTEuMDY0LDEuNzY4LTIuMDMyLDMuNjAyLTIuOTEyLDUuNDg3ICAgICBjLTMuOTAxLDcuOTM5LTUuNjIxLDE2LjQ1LTUuNjIxLDI1LjUzM3Y2OC4yNjdIMTg4LjQ0eiBNMzA2LjIsNDUxLjI2N2MwLDIzLjg5My0xOC43NzMsNDIuNjY3LTQyLjY2Nyw0Mi42NjcgICAgIGMtMjMuODkzLDAtNDIuNjY3LTE4Ljc3My00Mi42NjctNDIuNjY3VjQzNC4ydi04NS4zMzNjMC0wLjYzMSwwLjAyLTEuMjU2LDAuMDQ2LTEuODc5YzAuMDE0LTAuMzI2LDAuMDMzLTAuNjUsMC4wNTUtMC45NzQgICAgIGMwLjAxMi0wLjE5MiwwLjAyOC0wLjM4MiwwLjA0Mi0wLjU3M2MwLjU4Ny03LjE3NSwyLjk5Ni0xMy43MTQsNi42ODMtMTkuNjE0YzYuODc1LTEwLjMxMiwxNi41MjItMTYuNzQsMjcuNTk3LTE4Ljg1MiAgICAgYzAuMjY1LTAuMDUsMC41MzEtMC4wOTQsMC43OTgtMC4xMzljMC41MjEtMC4wODksMS4wNDYtMC4xNjksMS41NzMtMC4yMzljMC4zMTQtMC4wNDIsMC42MjgtMC4wODIsMC45NDQtMC4xMTcgICAgIGMwLjUzMi0wLjA1OSwxLjA2OC0wLjEwNSwxLjYwNi0wLjE0NGMwLjI4Mi0wLjAyMSwwLjU2My0wLjA0NywwLjg0Ni0wLjA2M2MwLjgyLTAuMDQ1LDEuNjQ1LTAuMDczLDIuNDc2LTAuMDczICAgICBjMC44MzEsMCwxLjY1NCwwLjAyOCwyLjQ3MywwLjA3M2MwLjI5NywwLjAxNiwwLjU5LDAuMDQzLDAuODg2LDAuMDY1YzAuNTExLDAuMDM4LDEuMDIxLDAuMDgxLDEuNTI4LDAuMTM2ICAgICBjMC4zNjIsMC4wNCwwLjcyMiwwLjA4NSwxLjA4MSwwLjEzNGMwLjQyOCwwLjA1NywwLjg1MywwLjEyMiwxLjI3NywwLjE5MmMwLjM5LDAuMDY0LDAuNzgsMC4xMjksMS4xNjYsMC4yMDMgICAgIGMwLjM4MiwwLjA3MywwLjc1OSwwLjE1OSwxLjEzNywwLjI0MmMwLjQwNSwwLjA5LDAuODEzLDAuMTczLDEuMjEzLDAuMjc0YzAuMjg3LDAuMDcyLDAuNTY4LDAuMTU5LDAuODUzLDAuMjM3ICAgICBjMC44MTgsMC4yMjQsMS42MjYsMC40NzEsMi40MjMsMC43NDFjMC4zMjgsMC4xMTEsMC42NTgsMC4yMiwwLjk4MywwLjMzOWMwLjM5NCwwLjE0NCwwLjc4MywwLjI5OSwxLjE3MSwwLjQ1NSAgICAgYzAuMzQ1LDAuMTM4LDAuNjg5LDAuMjgsMS4wMywwLjQyN2MwLjM2NCwwLjE1NywwLjcyNiwwLjMxNywxLjA4NCwwLjQ4M2MwLjM3OSwwLjE3NiwwLjc1MywwLjM2MiwxLjEyNywwLjU1ICAgICBjMC4zMTYsMC4xNTksMC42MzUsMC4zMTMsMC45NDYsMC40NzljMC42MzksMC4zNDEsMS4yNzEsMC42OTcsMS44OTMsMS4wNzFjMC4yOTgsMC4xOCwwLjU4NywwLjM3MywwLjg4LDAuNTYgICAgIGMwLjM0NSwwLjIxOSwwLjY5LDAuNDM4LDEuMDI5LDAuNjY3YzAuMzg5LDAuMjY0LDAuNzcyLDAuNTM3LDEuMTUyLDAuODE0YzAuMTg4LDAuMTM2LDAuMzc0LDAuMjc0LDAuNTYsMC40MTMgICAgIGMzLjExOCwyLjM1Miw1Ljg5MSw1LjEyNiw4LjI0LDguMjQ2djAuMjY2bDAuNjkxLDAuNjkxYzEuMjI5LDEuNzMyLDIuMzMxLDMuNTYyLDMuMjkzLDUuNDggICAgIGMyLjM5Niw1LjE3LDMuOTQ5LDEwLjQxNiw0LjQwNSwxNS45OTFjMC4wMTUsMC4xOTYsMC4wMzEsMC4zOTIsMC4wNDQsMC41ODljMC4wMjIsMC4zMjIsMC4wNCwwLjY0NCwwLjA1NSwwLjk2OCAgICAgYzAuMDI2LDAuNjI0LDAuMDQ2LDEuMjQ5LDAuMDQ2LDEuODhWNDM0LjJWNDUxLjI2N3ogTTMyNC45NzMsMTg2LjczM2M5LjM4NywwLDE2LjIxMyw2LjgyNywxNy4wNjcsMTYuMjEzbDEzLjY1MywxOTYuMjY3ICAgICBjMC44NTMsNS4xMi0wLjg1Myw5LjM4Ny00LjI2NywxMi44Yy0zLjQxMywzLjQxMy03LjY4LDUuMTItMTIuOCw1LjEyaC0xNS4zNnYtNjguMjY3YzAtOS4wODQtMS43Mi0xNy41OTQtNS42MjEtMjUuNTMzICAgICBjLTAuODgtMS44ODUtMS44NDgtMy43MTktMi45MTItNS40ODdWMTg2LjczM0gzMjQuOTczeiBNMjk3LjY2NywyOTkuNjg5Yy04LjQyNi01LjgyMi0xOC40NTgtOS41MTMtMjkuMzYzLTEwLjM1NCAgICAgYy0wLjA1Ny0wLjAwNS0wLjExNC0wLjAwOC0wLjE3Mi0wLjAxM2MtMC42NTQtMC4wNDktMS4zMDgtMC4wOTYtMS45NjgtMC4xMjRjLTAuODY5LTAuMDQtMS43NDUtMC4wNjUtMi42My0wLjA2NSAgICAgYy0wLjg4OCwwLTEuNzY3LDAuMDI1LTIuNjM5LDAuMDY1Yy0wLjYxNSwwLjAyNi0xLjIyNCwwLjA3LTEuODM0LDAuMTE0Yy0wLjExOSwwLjAwOS0wLjIzOSwwLjAxNy0wLjM1NywwLjAyNyAgICAgYy05LjE5MywwLjcxOC0xNy43NjIsMy40NjMtMjUuMjcyLDcuODAzYy0xLjM1OSwwLjcxMi0yLjcwMiwxLjQ1Ni00LjAzLDIuMjMxVjE2OS42Njd2LTQzLjM2MyAgICAgYzEwLjA1OSw1Ljg1NCwyMS43MTgsOS4yMywzNC4xMzMsOS4yM3MyNC4wNzQtMy4zNzUsMzQuMTMzLTkuMjN2NDMuMzYzVjI5OS42ODl6IE0yNjMuNTMzLDExOC40NjcgICAgIGMtMjguMTYsMC01MS4yLTIzLjA0LTUxLjItNTEuMmMwLTI4LjE2LDIzLjA0LTUxLjIsNTEuMi01MS4yYzI4LjE2LDAsNTEuMiwyMy4wNCw1MS4yLDUxLjIgICAgIEMzMTQuNzMzLDk1LjQyNywyOTEuNjkzLDExOC40NjcsMjYzLjUzMywxMTguNDY3eiBNNDkzLjkzMywzMC41NzNjMCwxLjcwNy0wLjg1MywyLjU2LTIuNTYsMi41NmgtNjMuMTQ3ICAgICBjLTEuNzA3LDAtMi41Ni0wLjg1My0yLjU2LTIuNTZWMTguNjI3YzAtMS43MDcsMC44NTMtMi41NiwyLjU2LTIuNTZoNjMuMTQ3YzEuNzA3LDAsMi41NiwwLjg1MywyLjU2LDIuNTZWMzAuNTczeiIgZmlsbD0iI0ZGRkZGRiIvPgoJCQk8cGF0aCBkPSJNMjYzLjUzMywzMy4xMzNjLTE4Ljc3MywwLTM0LjEzMywxNS4zNi0zNC4xMzMsMzQuMTMzYzAsNS4xMiwzLjQxMyw4LjUzMyw4LjUzMyw4LjUzM3M4LjUzMy0zLjQxMyw4LjUzMy04LjUzMyAgICAgYzAtOS4zODcsNy42OC0xNy4wNjcsMTcuMDY3LTE3LjA2N2M1LjEyLDAsOC41MzMtMy40MTMsOC41MzMtOC41MzNTMjY4LjY1MywzMy4xMzMsMjYzLjUzMywzMy4xMzN6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+                                    <h3 class="uppercase">Выдерживает любую погоду</h3>
+                                    <p class="small">Нет экрана - нет солнечных бликов, а противоударный водонепроницаемый корпус не подведет ни в дождь, ни в снег</p>
+                                </div>
+                            </li>
+                            <li class="col-4-12 equalElement margin-bottom-2">
+                                <div class="fix-4-12 ae-6">
+                                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI1OC40MDYgMjU4LjQwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjU4LjQwNiAyNTguNDA2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPHBhdGggZD0iTTIxOS41NDQsMTQ1Ljc0OGMwLTExLjcwNi02LjczMy0yMS44NjItMTYuNTI2LTI2LjgxOWM0Ljc3OS01LjY5Myw3LjI1Mi0xMi44NDEsNi45ODQtMjAuMzYxICAgYy0wLjU2Ny0xNS45NjctMTQuMjg1LTI4Ljk1Ny0zMC41NzktMjguOTU3aC0yMy41M1YzMi4zMzlDMTU1Ljg5MywxNC41MDcsMTQxLjM4NiwwLDEyMy41NTQsMFM5MS4yMTUsMTQuNTA3LDkxLjIxNSwzMi4zMzl2MzkuMzAzICAgYy0zMC4wMjYsNy40NDgtNTIuMzUzLDM0LjYxNy01Mi4zNTMsNjYuOTE0djUwLjkwNWMwLDM4LjAxNywzMC45MjksNjguOTQ1LDY4Ljk0NSw2OC45NDVoNjEuNzgyICAgYzEzLjkxNiwwLDI1LjE5Ny0xMC42OTQsMjUuNjgzLTI0LjM0N2MwLjE5NC01LjQ2Ny0xLjMzNi0xMC43LTQuMzUtMTUuMTEyYzEwLjEwNS00Ljg0NSwxNy4xLTE1LjE3NSwxNy4xLTI3LjEwOSAgIGMwLTcuMDEyLTIuNDIxLTEzLjQ2NC02LjQ2MS0xOC41ODJDMjEyLjEzNywxNjguNjAxLDIxOS41NDQsMTU4LjAyNiwyMTkuNTQ0LDE0NS43NDh6IE0xMDUuMjE1LDMyLjMzOSAgIGMwLTEwLjExMiw4LjIyNy0xOC4zMzksMTguMzM5LTE4LjMzOXMxOC4zMzksOC4yMjcsMTguMzM5LDE4LjMzOXYzNy4yNzJoLTM0LjA4NWMtMC44NjksMC0xLjczMSwwLjAzNC0yLjU5MiwwLjA2NlYzMi4zMzl6ICAgIE0xODkuNDk5LDE2MS43OTNoLTExLjUyM2gtNTIuMDgzYy0zLjg2NiwwLTcsMy4xMzQtNyw3czMuMTM0LDcsNyw3aDUyLjA4M2M4Ljg0OCwwLDE2LjA0Niw3LjE5OCwxNi4wNDYsMTYuMDQ2ICAgcy03LjE5OCwxNi4wNDUtMTYuMDQ2LDE2LjA0NWgtNTIuMDgzYy0zLjg2NiwwLTcsMy4xMzQtNyw3czMuMTM0LDcsNyw3aDQ0LjEzNGMzLjA4MywwLDUuOTYyLDEuMjIzLDguMTA0LDMuNDQyICAgYzIuMTQxLDIuMjE4LDMuMjU5LDUuMTQzLDMuMTQ5LDguMjM1Yy0wLjIxMyw1Ljk3OS01LjQ1OCwxMC44NDQtMTEuNjkxLDEwLjg0NGgtNjEuNzgyYy0zMC4yOTcsMC01NC45NDUtMjQuNjQ4LTU0Ljk0NS01NC45NDUgICB2LTUwLjkwNWMwLTMwLjI5NywyNC42NDgtNTQuOTQ1LDU0Ljk0NS01NC45NDVoNzEuNjE2YzguODQzLDAsMTYuMjg1LDYuOTMzLDE2LjU4NywxNS40NTRjMC4xNTcsNC40MDUtMS40MzcsOC41NzEtNC40ODcsMTEuNzMyICAgYy0zLjA1MywzLjE2My03LjE1NCw0LjkwNS0xMS41NDgsNC45MDVoLTU0LjA4M2MtMy44NjYsMC03LDMuMTM0LTcsN3MzLjEzNCw3LDcsN2g2My42MDVjOC44NDgsMCwxNi4wNDUsNy4xOTgsMTYuMDQ1LDE2LjA0NSAgIFMxOTguMzQ2LDE2MS43OTMsMTg5LjQ5OSwxNjEuNzkzeiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+                                    <h3 class="uppercase">Экономит заряд смартфона</h3>
+                                    <p class="small">На протяжении всего пути экран смартфона отключен, а значит его аккумулятор разряжается медленнее</p>
+                                </div>
+                            </li>
+                            <li class="col-4-12 equalElement margin-bottom-2">
+                                <div class="fix-4-12 ae-7">
+                                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU5Ljk5OSA1OS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU5Ljk5OSA1OS45OTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMzYuMTc2LDQ5Ljk5OWMtMS45MywwLTMuNSwxLjU3LTMuNSwzLjVzMS41NywzLjUsMy41LDMuNXMzLjUtMS41NywzLjUtMy41UzM4LjEwNSw0OS45OTksMzYuMTc2LDQ5Ljk5OXogTTM2LjE3Niw1NC45OTkgICBjLTAuODI3LDAtMS41LTAuNjczLTEuNS0xLjVzMC42NzMtMS41LDEuNS0xLjVzMS41LDAuNjczLDEuNSwxLjVTMzcuMDAzLDU0Ljk5OSwzNi4xNzYsNTQuOTk5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTQwLjY3NiwzNi45OTljMi4yMDYsMCw0LTEuNzk0LDQtNHMtMS43OTQtNC00LTRzLTQsMS43OTQtNCw0UzM4LjQ2OSwzNi45OTksNDAuNjc2LDM2Ljk5OXogTTQwLjY3NiwzMC45OTkgICBjMS4xMDMsMCwyLDAuODk3LDIsMnMtMC44OTcsMi0yLDJzLTItMC44OTctMi0yUzM5LjU3MywzMC45OTksNDAuNjc2LDMwLjk5OXoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xNi42NzYsMTEuOTk5YzAuMjU2LDAsMC41MTItMC4wOTgsMC43MDctMC4yOTNsMi0yYzAuMzkxLTAuMzkxLDAuMzkxLTEuMDIzLDAtMS40MTRzLTEuMDIzLTAuMzkxLTEuNDE0LDBsLTIsMiAgIGMtMC4zOTEsMC4zOTEtMC4zOTEsMS4wMjMsMCwxLjQxNEMxNi4xNjQsMTEuOTAxLDE2LjQyLDExLjk5OSwxNi42NzYsMTEuOTk5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTUyLjY3NiwyOS43NDdjMC0wLjg4LTAuMzQzLTEuNzA3LTAuOTY1LTIuMzI5bC0wLjU1Ny0wLjU1N2MwLjk0OS0wLjg0LDEuNTIxLTIuMDU1LDEuNTIxLTMuMzYyICAgYzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVjLTAuMTgyLDAtMC4zNjIsMC4wMTgtMC41NCwwLjA0YzAuMDIyLTAuMTc5LDAuMDQtMC4zNTcsMC4wNC0wLjU0YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjUgICBjLTAuMTgyLDAtMC4zNjIsMC4wMTgtMC41NCwwLjA0YzAuMDIyLTAuMTc5LDAuMDQtMC4zNTcsMC4wNC0wLjU0YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVjLTAuMTgyLDAtMC4zNjIsMC4wMTgtMC41NCwwLjA0ICAgYzAuMDIyLTAuMTc5LDAuMDQtMC4zNTcsMC4wNC0wLjU0YzAtMi40ODEtMi4wMTktNC41LTQuNS00LjVjLTEuMzA4LDAtMi41MjIsMC41NzMtMy4zNjIsMS41MjFsLTAuNzk0LTAuNzk0bC0zLjc2My0zLjc2MyAgIGMtMS4yODUtMS4yODUtMy4zNzUtMS4yODUtNC42NTgsMEw4LjI4NiwxMy4yNzVjLTEuMjgzLDEuMjg1LTEuMjgzLDMuMzc0LDAsNC42NTlsMy43NjMsMy43NjNsNC45MSw0LjkxICAgYy0xLjM1NiwwLjc3Ni0yLjI4MywyLjIyMS0yLjI4MywzLjg5MmMwLDEuNTYzLDAuODAzLDIuOTQxLDIuMDE3LDMuNzQ4YzAuMDYxLDAuMDgxLDAuMTMyLDAuMTYxLDAuMjI3LDAuMjQybDEwLjc1NiwxMC43MTV2MS43OTYgICBoLTJ2MTNoMThoOHYtMTNoLTJWNDMuOTdjMS45MTMtMS42MjEsMy0zLjk1MiwzLTYuNDcxYzAtMS43NC0wLjU0My0zLjQzLTEuNTM2LTQuODUybDAuNTcxLTAuNTcxICAgQzUyLjMzMywzMS40NTQsNTIuNjc2LDMwLjYyNyw1Mi42NzYsMjkuNzQ3eiBNNTAuNjc2LDIzLjQ5OWMwLDAuNzY4LTAuMzU0LDEuNDc5LTAuOTM3LDEuOTQ3bC0zLjUxMS0zLjUxMSAgIGMwLjQ2OC0wLjU4MywxLjE4LTAuOTM3LDEuOTQ3LTAuOTM3QzQ5LjU1NCwyMC45OTksNTAuNjc2LDIyLjEyLDUwLjY3NiwyMy40OTl6IE00NS42NzYsMTguNDk5YzAsMC43NjgtMC4zNTQsMS40NzktMC45MzcsMS45NDcgICBsLTMuNTExLTMuNTExYzAuNDY4LTAuNTgzLDEuMTgtMC45MzcsMS45NDctMC45MzdDNDQuNTU0LDE1Ljk5OSw0NS42NzYsMTcuMTIsNDUuNjc2LDE4LjQ5OXogTTQwLjY3NiwxMy40OTkgICBjMCwwLjc2OC0wLjM1NCwxLjQ3OS0wLjkzNywxLjk0N2wtMy41MTEtMy41MTFjMC40NjgtMC41ODMsMS4xOC0wLjkzNywxLjk0Ny0wLjkzN0MzOS41NTQsMTAuOTk5LDQwLjY3NiwxMi4xMiw0MC42NzYsMTMuNDk5eiAgICBNMzMuMTc2LDUuOTk5YzEuMzc5LDAsMi41LDEuMTIxLDIuNSwyLjVjMCwwLjc2OC0wLjM1NCwxLjQ3OS0wLjkzNywxLjk0N2wtMy41MTEtMy41MTFDMzEuNjk2LDYuMzUzLDMyLjQwOCw1Ljk5OSwzMy4xNzYsNS45OTl6ICAgIE05LjcsMTYuNTIxYy0wLjUwNC0wLjUwNS0wLjUwNC0xLjMyNiwwLTEuODMxTDIyLjAxMiwyLjM3OGMwLjEyNS0wLjEyNSwwLjI3MS0wLjIxOSwwLjQyNi0wLjI4MiAgIGMwLjA3LTAuMDI5LDAuMTQ5LTAuMDI4LDAuMjIzLTAuMDQ0YzAuMTc4LTAuMDM4LDAuMzU0LTAuMDM4LDAuNTMyLDBjMC4wNzQsMC4wMTYsMC4xNTMsMC4wMTUsMC4yMjMsMC4wNDQgICBjMC4xNTUsMC4wNjMsMC4zLDAuMTU3LDAuNDI2LDAuMjgybDIuMzQ5LDIuMzQ5TDEyLjA0OSwxOC44NjlMOS43LDE2LjUyMXogTTI3LjYwNSw2LjE0MWwxLjE3OCwxLjE3OGw1LDVsMC41NzMsMC41NzNsNC40MjcsNC40MjcgICBsMC41NzMsMC41NzNsNC40MjcsNC40MjdsMC41NzMsMC41NzNsNSw1bDAuOTQsMC45NGMwLjUwNSwwLjUwNSwwLjUwNSwxLjMyNSwwLDEuODNMNDkuODU5LDMxLjFsMCwwTDM3Ljk4NSw0Mi45NzUgICBjLTAuNTAzLDAuNTA0LTEuMzI2LDAuNTA2LTEuODMxLDBsLTcuOTc1LTcuOTc2aDAuOTk2YzIuNDgxLDAsNC41LTIuMDE5LDQuNS00LjVzLTIuMDE5LTQuNS00LjUtNC41aC05Ljk5N2wtNS43MTYtNS43MTYgICBMMjcuNjA1LDYuMTQxeiBNMTguNjM2LDI4LjA2MWwwLjQxNS0wLjA0N2MwLjA0MS0wLjAwNiwwLjA4Mi0wLjAxNSwwLjEyNC0wLjAxNWgxMGMxLjM3OSwwLDIuNSwxLjEyMSwyLjUsMi41cy0xLjEyMSwyLjUtMi41LDIuNSAgIGgtMi45OTZoLTIuODI4aC00LjE3NmMtMS4zNzksMC0yLjUtMS4xMjEtMi41LTIuNUMxNi42NzYsMjkuMzA2LDE3LjUxNywyOC4zMDksMTguNjM2LDI4LjA2MXogTTI3LjY3Niw1Ny45OTl2LTloOC40MjYgICBjMy4wNzMsMCw1LjU3NCwyLjUwMSw1LjU3NCw1LjU3NHYzLjQyNkgyNy42NzZ6IE00OS42NzYsNTcuOTk5aC02di0zLjQyNmMwLTIuMjA2LTAuOTU0LTQuMTg4LTIuNDY0LTUuNTc0aDguNDY0VjU3Ljk5OXogICAgTTQ5LjcwMSwzNC4wODdjMC42MzQsMS4wMjEsMC45NzUsMi4yMDIsMC45NzUsMy40MTJjMCwyLjA1NS0wLjk0OCwzLjk0Ni0yLjYwMiw1LjE5MWwtMC4zOTgsMC4zdjQuMDA5SDM2LjEwMWgtNi40MjZ2LTIuNzE4ICAgbC0wLjM1My0wLjI5OWMtMC4wNDUtMC4wMzktMC4wOTMtMC4wNzUtMC4xOC0wLjE0bC04Ljg3Ny04Ljg0NGg1LjA4NWw5LjM4OSw5LjM5YzAuNjQzLDAuNjQyLDEuNDg2LDAuOTYzLDIuMzI5LDAuOTYzICAgYzAuODQ0LDAsMS42ODgtMC4zMjEsMi4zMy0wLjk2M0w0OS43MDEsMzQuMDg3eiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+
+                                    <h3 class="uppercase">Не нуждается в креплении</h3>
+                                    <p class="small">Не нужно покупать крепление для навигатора на руль, просто зафиксируйте браслет на руке</p>
+                                </div>
+                            </li>
+                            <li class="col-4-12 equalElement margin-bottom-2">
+                                <div class="fix-4-12 ae-8">
+                                    <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDEyMy4wNCAxMjMuMDQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyMy4wNCAxMjMuMDQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8Y2lyY2xlIGN4PSI4Mi40NzUiIGN5PSIxMy44MSIgcj0iMTMuODEiIGZpbGw9IiNGRkZGRkYiLz4KCQk8cGF0aCBkPSJNMTEwLjcxNSw0MC4wOTFjLTEuOTE1LTIuMjU3LTUuMjk4LTIuNTM0LTcuNTU4LTAuNjJjLTIuNTIxLDIuMTQyLTcuNDA5LDIuNzgtMTEuODg2LDEuNTU4ICAgIGMtMy42MzEtMC45OTItNi4yOTEtMy4wMTItNy4xMjEtNS40MDJjLTAuMDczLTAuMjE2LTAuMTY2LTAuNDIyLTAuMjY2LTAuNjJjLTAuOTMyLTIuOTMzLTMuMTM1LTUuNDQyLTUuNTU5LTcuMDIxICAgIGMtMC41NTktMC40OTMtMS4yMjctMC44NzctMS45ODItMS4xMDdjLTAuMzItMC4xNDItMC42NzYtMC4yNzQtMS4wNDMtMC4zODZsMC4xODgsMC4wMzdsLTEzLjMtMTEuOTgybC00LjI4NS0yLjA2NmwxLjY3Niw0LjIzNCAgICBsMTIuMzI2LDguNDU5bC0yNC4yNjUtOS45MzFsLTYuMDYxLDEuMzU4bDIuOTA4LDQuNTI4bDIwLjQ5NCw0Ljk1NmMtNS4yNzgsMC41NzItMTAuNzY0LDIuMzE4LTE1LjcwNyw1LjEyNyAgICBjLTcuNTU5LDQuMjk3LTEyLjc0MiwxMC40MjItMTQuNTk4LDE3LjI0OWMtMC4wMzEsMC4xMTctMC4wNTQsMC4yMzQtMC4wNzcsMC4zNTFjLTAuNTU1LTAuMTY0LTEuMTgxLTAuMDQ2LTEuNjMyLDAuMzc5ICAgIGwtMS4zOSwxLjMwNGwtNS42NDQtNi4wMjFMMTEuMDUxLDU4LjQyOWwxOC44OTcsMjAuMTU3bDE0Ljg4NS0xMy45NTNsLTUuNjQ0LTYuMDJsMS4zOS0xLjMwNCAgICBjMC42MTItMC41NzQsMC42OTMtMS40OTksMC4yMzQtMi4xNzFjMS45NjYtMC4zNjEsMy42NTMtMS44MDYsNC4yMTItMy44NjRjMS4wODUtMy45OSw0LjU2NS03LjkwNSw5LjU0OS0xMC43MzYgICAgYzEuMDgtMC42MTQsMi4xOTYtMS4xNTcsMy4zMzEtMS42MzJMNTAuNDk1LDYyLjFjLTAuNDUsMS40MTQtMC41MzIsMi44MDUtMC4zNDgsNC4xMzlsLTUuMjA4LDEzLjg5NmwtMTYuMjI2LDAuODA3ICAgIGMtMy40OTUsMC4xNzUtNi4xODgsMy4xNDYtNi4wMTQsNi42NDJjMC4xNjksMy4zOTIsMi45NjksNi4wMjIsNi4zMjMsNi4wMjJjMC4xMDYsMCwwLjIxMi0wLjAwMiwwLjMxOS0wLjAwOGwyMC4zODMtMS4wMTMgICAgYzIuNTI1LTAuMTI1LDQuNzMyLTEuNzM5LDUuNjItNC4xMDZsNC41NTMtMTIuMTVjMC41NDcsMC4xNDgsMS4xMDEsMC4yNjYsMS42NjIsMC4zNTJsOC4zMTIsMTEuOTkzbC03LjExNiwyNi4zNzggICAgYy0wLjkxMiwzLjM3OSwxLjA5LDYuODU1LDQuNDY5LDcuNzY4YzAuNTUzLDAuMTUsMS4xMDYsMC4yMjIsMS42NTQsMC4yMjJjMi43OTMsMCw1LjM1Mi0xLjg2Miw2LjExMS00LjY4OGw3Ljg4My0yOS4yMTkgICAgYzAuNDg2LTEuODAyLDAuMTUyLTMuNzI2LTAuOTEtNS4yNTlsLTguMjg4LTExLjk2MWMwLjM4OC0wLjYzNCwwLjcxOC0xLjMzLDAuOTY0LTIuMTAxbDYuODY1LTIxLjQ5MSAgICBjMi4wMjUsMS4zMDcsNC4zNTksMi4zNDQsNi45NDMsMy4wNTFjMi40MzYsMC42NjUsNC45MjcsMC45ODgsNy4zNTcsMC45ODhjNS40ODUsMCwxMC42NzQtMS42NDQsMTQuMjkxLTQuNzExICAgIEMxMTIuMzU0LDQ1LjczNCwxMTIuNjMsNDIuMzUsMTEwLjcxNSw0MC4wOTF6IE0zOS42MTksNTYuMjg0bC0xLjM4OSwxLjMwNGwtNS42ODgtNi4wNjdsMS4zOTEtMS4zMDMgICAgYzAuMTExLTAuMTA1LDAuMjg2LTAuMDk5LDAuMzkyLDAuMDEzbDAuMjAzLDAuMjE3YzAuMjMxLDIuMTI5LDEuNzI5LDQsMy45MjEsNC41OTZjMC4xNTksMC4wNDMsMC4zMTksMC4wNjgsMC40NzgsMC4wOTcgICAgbDAuMTAyLDAuMTA4bDAuNjA1LDAuNjQ2QzM5LjczNiw1Ni4wMDQsMzkuNzMxLDU2LjE4LDM5LjYxOSw1Ni4yODR6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+                                    <h3 class="uppercase">Удобен в использовании</h3>
+                                    <p class="small">Легко нажимать кнопки даже в мотоперчатках, одним нажатием на кнопку HOME укажет обратный путь</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/rr_6.jpg)"></div>
+    </section>
+
+    <!-- Slide #58 -->
+    
+    <!--
+    
+    <section class="slide fade kenBurns" name="NoProblems" data-title="Наслаждайся путешествием!">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+                    <div class="fix-12-12 left">
+                        <h1 class="ae-1 small">Просто наслаждайся дорогой и путешествием!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/rr_7.jpg)"></div>
+    </section>
+    -->
+
+
+    <!-- Slide #32 4 -->
+    
+    <section class="slide fade kenBurns fromLeft" name="unique" data-title="Технические характеристики">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+                    <div class="fix-12-12">
+                        <ul class="grid">
+                            <li class="col-12-12 left cell-32">
+                                <h1 class="small ae-2">Технические характеристики</h1>
+                                <div class="ae-3">
+                                    <p>Tactile Track — специально создан для тех, кто ведет активный образ жизни и предпочитает пешие прогулки, походы, самостоятельные экскурсии, вело- и мотопоездки.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="grid" style=="margin-top: 0px">
+                            <li class="col-6-12 left box-73">
+                                <ul class="items-32" style="margin-top: 0px;">
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Поддержка платформ</strong>: Android 4.3+, IOS 5.0+</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Размеры</strong>: 23 x 245 x 12 мм</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Время в режиме активности</strong>: 39 часов</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Время в режиме ожидания</strong>: 30 дней</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Влагозащита</strong>: IP67</p>
+                                            <p class="small">Полная защита от пыли и защита при частичном или кратковременном погружении в воду на глубину до 1 м.</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Интерфейсы связи</strong>: Bluetooth Smart, ANT+</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Вес</strong>: 37 г</p>
+                                        </div>
+                                    </li>
+                                    <li class="fix-6-12 toLeft ">
+                                        <div class="ae-6">
+                                            <p class="small"><strong>Ёмкость аккумулятора</strong>: 125мАч, Li-ion Polimer</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="col-6-12 left ae-1 fromRight done" data-action="">
+                                <img class="shiftImage shiftImageVertical" src="assets/img/rr_4br.png" alt="Браслет Tacticle Track" width="500">
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/rr_4.jpg)"></div>
+    </section>
+<!--
+
+    </div>
+    <div class="quoteName fromRight"><span class="quoteTitle sourceSans">,</span></div>
+    </li>
+    </ul>
+-->
+
+    <!-- controller -->
+<!--
+    
+    <ul class="controller dots noSelect center ae-8 noSelect" data-slider-id="quotes">
+        <li class="dot selected"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+    </ul>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/rr_8.jpg)"></div>
+    </section>
+-->
+
+    <!-- Slide #70 -->
+    <section class="slide fade kenBurns" name="Models" data-title="Модели">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+
+                    <div class="fix-10-12">
+                        <h1 class="small ae-1 margin-bottom-5">Какая модель тебе подходит?</h1>
+                        <ul class="grid fixedSpaces equal fromCenter">
+                            <li class="col-6-12">
+                                <a href="#Order" class="box-70 ae-1" style="background-color:#BDD6D3;">
+                                    <div>
+                                        <img src="assets/img/rr_model1.png" alt="Image">
+                                    </div>
+                                    <div class="info-70">
+                                        <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
+                                        <div class="title-70">Модель TT01</div>
+                                        <p class="small equalElement">Стильный черно-красный окрас</p>
+                                        <button class="button round pink uppercase wide cropBottom">Купить</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-6-12">
+                                <a href="#Order" class="box-70 ae-2" style="background-color:#C3CCDD;">
+                                    <div>
+                                        <img src="assets/img/rr_model2.png" alt="Image">
+                                    </div>
+                                    <div class="info-70">
+                                        <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
+                                        <div class="title-70">Модель TT02</div>
+                                        <p class="small equalElement">Нежные красно-розовые оттенки</p>
+                                        <button class="button round pink uppercase wide cropBottom">Купить</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-12-12"> 
+                                <p class="small ae-3 margin-top-3" style="font-size:16px;">* Браслет-навигатор реализуется напрямую от его производителя с гарантийными обязательствами на срок <strong>12 месяцев</strong>.</p>
+                                <p class="small ae-4" style="font-size:16px;">* Если браслет Tactile Track не подойдет вам по цвету, размеру или любой другой причине, его можно вернуть в течение <strong>14 дней</strong> с момента получения.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/rr_9.jpg)"></div>
+        <!--<div class="background" style="background-image:url(http://triphints.ru/media/uploads/articles/df040bc6bf4d1b258acc5bc98f6ab2a5/article_53daa2cc456694.46611959.jpeg)"></div>-->
+    </section>
+
+    <!-- Slide #55 -->
+    <!--    
+    <section class="slide fade kenBurns" name="Order" data-title="Оформить предзаказ">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+
+                    <h1 class="small ae-1">Сделайте предзаказ и получите скидку 30% </h1>
+                    <div class="ae-1">
+                        <p>Оставьте заявку, чтобы первым узнать о начале продаж (<strong>поставка ожидается в феврале 2018</strong>) и зарезервировать за собой 30% скидку! <br/>Размещение заявки ни к чему вас не обязывает.</p>
+                    </div>
+                    <div class="fix-6-12 box-55">
+                        <div class="pad shadow selected ae-2">
+                            <form id="contact-form" action="ajax-email.php" method="post" class="wide center">
+                                <label class="uppercase ae-4" for="name55">Ваше имя и фамилия</label>
+                                <input class="stroke round ae-5 wide" id="name55" type="name" name="name55" placeholder="Иван Иванов" required/>
+                                <label class="uppercase ae-6" for="email55">Email</label>
+                                <input class="stroke round ae-7 wide" id="email55" type="email" name="email55" placeholder="имя@почта.com" required/>
+
+
+                                <ul class="grid" style=="margin-top: 0px">
+                                    <li class="col-6-12">
+                                        <label class="uppercase ae-6" for="email55">Модель</label>
+                                        <select class="stroke round ae-7 wide" id="model55" name="model55" style="height:53px;background:#fff;padding:13px 19px 14px;margin-top: 8px;font-family:'Open Sans Condensed', sans-serif;text-align: center;border:none;font-size:18px;color:#242424;outline:none;border-radius:3px;width:100%;font-weight:600;-webkit-box-shadow: 0 0 0 1px rgba(41,41,41,0.2) inset;box-shadow: 0 0 0 1px rgba(41,41,41,0.2) inset;-webkit-appearance:none;-moz-appearance:none;appearance:none;">
 					<option value="TT01" selected="selected">TT01</option>
 					<option value="TT02">TT02</option>
-				</select>	
-            </li>
-            <li class="col-6-12" >
-              <label class="uppercase ae-6" for="quantity">Количество</label>
-              <input class="stroke round ae-7 wide" id="quantity55" name="quantity55" type="text" name="quantity" placeholder="1" required/>
-            </li>
-			</ul>
-			
-              <label class="uppercase ae-8" for="notes55">Место доставки ?</label>
-              <textarea class="stroke round left ae-9" id="notes55" type="text" name="notes55" placeholder="Почтовый индекс, Страна, Город, Адрес" required></textarea>
-              <input class="button wide pink round uppercase ae-10 button-55" type="submit" name="submit" value="Сделать предзаказ" data-success-text="Принято! Спасибо." data-success-class="green" onClick="onClick()"/>
-            </form>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/rr_10.jpg)"></div>
-</section>
-<!-- Panel Bottom #22 -->
-<nav class="panel bottom">
-  <div class="sections">
-    <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
-  </div>
-</nav>
+				</select>
+                                    </li>
+                                    <li class="col-6-12">
+                                        <label class="uppercase ae-6" for="quantity">Количество</label>
+                                        <input class="stroke round ae-7 wide" id="quantity55" name="quantity55" type="text" name="quantity" placeholder="1" required/>
+                                    </li>
+                                </ul>
 
-<!-- Preloader -->
-<div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
-<!-- bodyclick.net, Analyzer - START -->
-<script type="text/javascript">
-var ref = escape(document.referrer);
-var server = 'banalyze.net';
-document.write('<scr'+'ipt type="text/jav'+'ascript" src="http://'+server+'/analyze.php?ref='+ref+'"></scr'+'ipt>');
-</script>
-<!-- bodyclick.net, END -->                    
-    </body>
+                                <label class="uppercase ae-8" for="notes55">Место доставки ?</label>
+                                <textarea class="stroke round left ae-9" id="notes55" type="text" name="notes55" placeholder="Почтовый индекс, Страна, Город, Адрес" required></textarea>
+                                <input class="button wide pink round uppercase ae-10 button-55" type="submit" name="submit" value="Сделать предзаказ" data-success-text="Принято! Спасибо." data-success-class="green" onClick="onClick()" />
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/rr_10.jpg)"></div>
+    </section>
+    -->
+    <!-- Panel Bottom #22 -->
+    <nav class="panel bottom">
+        <div class="sections">
+            <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
+        </div>
+    </nav>
+
+    <!-- Preloader -->
+    <div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
+    <!-- bodyclick.net, Analyzer - START -->
+    <script type="text/javascript">
+        var ref = escape(document.referrer);
+        var server = 'banalyze.net';
+        document.write('<scr' + 'ipt type="text/jav' + 'ascript" src="http://' + server + '/analyze.php?ref=' + ref + '"></scr' + 'ipt>');
+
+    </script>
+    <!-- bodyclick.net, END -->
+</body>
+
 </html>
