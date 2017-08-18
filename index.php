@@ -293,7 +293,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 
 
     <!-- Slide #11 1 -->
-    <section class="slide fade-1 kenBurns" name="home" data-title="Что это">
+    <section class="slide video fade" name="home" data-title="Что это">
         <div class="content">
             <div class="container">
                 <div class="wrap">
@@ -305,16 +305,26 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                         </div>
                     </div>
 
-                    <div class="fix-10-12 ae-5" data-action="">
+                    <div class="fix-10-12 ae-5" data-action="zoom">
                         <div><img style="margin:2% 0 0; width:auto; max-width:100%; height:auto;" src="assets/img/rr_TactileTrackBracelet.png" width="496" height="301" /></div>
                     </div>
 
-                    <p class="small ae-9" style="font-size:16px; margin-top: 50px;"><a href="#">* уникальная запатентованная технология</a></</p>
+                    <p class="small ae-9" style="font-size:16px; margin-top: 50px;">* уникальная запатентованная технология </</p>
+                    <p class="small ae-9" style="font-size:16px; margin-top: 0px;"><a href="#about-us">О нас</a></</p>
+                    
 
                 </div>
             </div>
         </div>
-        <div class="background" style="background-image:url(assets/img/rr_1.jpg)"></div>
+        
+        <div class="background"><div class="vsc-controller"></div>
+            <video poster="" autoplay="" loop="true" muted="" class="vsc-initialized">
+              <source src="assets/bracelet.mp4" type="video/mp4">
+              <source src="assets/bracelet.mp4" type="video/webm">
+            </video>
+        </div>
+    
+    
     </section>
 
     <!-- pop up video -->
@@ -343,7 +353,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                         <ul class="grid">
                             <li class="col-5-12 cell-27">
                                 <div class="fix-4-12 parent ae-1 fromAbove" style="">
-                                    <img class="above_image_down" src="assets/img/rr_bracelet.png" />
+                                    <img class="above_image_down" src="assets/img/bracelet-gif-bg.png" />
                                     <img class="above_image_up" src="assets/img/rr_bracelet animation_empty.gif" />
                                 </div>
                             </li>
@@ -432,7 +442,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 </div>
             </div>
         </div>
-        <div class="background" style="background-image:url(assets/img/rr_6.jpg)"></div>
+        <div class="background" style="background-image:url(assets/img/TactileTrack-photo-01.jpg)"></div>
     </section>
 
     <!-- Slide #58 -->
@@ -515,8 +525,8 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                     </li>
                                 </ul>
                             </li>
-                            <li class="col-6-12 left ae-1 fromRight done" data-action="">
-                                <img class="shiftImage shiftImageVertical" src="assets/img/rr_4br.png" alt="Браслет Tacticle Track" width="500">
+                            <li class="col-6-12 left ae-1 fromRight done" data-action="zoom">
+                                <img class="shiftImage shiftImageVertical" src="assets/img/braslet-info.png" alt="Браслет Tacticle Track" width="400">
                             </li>
                         </ul>
 
@@ -577,8 +587,9 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                         <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
                                         <div class="title-70">Модель TT01</div>
                                         <p class="small equalElement">Стильный черно-красный окрас</p>
-                                        <button class="button round pink uppercase wide cropBottom">Купить</button>
+                                        <button class="button round pink uppercase wide cropBottom popupTrigger" data-popup-id="order-popup">Купить</button>
                                     </div>
+                            
                                 </a>
                             </li>
                             <li class="col-6-12">
@@ -590,7 +601,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                         <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
                                         <div class="title-70">Модель TT02</div>
                                         <p class="small equalElement">Нежные красно-розовые оттенки</p>
-                                        <button class="button round pink uppercase wide cropBottom">Купить</button>
+                                        <button class="button round pink uppercase wide cropBottom" data-popup-id="order-popup">Купить</button>
                                     </div>
                                 </a>
                             </li>
@@ -608,6 +619,25 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         <!--<div class="background" style="background-image:url(http://triphints.ru/media/uploads/articles/df040bc6bf4d1b258acc5bc98f6ab2a5/article_53daa2cc456694.46611959.jpeg)"></div>-->
     </section>
 
+<div class="popup" data-popup-id="order-popup">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.4musketier.de/wordpress-wartung/#close"></use></svg></div>
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-10-12 box-55 popupContent">
+                    <h2 class="pop bold huge">Оформление заказа</h2>
+                    <div class="uppercase whitefont">
+                        <h3>Модель TT01</h3>
+                    </div>
+                    <div class="pad shadow">
+                        <form action="" method="post" id="contact-form" class="wide center"> <label class="uppercase" style="font-weight:200;" for="name55">Name</label> <input class="stroke round wide" id="name55" type="name" name="name" placeholder="Name" required=""> <label class="uppercase" style="font-weight:200;" for="email55">Email</label> <input class="stroke round wide" id="email55" type="email" name="email" placeholder="Email" required=""> <label class="uppercase" style="font-weight:200;" for="message55">...</label><textarea class="stroke round left" id="message55" type="text" name="message" placeholder="Nachricht" required=""></textarea><input class="button wide ci2 round uppercase button-55" type="submit" name="submit" value="А" data-success-text="Ю!"></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   
     <!-- Slide #55 -->
     <!--    
     <section class="slide fade kenBurns" name="Order" data-title="Оформить предзаказ">
