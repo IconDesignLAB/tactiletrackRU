@@ -4449,7 +4449,6 @@ form input[type="text"].input-96, form input[type="name"].input-96, form input[t
 .checkout-page {    
     background: #fff;
     color: #000;
-    border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
 }
 .checkout-page p {
@@ -4504,12 +4503,22 @@ p:not(.hero) + p {
     margin-top: 0;
 }
 
+.step-row {
+    padding-left: 55px;
+    position: relative;
+    padding-top: 10px;
+}
+
+
 p.chechout-step_number {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 45px;
     height: 45px;
     display: inline-block;
     margin-right: 5px;
-    border: 1px solid #00a3db;
+    border: 1px solid #e91e63;
     border-radius: 100%;
     text-align: center;
     vertical-align: middle;
@@ -4529,19 +4538,8 @@ p.chechout-step_number {
     font-size: 18px;
     line-height: 1;
     margin-right: 10px;
-    color: #00a3db;
+    color: #e91e63;
     font-weight: bold;
-}
-
-.step-title {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -ms-align-items: center;
-    align-items: center;
-    margin-bottom: 35px;
 }
 
 .form-row {
@@ -4553,13 +4551,15 @@ p.chechout-step_number {
     -ms-align-items: center;
     align-items: center;
 }
-.form-checkout {
-    margin-left: 25px;
-}
 
 .form-row label {
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.checkout-right {
+    background: rgba(0,163,219,0.25);
+    padding: 50px 0;
 }
 
