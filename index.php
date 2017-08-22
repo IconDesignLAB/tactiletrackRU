@@ -335,7 +335,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
                     <div class="fix-10-12">
                         <div class="embedVideo popupContent">
-                            <iframe src="https://player.vimeo.com/video/172999205?color=ff0179&amp;portrait=0&amp;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" mark_dailymotion="1"></iframe>
+                            <iframe src="https://player.vimeo.com/video/230589451?color=ff0179&amp;portrait=0&amp;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" mark_dailymotion="1"></iframe>
                         </div>
                     </div>
                 </div>
@@ -353,12 +353,12 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                         <ul class="grid">
                             <li class="col-5-12 cell-27">
                                 <div class="fix-4-12 parent ae-1 fromAbove" style="">
-                                    <img class="above_image_down" src="assets/img/bracelet-gif-bg.png" />
+                                    <img class="above_image_down" src="assets/img/rr_bracelet.png" />
                                     <img class="above_image_up" src="assets/img/rr_bracelet animation_empty.gif" />
                                 </div>
                             </li>
                             <li class="col-7-12 left">
-                                <h2 class="small ae-2 fromRight">Как работает Tactile Track</h1>
+                                <h1 class="small ae-2 fromRight">Как работает Tactile Track</h1>
                                     <div class="ae-3 fromRight">
                                         <!--<p>Вы надеваете браслет, и за 100 метров (настраивается в приложении) до поворота он начинает вибрировать с той стороны, с в которую вам надо повернуть. Вибрирует справа - вам направо, вибрирует сверху - вам вперед, вибрирует слева - вам налево.</p>-->
                                         <p>Подключив браслет к своему смартфону через Bluetooth, в приложении компаньоне "Tactile Track" прокладываете маршрут, и нажимаете кнопку GO. Теперь можно убрать смартфон в карман и начать движение. Перед поворотом, заранее, браслет завибрирует с той стороны, куда вам надо повернуть.</p>
@@ -389,7 +389,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
 
                     <div class="fix-12-12 toCenter">
-                        <h2 class="small margin-bottom-7 ae-1">Почему Tactile Track удобнее любого навигатора или смартфона?</h1>
+                        <h1 class="small margin-bottom-7 ae-1">Почему Tactile Track удобнее любого навигатора или смартфона?</h1>
                     </div>
                     <div class="fix-12-12">
                         <ul class="grid grid-47 later equal">
@@ -479,7 +479,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                 </div>
                             </li>
                         </ul>
-                        <ul class="grid" style=="margin-top: 0px">
+                        <ul class="grid" style="margin-top: 0px">
                             <li class="col-6-12 left box-73">
                                 <ul class="items-32" style="margin-top: 0px;">
                                     <li class="fix-6-12 toLeft ">
@@ -525,8 +525,8 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                     </li>
                                 </ul>
                             </li>
-                            <li class="col-6-12 left ae-1 fromRight done" data-action="zoom">
-                                <img class="shiftImage shiftImageVertical" src="assets/img/braslet-info.png" alt="Браслет Tacticle Track" width="400">
+                            <li class="col-6-12 left ae-1 fromRight" data-action="zoom">
+                                <img class="shiftImage shiftImageVertical" src="assets/img/braslet-info.png" alt="Браслет Tacticle Track" width="600">
                             </li>
                         </ul>
 
@@ -576,9 +576,9 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
 
                     <div class="fix-10-12">
-                        <h1 class="small ae-1 margin-bottom-5">Какая модель тебе подходит?</h1>
+                        <h1 class="small ae-1 margin-bottom-5">Заказать прямо сейчас</h1>
                         <ul class="grid fixedSpaces equal fromCenter">
-                            <li class="col-6-12">
+                            <li class="col-12-12">
                                 <a href="#Order" class="box-70 ae-1" style="background-color:#BDD6D3;">
                                     <div>
                                         <img src="assets/img/rr_model1.png" alt="Image">
@@ -586,12 +586,13 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                     <div class="info-70">
                                         <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
                                         <div class="title-70">Модель TT01</div>
-                                        <p class="small equalElement">Стильный черно-красный окрас</p>
+                                        <p class="small equalElement">Стильный черно-красная расцветка</p>
                                         <button class="button round pink uppercase wide cropBottom popupTrigger" data-popup-id="order-popup">Купить</button>
                                     </div>
                             
                                 </a>
                             </li>
+                            <!--                            
                             <li class="col-6-12">
                                 <a href="#Order" class="box-70 ae-2" style="background-color:#C3CCDD;">
                                     <div>
@@ -605,6 +606,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                     </div>
                                 </a>
                             </li>
+                            -->
                             <li class="col-12-12"> 
                                 <p class="small ae-3 margin-top-3" style="font-size:16px;">* Браслет-навигатор реализуется напрямую от его производителя с гарантийными обязательствами на срок <strong>12 месяцев</strong>.</p>
                                 <p class="small ae-4" style="font-size:16px;">* Если браслет Tactile Track не подойдет вам по цвету, размеру или любой другой причине, его можно вернуть в течение <strong>14 дней</strong> с момента получения.</p>
@@ -631,7 +633,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
             </div>
                         <div class="checkout-phone small"><strong>+38 099 111 11 11, </strong><strong>080 050 38 08</strong></div>
                    </div>
-                   <div class="grid fixedSpaces equal fromCenter">
+                   <div class="grid fixedSpaces equal fromCenter order-cover active">
                        <div class="col-12-12">
                            <h2 class="margin-bottom-6 center">Оформление заказа</h2>
                        </div>
@@ -642,23 +644,39 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                <p class="chechout-step_number small">1</p>
                                <p class="checkout-step small">Контактные данные</p>
                                
-                                <form id="contact-form left" action="ajax-email.php" method="post" class="wide">
+                                <form id="step_1" class="wide">
+                                  
+                                  <input class="" id="mark" type="hidden" name="mark" value="Tactile Track TT01">
+                                  
                                    <div class="form-row">
-                                        <input class="" id="name55" type="name" name="name55" placeholder="Имя и фамилия" required="">
+                                        <input class="" id="name_s" type="text" name="name" placeholder="Имя" required="">
                                    </div>
                                    <div class="form-row">
-                                        <input class="" id="name55" type="email" name="name55" placeholder="E-mail" required="">
+                                        <input class="" id="email_s" type="email" name="email" placeholder="E-mail" required="">
                                    </div>
                                    <div class="form-row">
-                                       <input class="button green btn-checkout" type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green">
+                                       <input class="button green btn-checkout go_form" type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green">
                                    </div>
                                 </form>
                                 
-                           </div>
+                               </div>
                            
                            <div class="step-row">
                                <p class="chechout-step_number small grey">2</p>
                                <p class="checkout-step small">Выбор способа оплаты</p>
+                               <div class="payment-methods">
+                                  <a href="#" class="pay-wrap">
+                                       <img src="assets/img/paypal.png" alt="PayPal">
+                                  </a>
+                                  <a href="#" class="pay-wrap">
+                                      <img src="assets/img/mastercard.png" alt="MasterCard">
+                                  </a>
+                                  <a href="#" class="pay-wrap">
+                                      <img src="assets/img/visa.png" alt="Visa">
+                                  </a>
+                                   
+                                   
+                               </div>
                            </div>
                            
                            <div class="step-row">
@@ -697,6 +715,21 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                             </div>
                             
                         </div>
+                   </div>
+                   <div class="grid fixedSpaces equal fromCenter success-message">
+                       <p>Извините, но в данный момент товара нет на складе.</p>
+                       <p>Следующая поставка ожидается в феврале 2018 года. Мы сообщим вам о появлении товара на ваш email, телефон, либо другим удобным для вас способом.</p>
+                        <p>Дополнительные контактные данные, вопросы  и комментарии можно оставить тут:</p>
+                        <form>
+                           <div class="form-row">
+                               <textarea name="order-message" id="order-message" cols="30" rows="10" placeholder="Дополнительные контактные данные"></textarea>
+                               
+                           </div>
+                            <div class="form-row">
+                               <input class="button green btn-checkout go_form" type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green">
+                            </div>
+                        </form>
+                        
                    </div>
 
                 </div>

@@ -4450,6 +4450,7 @@ form input[type="text"].input-96, form input[type="name"].input-96, form input[t
     background: #fff;
     color: #000;
     font-family: 'Open Sans', sans-serif;
+    min-height: 500px;
 }
 .checkout-page p {
     font-family: 'Open Sans', sans-serif;
@@ -4549,7 +4550,8 @@ p.chechout-step_number {
 .form-row {
 }
 
-form .form-row input {
+form .form-row input,
+form .form-row textarea{
     border: 1px solid rgba(0,0,0,.4);
     max-width: 100%;
     padding: 5px 15px;
@@ -4663,4 +4665,78 @@ input::-ms-input-placeholder {
     font-family: 'Open Sans Condensed';
     font-size: 14px;
     opacity: 0.75;
+}
+
+.payment-methods {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    -o-justify-content: space-around;
+    justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.payment-methods img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.pay-wrap {
+    max-width: 25%;
+    -webkit-filter: grayscale(60%);
+    -o-filter: grayscale(60%);
+    filter: grayscale(60%);
+    opacity: 0.5;
+}
+
+
+.pay-wrap:hover {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.success-message,
+.order-cover {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.success-message {
+    padding: 0 25px;
+}
+
+.success-message textarea {
+    resize: none;
+}
+
+.success-message p{
+    font-size: 20px;
+}
+
+.success-message.active {
+    height: 100%;
+    opacity: 1;
+}
+.order-cover.active {
+    height: 100%;
+    opacity: 1;
+}
+
+.success-message .form-row .btn-checkout {
+    width: 100%;
 }

@@ -2,10 +2,14 @@
 
 /* SETTINGS */
 //$yourEmail = "itactiletrack@gmail.com";
-$yourEmail = "itactiletrack@gmail.com";
-$emailSubject = "Tactile Track Preorder";
+const Y_EMAIL = "itactiletrack@gmail.com";
+const EMAIL_S = "Tactile Track Preorder";
 
-
+if(!empty($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+    index();
+}else{
+     echo  json_encode('no email');
+}
 
 function is_injected($mess)
 // Проверяет, является ли $mess нормальным сообщением или это СПАМ
@@ -28,33 +32,30 @@ function is_injected($mess)
         return $res;
 }
 
+function index(){
+        /* DATA FROM HTML FORM */
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $notes = '54';
+        $model = $_POST['mark'];
+        $quantity = 1;
+        $headers = "From: $name <$email>\r\n" .
+            "Reply-To: $name <$email>\r\n" .
+            "Subject: ".EMAIL_S."\r\n" .
+            "Content-type: text/plain; charset=UTF-8\r\n" .
+            "MIME-Version: 1.0\r\n" .
+            "X-Mailer: PHP/" . phpversion() . "\r\n";
+
+        // защита от Mail-Injection***
+        $_is_injected=false;
+        if (is_injected($_POST["edt_Email"])){$_is_injected=true;};
+        if (is_injected($_POST["edt_Features"])){$_is_injected=true;};
+        if (is_injected($_POST["edt_Reason"])){$_is_injected=true;};
 
 
-if($_POST){
 
-  /* DATA FROM HTML FORM */
-  $name = $_POST['name55'];
-  $email = $_POST['email55'];  
-  $notes = $_POST['notes55'];
-  $model = $_POST['model55'];
-  $quantity = $_POST['quantity55'];
-  $headers = "From: $name <$email>\r\n" .
-             "Reply-To: $name <$email>\r\n" . 
-             "Subject: $emailSubject\r\n" .
-             "Content-type: text/plain; charset=UTF-8\r\n" .
-             "MIME-Version: 1.0\r\n" . 
-             "X-Mailer: PHP/" . phpversion() . "\r\n";
-
-    // защита от Mail-Injection***
-    $_is_injected=false;
-    if (is_injected($_POST["edt_Email"])){$_is_injected=true;};
-    if (is_injected($_POST["edt_Features"])){$_is_injected=true;};
-    if (is_injected($_POST["edt_Reason"])){$_is_injected=true;};
-
-		 
-
-	$message=
-'New preorder of Tactile Track.
+        $message=
+            'New preorder of Tactile Track.
 
 Name: '.$name.'
 Email: '.$email.'
@@ -76,11 +77,13 @@ User IP              :".@$_SERVER['REMOTE_ADDR']."
 ";
 
 
-	/* SEND EMAIL */
-	if ($_is_injected===false) 
-	{
-	mail($yourEmail, $emailSubject, $message, $headers);
-	}
-	
+        /* SEND EMAIL */
+        if ($_is_injected===false) {
+            if (mail(Y_EMAIL, EMAIL_S, $message, $headers))
+            {
+                echo  json_encode('ok');
+            }
+        }
 }
+
 ?>
