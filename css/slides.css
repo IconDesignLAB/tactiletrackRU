@@ -4608,7 +4608,21 @@ input::-ms-input-placeholder {
 .form-row .btn-checkout {
     max-width: 230px;
     border: none;
+	cursor: default;
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+	opacity: 0.9;
+	pointer-events: none;
 }
+.form-row .btn-checkout.active {
+    -webkit-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+	opacity: 1;
+	cursor: pointer;
+	pointer-events: auto;
+} 
 
 .checkout-cart_content {
     display: -webkit-flex;
@@ -4739,4 +4753,45 @@ input::-ms-input-placeholder {
 
 .success-message .form-row .btn-checkout {
     width: 100%;
+}
+
+.btn-buy {
+	display: inline-block;
+	overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.1);
+	margin-left: 15px;
+	border-radius: 30px;
+}
+.btn-buy span {
+	display: inline-block;
+	padding: 0 25px;
+	font-size: 17px;
+	line-height: 48px;
+	text-transform: uppercase;
+	float: left;
+	color: #fff;
+	background-color: rgba(0,0,0,.4);
+}
+
+.btn-buy_ico {
+	display: inline-block;
+	background-color: rgba(233,30,99,0.9);
+	padding: 12px 20px 8px 25px;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+	float: left;
+}
+
+.error-form p {
+	font-size: 12px;
+	line-height: 14px;
+	color: red;
+	display: block;
+	text-align: left;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.team-box img {
+	border-radius: 100%;
 }
