@@ -1,6 +1,10 @@
+
+
 setTimeout(function () {
 	'use strict';
     document.getElementById("top-video").play();
+    $('.slide-start').hide(200);
+    $('.hide-fade').removeClass('fade');
 }, 8000);
 
 

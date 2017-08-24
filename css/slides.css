@@ -4758,7 +4758,7 @@ input::-ms-input-placeholder {
 .btn-buy {
 	display: inline-block;
 	overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(233,30,99,0.2);
 	margin-left: 15px;
 	border-radius: 30px;
 }
@@ -4794,4 +4794,19 @@ input::-ms-input-placeholder {
 
 .team-box img {
 	border-radius: 100%;
+}
+
+.bottom-menu li a,
+.bottom-copyrights p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px 10px 5px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.header-phone {
+    display: inline-block;
+    vertical-align: middle;
 }
