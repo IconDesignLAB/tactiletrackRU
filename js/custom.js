@@ -43,7 +43,7 @@ setTimeout(function () {
     var mark =  $("#mark").val();
 
     $.ajax({
-        url: '/ajax-email.php',
+        url: 'ajax-email.php',
         type: 'post',
         data: ({  action:'index', name:name, email:email, mark:mark }),
         dataType: 'json',
@@ -66,7 +66,7 @@ setTimeout(function () {
 
 
     $.ajax({
-        url: '/ajax-email.php',
+        url: 'ajax-email.php',
         type: 'post',
         data: ({  action:'notes', notes:notes}),
         dataType: 'json',
