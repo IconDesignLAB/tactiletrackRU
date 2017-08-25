@@ -2,8 +2,8 @@
 
 /* SETTINGS */
 //$yourEmail = "itactiletrack@gmail.com";
-$yourEmail = "itactiletrack@gmail.com";
-$emailSubject = "Tactile Track Preorder";
+$yourEmail = "roman.rudnik@gmail.com";
+$emailSubject = "Сообщение с сайта Tactile Track";
 
 
 

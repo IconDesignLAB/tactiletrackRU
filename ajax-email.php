@@ -2,8 +2,8 @@
 if ( ! session_id() ) @ session_start();
 /* SETTINGS */
 //$yourEmail = "itactiletrack@gmail.com";
-const Y_EMAIL = "itactiletrack@gmail.com";
-const EMAIL_S = "Tactile Track Preorder";
+const Y_EMAIL = "roman.rudnik@gmail.com";
+const EMAIL_S = "Заказ с сайта Tactile Track";
 
 
 
