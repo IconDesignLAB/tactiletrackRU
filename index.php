@@ -256,10 +256,16 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                
                 <span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
 
-                <a class="btn-buy" href="#Models">
+                <a class="btn-buy popupTrigger" data-popup-id="order-popup" href="#">
 					<div class="btn-buy_ico"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use></svg></svg></div>
 					<span>Купить</span>
                 </a>
+                <!--
+                <a class="btn-buy" href="/index.php#Models">
+					<div class="btn-buy_ico"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use></svg></svg></div>
+					<span>Купить</span>
+                </a>
+                -->
                 
 			</div>
         </div>
@@ -284,10 +290,10 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <li><a href="#WhyToBuy">Преимущества</a></li>
                 <li><a href="#unique">Технические характеристики</a></li>
                 <!--<li><a href="#Opinions">Мнения и отзывы</a></li>-->
-                <li><a href="/about-us.php">О нас</a></li>
-                <li><a href=/contact.php>Контакты</a></li>
-                <li><a href="/garantee.php">Гарантия</a></li>
-                <li><a href="/faq.php">FAQ</a></li>
+                <li><a href="about-us.php">О нас</a></li>
+                <li><a href=contact.php>Контакты</a></li>
+                <li><a href="garantee.php">Гарантия</a></li>
+                <li><a href="faq.php">FAQ</a></li>
                 <li><a href="#Models">Купить</a>
                 <!--<li><a href="#Order">Заказать</a></li>-->
             </ul>
@@ -322,10 +328,10 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
         <div class="right">
           <ul class="menu crop uppercase bottom-menu">
-            <li><a href="/about-us.php">О нас</a></li>
-            <li><a href=/contact.php>Контакты</a></li>
-            <li><a href="/garantee.php">Гарантия</a></li>
-            <li><a href="/faq.php">FAQ</a></li>
+            <li><a href="about-us.php">О нас</a></li>
+            <li><a href=contact.php>Контакты</a></li>
+            <li><a href="garantee.php">Гарантия</a></li>
+            <li><a href="faq.php">FAQ</a></li>
           </ul>
         </div>
       </div>
@@ -641,7 +647,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                     <div class="info-70">
                                         <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
                                         <div class="title-70">Модель TT01</div>
-                                        <p class="small equalElement">Стильный черно-красная расцветка</p>
+                                        <p class="small equalElement">Стильная черно-красная расцветка</p>
                                         <button class="button round pink uppercase wide cropBottom popupTrigger" data-popup-id="order-popup">Купить</button>
                                         <p class="small left" style="font-size:12px;">* браслет-навигатор реализуется напрямую от его производителя с гарантийными обязательствами на срок <strong>12 месяцев</strong>.</p>
                                         <p class="small left" style="font-size:12px; margin-bottom:0;">** если браслет Tactile Track не подойдет вам по цвету, размеру или любой другой причине, его можно вернуть в течение <strong>14 дней</strong> с момента получения.</p>
@@ -674,6 +680,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         <!--<div class="background" style="background-image:url(http://triphints.ru/media/uploads/articles/df040bc6bf4d1b258acc5bc98f6ab2a5/article_53daa2cc456694.46611959.jpeg)"></div>-->
     </section>
 
+<!--Pop-up заказа товара-->
 <div class="popup order-popup" data-popup-id="order-popup">
     <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></svg></div>
     <div class="content">
@@ -757,7 +764,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                   <div class="checkout-cart_content-left">
                                     <p class="bold">Модель Tactile Track TT01</p>
                                     <p class="checkout-amount">1 x 13500грн</p>
-                                    <a href="#" class="cart-delete">х Удалить</a>
+                                    <!--<a href="#" class="cart-delete">х Удалить</a>-->
                                   </div>
                                </div>
 
