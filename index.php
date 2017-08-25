@@ -252,7 +252,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
             </div>
             <div class="right">
                
-                <span class="button actionButton"><a href="tel:111111111" alt="Позвонить"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg></a></span>
+                <span class="button actionButton"><a href="tel:" alt="Позвонить"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg></a></span>
                
                 <span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
 
@@ -374,7 +374,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
                     <div class="fix-10-12">
                         <div class="embedVideo popupContent">
-                            <iframe src="https://player.vimeo.com/video/230941949" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/x8Lc7zeBDB8" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -390,7 +390,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
                     <div class="fix-10-12">
                         <div class="embedVideo popupContent">
-                            <iframe src="https://player.vimeo.com/video/230589451?color=ff0179&amp;portrait=0&amp;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" mark_dailymotion="1"></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/z7-WbbbHqS0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -408,8 +408,8 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                         <ul class="grid">
                             <li class="col-5-12 cell-27">
                                 <div class="fix-4-12 parent ae-1 fromAbove" style="">
-                                    <img class="above_image_down" src="assets/img/rr_bracelet.png" />
-                                    <img class="above_image_up" src="assets/img/rr_bracelet animation_empty.gif" />
+                                    <img class="above_image_down" src="assets/img/tt_how_bg.png" />
+                                    <img class="above_image_up" src="assets/img/tt_how_animation.gif" />
                                 </div>
                             </li>
                             <li class="col-7-12 left">
@@ -422,10 +422,10 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                             </li>
                             <li class="col-12-12">
                                 <!--               
-                <div class="headerplay button play small white popupTrigger ae-5 fromCenter play-10" data-popup-id="10-0">
-                    <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
-                </div>
-                -->
+                                <div class="headerplay button play small white popupTrigger ae-5 fromCenter play-10" data-popup-id="10-0">
+                                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+                                </div>
+                                -->
                                 <div class="headerplay button small uppercase round white popupTrigger ae-5 fromCenter play-10 margin-top-5" data-popup-id="10-0">Посмотреть видео</div>
                             </li>
                         </ul>
@@ -674,7 +674,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         <!--<div class="background" style="background-image:url(http://triphints.ru/media/uploads/articles/df040bc6bf4d1b258acc5bc98f6ab2a5/article_53daa2cc456694.46611959.jpeg)"></div>-->
     </section>
 
-<div class="popup" data-popup-id="order-popup">
+<div class="popup order-popup" data-popup-id="order-popup">
     <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></svg></div>
     <div class="content">
         <div class="container">
