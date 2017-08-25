@@ -4098,6 +4098,13 @@ img.zoom-img {
     color: #000;
     font-family: 'Open Sans', sans-serif;
     min-height: 500px;
+    position: relative;
+}
+.checkout-page .close {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    padding: 10px;
 }
 .checkout-page p {
     font-family: 'Open Sans', sans-serif;
@@ -4457,6 +4464,15 @@ input::-ms-input-placeholder {
     display: inline-block;
     vertical-align: middle;
 }
+@media screen and (max-width:1200px) {
+    .checkout-page .close {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 25px;
+    }
+}
+    
 @media screen and (max-width:600px) {
     .order-popup .popup .wrap {
         padding: 70px 15px !important;
