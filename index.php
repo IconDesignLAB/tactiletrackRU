@@ -413,7 +413,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                     <div class="fix-12-12">
                         <ul class="grid">
                             <li class="col-5-12 cell-27">
-                                <div class="fix-4-12 parent ae-1 fromAbove" style="">
+                                <div class="fix-12-12 parent ae-1 fromAbove" style="">
                                     <img class="above_image_down" src="assets/img/tt_how_bg.png" />
                                     <img class="above_image_up" src="assets/img/tt_how_animation.gif" />
                                 </div>
