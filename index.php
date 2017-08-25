@@ -355,7 +355,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                         <div><img style="margin:2% 0 0; width:auto; max-width:100%; height:auto;" src="assets/img/rr_TactileTrackBracelet.png" width="496" height="301" /></div>
                     </div>
 
-                    <p class="small ae-9" style="font-size:14px; margin-top: 30px;">* уникальная запатентованная технология </</p>
+                    <p class="small ae-9" style="font-size:14px; margin-top: 30px;">* уникальная запатентованная технология </p>
                     
 
                 </div>
@@ -378,7 +378,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                    <div class="fix-10-12">
+                    <div class="fix-12-12">
                         <div class="embedVideo popupContent">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/x8Lc7zeBDB8" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -394,7 +394,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                    <div class="fix-10-12">
+                    <div class="fix-12-12">
                         <div class="embedVideo popupContent">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/z7-WbbbHqS0" frameborder="0" allowfullscreen></iframe>
                         </div>
