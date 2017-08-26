@@ -372,7 +372,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
     
     </section>
 
-    <!-- pop up video -->
+    <!-- pop up video main -->
     <div class="popup autoplay" data-popup-id="main-video">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">
@@ -388,7 +388,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         </div>
     </div>
    
-    <!-- pop up video -->
+    <!-- pop up video how it works-->
     <div class="popup autoplay" data-popup-id="10-0">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">

@@ -389,13 +389,13 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 
    
    
-    <!-- pop up video -->
+    <!-- pop up video main -->
     <div class="popup autoplay" data-popup-id="main-video">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                    <div class="fix-10-12">
+                    <div class="fix-12-12">
                         <div class="embedVideo popupContent">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/x8Lc7zeBDB8" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -405,15 +405,15 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         </div>
     </div>
    
-    <!-- pop up video -->
+    <!-- pop up video how it works-->
     <div class="popup autoplay" data-popup-id="10-0">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                    <div class="fix-10-12">
+                    <div class="fix-12-12">
                         <div class="embedVideo popupContent">
-                            <iframe src="https://player.vimeo.com/video/230589451?color=ff0179&amp;portrait=0&amp;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" mark_dailymotion="1"></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/z7-WbbbHqS0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

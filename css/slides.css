@@ -4263,11 +4263,9 @@ input::-ms-input-placeholder {
     max-width: 230px;
     border: none;
 	cursor: default;
-    -webkit-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+
 	opacity: 0.9;
-	pointer-events: none;
+
 }
 .form-row .btn-checkout.active {
     -webkit-filter: grayscale(0);

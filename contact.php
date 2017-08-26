@@ -331,27 +331,24 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
       <div class="sections compact hidden"></div>
     </nav>
     
-    <section class="slide fade kenBurns selected active animate" name="contact" data-title="Contact Us">
-        <div class="content">
-            <div class="container">
-                <div class="wrap">
+<section class="slide fade kenBurns selected active animate" name="contact" data-title="Contact Us">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
 
                 <div class="fix-10-12 toCenter">
                     <h1 class="ae-1 small">Свяжитесь с нами</h1>
                     <div class="ae-2">
                         <p class="hero small">Мы всегда готовы ответить на любые ваши вопросы. С нами можно связаться по указанному телефону, email или заполнив форму обратной связи</p>
                     </div>
-
-
                 </div>
                 <div class="fix-12-12 box-56">
                     <ul class="grid fixedSpaces">
                         <li class="col-6-12 ae-3">
-
                             <div class="fix-6-12 toCenter">
                                 <div class="pad shadow selected ae-3">
                                     <form accept-charset="UTF-8" autocomplete="off" class="wufoo topLabel page" id="contact-form" action="ajax-email-contact.php" method="post">
-                                       
+
                                         <label class="desc uppercase ae-4" for="name55">Имя <span class="req" id="req_5">*</span></label>
                                         <input class="stroke round ae-5 wide field text medium" maxlength="255" onkeyup="" required="" tabindex="1" type="text" value="" placeholder="Введите ваше имя" id="name55" name="name55">
 
@@ -370,39 +367,31 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                         </div>
                                     </form>
                                 </div>
-                       
-                    
                         </li>
                         <li class="col-6-12 ae-4">
                             <h3 class=" uppercase text-56">Телефон</h3>
-                            
+
                             <p class="opaque margin-bottom-1"><a href="#">+38 000 000 00 00</a></p>
                             <p class="opaque"><a href="#">+38 000 000 00 00</a></p>
 
                             <h3 class=" uppercase text-56">E-mail</h3>
                             <p class="opaque"><a href="tel:6502425745">info@tactiletrack.com</a></p>
-
-
                         </li>
                     </ul>
+                    </div>
                 </div>
-
-
             </div>
         </div>
-    </div>
-    <div class="background" style="background-image:url(assets/img/r_14.jpg)"></div>
-
-
-
+        <div class="background" style="background-image:url(assets/img/r_14.jpg)"></div>
 </section>
-    <!-- pop up video -->
+   
+    <!-- pop up video main -->
     <div class="popup autoplay" data-popup-id="main-video">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                    <div class="fix-10-12">
+                    <div class="fix-12-12">
                         <div class="embedVideo popupContent">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/x8Lc7zeBDB8" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -412,15 +401,15 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
         </div>
     </div>
    
-    <!-- pop up video -->
+    <!-- pop up video how it works-->
     <div class="popup autoplay" data-popup-id="10-0">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                    <div class="fix-10-12">
+                    <div class="fix-12-12">
                         <div class="embedVideo popupContent">
-                            <iframe src="https://player.vimeo.com/video/230589451?color=ff0179&amp;portrait=0&amp;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" mark_dailymotion="1"></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/z7-WbbbHqS0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
