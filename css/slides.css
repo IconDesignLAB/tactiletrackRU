@@ -4262,18 +4262,11 @@ input::-ms-input-placeholder {
 .form-row .btn-checkout {
     max-width: 230px;
     border: none;
-	cursor: default;
-
 	opacity: 0.9;
 
 }
 .form-row .btn-checkout.active {
-    -webkit-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    filter: grayscale(0);
 	opacity: 1;
-	cursor: pointer;
-	pointer-events: auto;
 } 
 
 .checkout-cart_content {
@@ -4409,29 +4402,48 @@ input::-ms-input-placeholder {
 
 .btn-buy {
 	display: inline-block;
-	overflow: hidden;
     border: 1px solid rgba(233,30,99,0.2);
-	margin-left: 15px;
-	border-radius: 30px;
+	margin-left: 10px;
+	border-radius: 100px;
+    position: relative;
+	background-color: rgba(0,0,0,.4);
+    padding-left: 55px;
+}
+.btn-buy svg {
+    width: 19px;
+    height: 19px;
 }
 .btn-buy span {
 	display: inline-block;
-	padding: 0 25px;
 	font-size: 17px;
 	line-height: 48px;
 	text-transform: uppercase;
-	float: left;
 	color: #fff;
-	background-color: rgba(0,0,0,.4);
+    padding: 0 20px 0 15px;
 }
 
 .btn-buy_ico {
 	display: inline-block;
 	background-color: rgba(233,30,99,0.9);
-	padding: 12px 20px 8px 25px;
 	height: 100%;
-	border-radius: 10px 0 0 10px;
-	float: left;
+    width: 55px;
+	border-radius: 100px 0 0 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
 }
 
 .error-form p {
@@ -4461,6 +4473,18 @@ input::-ms-input-placeholder {
 .header-phone {
     display: inline-block;
     vertical-align: middle;
+}
+
+@media screen and (max-width:1400px) {
+    .sections .top-menu.menu.uppercase li {
+        margin: 0 7px;
+        font-size: 16px;
+    }
+    .btn-buy span {
+        font-size: 16px;
+        padding: 0 15px 0 10px;
+        line-height: 47px;
+    }
 }
 @media screen and (max-width:1200px) {
     .checkout-page .close {

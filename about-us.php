@@ -238,7 +238,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 
             <div class="center">
                 <ul class="menu uppercase">
-                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Посмотреть видео</a></li>
+                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Ознакомительное видео</a></li>
                    <!-- <li><a href="#home">Что это</a></li>-->
                     <li><a href="index.php#HowitWorks">Как это работает</a></li>
                     <li><a href="index.php#WhyToBuy">Преимущества</a></li>
@@ -397,7 +397,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
                     <div class="fix-12-12">
                         <div class="embedVideo popupContent">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/x8Lc7zeBDB8" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/npsXqrsPreI" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

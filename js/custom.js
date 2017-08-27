@@ -76,6 +76,9 @@ setTimeout(function () {
                 $('#form_2').empty().append('<h4>СПАСИБО ЗА ОБРАЩЕНИЕ, НАШИ МЕНЕДЖЕРЫ СВЯЖУТСЯ С ВАМИ В БЛИЖАЙШЕЕ ВРЕМЯ</h4>');
                 setTimeout(function() { $('.close').click(); }, 3000);
             }
+            if(data == ''){
+                $("#mes_err").empty().append('<p>Введите корректный E-mail</p>');
+            }
             if(data == 'error'){
                 $("#mes_err").empty().append('<p>Сообщение не отправлено. Попробуйте позже</p>');
             }
