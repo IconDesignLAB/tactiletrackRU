@@ -242,13 +242,14 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
             </div>
 
             <div class="center">
-                <ul class="menu uppercase top-menu">
-                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Ознакомительное видео</a></li>
+                <ul class="menu uppercase">
+                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Демо-видео</a></li>
                    <!-- <li><a href="#home">Что это</a></li>-->
-                    <li><a href="#HowitWorks">Как это работает</a></li>
+                    <li><a href="#HowitWorks">Как работает</a></li>
                     <li><a href="#WhyToBuy">Преимущества</a></li>
                 </ul>
             </div>
+            
             <div class="right">
                
                 <span class="button actionButton"><a href="tel:" alt="Позвонить"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg></a></span>

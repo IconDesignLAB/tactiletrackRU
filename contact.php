@@ -238,12 +238,13 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 
             <div class="center">
                 <ul class="menu uppercase">
-                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Ознакомительное видео</a></li>
+                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Демо-видео</a></li>
                    <!-- <li><a href="#home">Что это</a></li>-->
-                    <li><a href="index.php#HowitWorks">Как это работает</a></li>
+                    <li><a href="index.php#HowitWorks">Как работает</a></li>
                     <li><a href="index.php#WhyToBuy">Преимущества</a></li>
                 </ul>
             </div>
+            
             <div class="right">
                
                 <span class="button actionButton"><a href="tel:" alt="Позвонить"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg></a></span>
@@ -358,7 +359,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                         <label class="desc stroke round left ae-9" for="notes55" id="title4">Сообщение <span class="req" id="req_4">*</span></label>
                                         <textarea class="field textarea medium stroke round left ae-9" cols="50" id="notes55" type="text" name="notes55" onkeyup="" required="" rows="10" spellcheck="true" tabindex="3" placeholder="Введите Ваше ообщение"></textarea>
 
-                                        <input class="button wide pink round uppercase ae-10 button-55 g-recaptcha" type="submit" name="submit" value="Отправить" data-success-text="Спасибо!" data-success-class="green" onclick="onClick()" data-sitekey="6Lc5Yi4UAAAAAJHJ1U87TAMm5sRBeeFSdK2budnS" data-callback="YourOnSubmitFn">
+                                        <input class="button wide pink round uppercase ae-10 button-55" type="submit" name="submit" value="Отправить" data-success-text="Спасибо!" data-success-class="green" onclick="onClick()">
 
                                         <div style="display: none;">
                                             <label for="comment">Do Not Fill This Out</label>
