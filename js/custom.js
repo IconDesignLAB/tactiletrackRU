@@ -60,6 +60,13 @@ setTimeout(function () {
 });
 
  $(document).on('click', '.go_form_2', function(e){
+	  var message = $('#order-message').val();
+       
+        if(message.length <= 5){
+		
+			 $("#mes_err_2").empty().append('<p class="center">Пожалуйста заполните форму перед отправкой.</p>');
+			return false;
+		}
      e.preventDefault();
 
     var notes =  $("#order-message").val();
@@ -73,8 +80,8 @@ setTimeout(function () {
         success: function (data) {
             if(data == 'ok'){
 
-                $('#form_2').empty().append('<h4>СПАСИБО ЗА ОБРАЩЕНИЕ, НАШИ МЕНЕДЖЕРЫ СВЯЖУТСЯ С ВАМИ В БЛИЖАЙШЕЕ ВРЕМЯ</h4>');
-                setTimeout(function() { $('.close').click(); }, 3000);
+                $('#form_2').empty().append('<h4>Спасибо за обращение</h4><p>Мы свяжемся с Вами в ближайшее время.</p>');
+                setTimeout(function() { $('.close').click(); }, 5000);
             }
             if(data == ''){
                 $("#mes_err").empty().append('<p>Введите корректный E-mail</p>');

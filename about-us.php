@@ -1,161 +1,153 @@
-
 <!doctype html>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Language" content="ru" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="ru" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <!-- Page title -->
-    <title>О нас | Tactile Track</title>
+	<!-- Page title -->
+	<title>О нас | Tactile Track</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Raleway:300,500,800|Source+Sans+Pro:100,300,400,600,700,900" rel="stylesheet" type="text/css" />
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Raleway:300,500,800|Source+Sans+Pro:100,300,400,600,700,900" rel="stylesheet" type="text/css" />
 
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/slides.css" name="main-styles">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/slides.css" name="main-styles">
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
-    <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/plugins.js" type="text/javascript" name="plugins"></script>
+	<script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
-    <link href="http://tactiletrack.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="http://tactiletrack.com/favicon.ico" rel="icon" type="image/x-icon" />
-    <!-- Facebook Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1827022840908361');
-        fbq('track', 'ViewContent');
-        fbq('track', 'PageView');
-        fbq('track', 'Search');
-        fbq('track', 'Lead');
-        fbq('track', 'Purchase', {
-            value: '0.00',
-            currency: 'RUB'
-        });
-
-    </script>
-    <noscript>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
+	<link href="http://tactiletrack.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="http://tactiletrack.com/favicon.ico" rel="icon" type="image/x-icon" />
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1827022840908361');
+		fbq('track', 'ViewContent');
+		fbq('track', 'PageView');
+		fbq('track', 'Search');
+		fbq('track', 'Lead');
+		fbq('track', 'Purchase', {
+			value: '0.00',
+			currency: 'RUB'
+		});
+	</script>
+	<noscript>
  <img height="1" width="1" 
 src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 &noscript=1"/>
 </noscript>
-    <!-- End Facebook Pixel Code -->
+	<!-- End Facebook Pixel Code -->
 
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-102047541-1', 'auto');
-        ga('send', 'pageview');
+		ga('create', 'UA-102047541-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 
-    </script>
 
-
-    <!-- Yandex.Metrika counter -->
-    <script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        try {
-            var yaCounter41790099 = new Ya.Metrika({
-                id: 41790099,
-                clickmap: true,
-                trackLinks: true,
-                accurateTrackBounce: true,
-                webvisor: true
-            });
-        } catch (e) {}
-
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/41790099" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
+	<!-- Yandex.Metrika counter -->
+	<script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		try {
+			var yaCounter41790099 = new Ya.Metrika({
+				id: 41790099,
+				clickmap: true,
+				trackLinks: true,
+				accurateTrackBounce: true,
+				webvisor: true
+			});
+		} catch (e) {}
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/41790099" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 
 
 
-    <script>
-        function onClick() {
-            ga('send', 'event', {
-                eventCategory: 'form',
-                eventAction: 'submit',
-                eventLabel: 'Pre-Order',
-                eventValue: 1
-            });
-            fbq('track', 'Lead');
-        };
-
-    </script>
-    <?php 
+	<script>
+		function onClick() {
+			ga('send', 'event', {
+				eventCategory: 'form',
+				eventAction: 'submit',
+				eventLabel: 'Pre-Order',
+				eventValue: 1
+			});
+			fbq('track', 'Lead');
+		};
+	</script>
+	<?php 
 		$path = "./clickfrogru_tcp.php";
 		include_once($path);
 	?>
-    <script type="text/javascript">
-        (window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-137953-d6NsQ';
-
-    </script>
+	<script type="text/javascript">
+		(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-137953-d6NsQ';
+	</script>
 </head>
 
 <body class="slides whiteSlide animated">
-    <div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div>
-    <script type="text/javascript">
-        (function(d, w) {
-            var clickfrog = function() {
-                if (!d.getElementById('clickfrog_js_container')) {
-                    var sc = document.createElement('script');
-                    sc.type = 'text/javascript';
-                    sc.async = true;
-                    sc.src = "//stat.clickfrog.ru/c.js?r=" + Math.random();
-                    sc.id = 'clickfrog_js_container';
-                    var c = document.getElementById('clickfrog_counter_container');
-                    c.parentNode.insertBefore(sc, c);
-                }
-            };
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", clickfrog, false);
-            } else {
-                clickfrog();
-            }
-        })(document, window);
-
-    </script><noscript><div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img" style="width:0px; height:0px;" alt=""/></div></noscript>
-    <script type="text/javascript">
-        var clickfrogru_uidh = '66d580d33512ffec2ea4f564a7973dc1';
-
-    </script>
+	<div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div>
+	<script type="text/javascript">
+		(function(d, w) {
+			var clickfrog = function() {
+				if (!d.getElementById('clickfrog_js_container')) {
+					var sc = document.createElement('script');
+					sc.type = 'text/javascript';
+					sc.async = true;
+					sc.src = "//stat.clickfrog.ru/c.js?r=" + Math.random();
+					sc.id = 'clickfrog_js_container';
+					var c = document.getElementById('clickfrog_counter_container');
+					c.parentNode.insertBefore(sc, c);
+				}
+			};
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", clickfrog, false);
+			} else {
+				clickfrog();
+			}
+		})(document, window);
+	</script><noscript><div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img" style="width:0px; height:0px;" alt=""/></div></noscript>
+	<script type="text/javascript">
+		var clickfrogru_uidh = '66d580d33512ffec2ea4f564a7973dc1';
+	</script>
 
 
-    <!-- SVG Library -->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+	<!-- SVG Library -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   
   <symbol id="logo" viewBox="0 0 106 31"><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
   
@@ -229,70 +221,71 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
 </svg>
 
 
-    <!-- Panel top #03 -->
-    <nav class="panel top small forceMobileView">
-        <div class="sections desktop">
-            <div class="left">
-                <a href="index.php"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
-            </div>
+	<!-- Panel top #03 -->
+	<nav class="panel top small forceMobileView">
+		<div class="sections desktop">
+			<div class="left">
+				<a href="index.php"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
+			</div>
 
-            <div class="center">
-                <ul class="menu uppercase">
-                   <li><a href="#" class="popupTrigger" data-popup-id="main-video">Ознакомительное видео</a></li>
-                   <!-- <li><a href="#home">Что это</a></li>-->
-                    <li><a href="index.php#HowitWorks">Как это работает</a></li>
-                    <li><a href="index.php#WhyToBuy">Преимущества</a></li>
-                </ul>
-            </div>
-            <div class="right">
-               
-                <span class="button actionButton"><a href="tel:111111111" alt="Позвонить"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg></a></span>
-               
-                <span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
-                
-                <a class="btn-buy popupTrigger" data-popup-id="order-popup" href="#">
-					<div class="btn-buy_ico"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use></svg></svg></div>
+			<div class="center">
+				<ul class="menu uppercase">
+					<li><a href="#" class="popupTrigger" data-popup-id="main-video">Ознакомительное видео</a></li>
+					<!-- <li><a href="#home">Что это</a></li>-->
+					<li><a href="index.php#HowitWorks">Как это работает</a></li>
+					<li><a href="index.php#WhyToBuy">Преимущества</a></li>
+				</ul>
+			</div>
+			<div class="right">
+
+				<span class="button actionButton"><a href="tel:111111111" alt="Позвонить"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg></a></span>
+
+				<span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
+
+				<a class="btn-buy popupTrigger" data-popup-id="order-popup" href="#">
+					<div class="btn-buy_ico"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use></svg></svg>
+					</div>
 					<span>Купить</span>
-                </a>
-                <!--
+				</a>
+				<!--
                 <a class="btn-buy" href="index.php#Models">
 					<div class="btn-buy_ico"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use></svg></svg></div>
 					<span>Купить</span>
                 </a>
                 -->
-                 
-			</div>
-        </div>
-        <div class="sections compact hidden">
-            <div class="left"><a href="index.php"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a></div>
-            <div class="right">
-                <span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
-                <span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Sidebar -->
-    <nav class="sidebar blueGrey" data-sidebar-id="1">
-        <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-        <div class="content">
-            <a href="index.php" class="logo"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
-            
-            <ul class="mainMenu uppercase small">
-                <li><a href="#home">Что такое Tactile Track</a></li>
-                <li><a href="#HowitWorks">Как он работает</a></li>
-                <li><a href="#WhyToBuy">Преимущества</a></li>
-                <li><a href="#unique">Технические характеристики</a></li>
-                <!--<li><a href="#Opinions">Мнения и отзывы</a></li>-->
-                <li><a href="about-us.php">О нас</a></li>
-                <li><a href=contact.php>Контакты</a></li>
-                <li><a href="garantee.php">Гарантия</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-                <li><a href="#Models">Купить</a>
-                <!--<li><a href="#Order">Заказать</a></li>-->
-            </ul>
-            
-            <!--<ul class="subMenu small">
+			</div>
+		</div>
+		<div class="sections compact hidden">
+			<div class="left"><a href="index.php"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a></div>
+			<div class="right">
+				<span class="button actionButton"><a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a></span>
+				<span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Sidebar -->
+	<nav class="sidebar blueGrey" data-sidebar-id="1">
+		<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+		<div class="content">
+			<a href="index.php" class="logo"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"/><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"/><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"/><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"/><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"/><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"/><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"/><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"/><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"/><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"/><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"/><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"/><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"/><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"/><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"/><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"/><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"/><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"/><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"/><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"/></g></svg></a>
+
+			<ul class="mainMenu uppercase small">
+				<li><a href="#home">Что такое Tactile Track</a></li>
+				<li><a href="#HowitWorks">Как он работает</a></li>
+				<li><a href="#WhyToBuy">Преимущества</a></li>
+				<li><a href="#unique">Технические характеристики</a></li>
+				<!--<li><a href="#Opinions">Мнения и отзывы</a></li>-->
+				<li><a href="about-us.php">О нас</a></li>
+				<li><a href=contact.php>Контакты</a></li>
+				<li><a href="garantee.php">Гарантия</a></li>
+				<li><a href="faq.php">FAQ</a></li>
+				<li><a href="#Models">Купить</a>
+					<!--<li><a href="#Order">Заказать</a></li>-->
+			</ul>
+
+			<!--<ul class="subMenu small">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Press & Media</a></li>
@@ -300,259 +293,91 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Contact Us</a></li>
             </ul>-->
-            
-            <ul class="social small">
-                <li>
-                    <a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a>
-                </li>
-                <li><a href="https://www.facebook.com/tactile.track" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
-                <!--<li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+
+			<ul class="social small">
+				<li>
+					<a href="mailto:itactiletrack@gmail.com?subject=TactileTrack Question" target="_blank" alt="Задать вопрос"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4My4zIDQ4My4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMuMyA0ODMuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MjQuMyw1Ny43NUg1OS4xYy0zMi42LDAtNTkuMSwyNi41LTU5LjEsNTkuMXYyNDkuNmMwLDMyLjYsMjYuNSw1OS4xLDU5LjEsNTkuMWgzNjUuMWMzMi42LDAsNTkuMS0yNi41LDU5LjEtNTkuMSAgICB2LTI0OS41QzQ4My40LDg0LjM1LDQ1Ni45LDU3Ljc1LDQyNC4zLDU3Ljc1eiBNNDU2LjQsMzY2LjQ1YzAsMTcuNy0xNC40LDMyLjEtMzIuMSwzMi4xSDU5LjFjLTE3LjcsMC0zMi4xLTE0LjQtMzIuMS0zMi4xdi0yNDkuNSAgICBjMC0xNy43LDE0LjQtMzIuMSwzMi4xLTMyLjFoMzY1LjFjMTcuNywwLDMyLjEsMTQuNCwzMi4xLDMyLjF2MjQ5LjVINDU2LjR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTMwNC44LDIzOC41NWwxMTguMi0xMDZjNS41LTUsNi0xMy41LDEtMTkuMWMtNS01LjUtMTMuNS02LTE5LjEtMWwtMTYzLDE0Ni4zbC0zMS44LTI4LjRjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zICAgIGMtMC43LTAuNy0xLjQtMS4zLTIuMi0xLjlMNzguMywxMTIuMzVjLTUuNi01LTE0LjEtNC41LTE5LjEsMS4xYy01LDUuNi00LjUsMTQuMSwxLjEsMTkuMWwxMTkuNiwxMDYuOUw2MC44LDM1MC45NSAgICBjLTUuNCw1LjEtNS43LDEzLjYtMC42LDE5LjFjMi43LDIuOCw2LjMsNC4zLDkuOSw0LjNjMy4zLDAsNi42LTEuMiw5LjItMy42bDEyMC45LTExMy4xbDMyLjgsMjkuM2MyLjYsMi4zLDUuOCwzLjQsOSwzLjQgICAgYzMuMiwwLDYuNS0xLjIsOS0zLjVsMzMuNy0zMC4ybDEyMC4yLDExNC4yYzIuNiwyLjUsNiwzLjcsOS4zLDMuN2MzLjYsMCw3LjEtMS40LDkuOC00LjJjNS4xLTUuNCw0LjktMTQtMC41LTE5LjFMMzA0LjgsMjM4LjU1eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a>
+				</li>
+				<li><a href="https://www.facebook.com/tactile.track" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+				<!--<li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>-->
-            </ul>
-        </div>
-    </nav>
+			</ul>
+		</div>
+	</nav>
 
-    <!-- Panel Bottom -->
-    <nav class="panel bottom forceMobileView">
-      <div class="sections desktop">
-        <div class="left bottom-copyrights">
-            <p class="small">&copy; 2011-2017 Все права защищены</p>
-        </div>
-        <div class="right">
-          <ul class="menu crop uppercase bottom-menu">
-            <li><a href="about-us.php">О нас</a></li>
-            <li><a href=contact.php>Контакты</a></li>
-            <li><a href="garantee.php">Гарантия</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="sections compact hidden"></div>
-    </nav>
+	<!-- Panel Bottom -->
+	<nav class="panel bottom forceMobileView">
+		<div class="sections desktop">
+			<div class="left bottom-copyrights">
+				<p class="small">&copy; 2011-2017 Все права защищены</p>
+			</div>
+			<div class="right">
+				<ul class="menu crop uppercase bottom-menu">
+					<li><a href="about-us.php">О нас</a></li>
+					<li><a href=contact.php>Контакты</a></li>
+					<li><a href="garantee.php">Гарантия</a></li>
+					<li><a href="faq.php">FAQ</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sections compact hidden"></div>
+	</nav>
 
-    <section class="slide fade kenBurns" name="aboutUs" data-title="О нас">
-        <div class="content">
-            <div class="container">
-                <div class="wrap">
+	<section class="slide fade kenBurns" name="aboutUs" data-title="О нас">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
 
-                    <div class="fix-12-12 toCenter">
-                        <h1 class="small margin-bottom-7 margin-top-3 ae-1">Команда Tactile Track</h1>
-                    </div>
-                    <div class="fix-12-12">
-                        <ul class="grid grid-47 later equal team-box">
-                            <li class="col-6-12 equalElement margin-bottom-5 team-box">
-                                <div class="fix-6-12 ae-2">
+					<div class="fix-12-12 toCenter">
+						<h1 class="small margin-bottom-7 margin-top-3 ae-1">Команда Tactile Track</h1>
+					</div>
+					<div class="fix-12-12">
+						<ul class="grid grid-47 later equal team-box">
+							<li class="col-6-12 equalElement margin-bottom-5 team-box">
+								<div class="fix-6-12 ae-2">
 									<img class="margin-bottom-5" src="assets/img/team/team-01.jpg" alt="Евгений Рюмин - Основатель проекта Tactile Track" width="250" height="250">
-                                    <h3 class="uppercase">Евгений Рюмин</h3>
-                                    <p class="small">Основатель проекта Tactile Track</p>
-                                </div>
-                            </li>
-                           <li class="col-6-12 equalElement margin-bottom-5 team-box">
-                                <div class="fix-6-12 ae-3">
+									<h3 class="uppercase">Евгений Рюмин</h3>
+									<p class="small">Основатель проекта Tactile Track</p>
+								</div>
+							</li>
+							<li class="col-6-12 equalElement margin-bottom-5 team-box">
+								<div class="fix-6-12 ae-3">
 									<img class="margin-bottom-5" src="assets/img/team/team-02.jpg" alt="Игорь Власов - Инженер электронщик" width="250" height="250">
-                                    <h3 class="uppercase">Игорь Власов</h3>
-                                    <p class="small">Инженер электронщик</p>
-                                </div>
-                            </li>
-                           <li class="col-6-12 equalElement margin-bottom-5 team-box">
-                                <div class="fix-6-12 ae-4">
+									<h3 class="uppercase">Игорь Власов</h3>
+									<p class="small">Инженер электронщик</p>
+								</div>
+							</li>
+							<li class="col-6-12 equalElement margin-bottom-5 team-box">
+								<div class="fix-6-12 ae-4">
 									<img class="margin-bottom-5" src="assets/img/team/team-03.jpg" alt="Джеймс Каран - Связи с общественностью" width="250" height="250">
-                                    <h3 class="uppercase">Джеймс Каран</h3>
-                                    <p class="small">Связи с общественностью</p>
-                                </div>
-                            </li>
-                           <li class="col-6-12 equalElement margin-bottom-5 team-box">
-                                <div class="fix-6-12 ae-5">
+									<h3 class="uppercase">Джеймс Каран</h3>
+									<p class="small">Связи с общественностью</p>
+								</div>
+							</li>
+							<li class="col-6-12 equalElement margin-bottom-5 team-box">
+								<div class="fix-6-12 ae-5">
 									<img class="margin-bottom-5" src="assets/img/team/team-04.jpg" alt="Андрей Ситалов - Шеф дизайнер" width="250" height="250">
-                                    <h3 class="uppercase">Андрей Ситалов</h3>
-                                    <p class="small">Шеф дизайнер</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="fix-8-12">
-                    	<h3 class="margin-bottom-4 margin-top-2 left">Несколько слов от основателя Tactile Track</h3>
-                    	<p class="small left">Спасибо вам, что обратили внимание на первый в мире тактильный навигатор Tactile Track. Это совершенно новый инновационный продукт, созданный нами с нуля. Он существенно отличается функционалом и принципами работы от любого GPS-навигатора, что официально подтверждается выданными на него патентами. Здесь мы не стали развлекать вас приевшейся инфографикой, массой рекламных схем и картинок, а отобразили лишь основные, на наш взгляд, важные акценты. У нас нет цели продать вам “за три цены” давно известную в мире продукцию китайского производства.</p>
-                    	<p class="small left">Мы предлагаем вам стать, одним из первых в мире, обладателем новой революционной технологии, которая основана на нестандартном решении задействовать 5ый орган чувств - тактильное восприятие. Надеюсь, вы оцените новые преимущества путешествия с Tactile Track. </p>
-                    	<p class="small left margin-bottom-5">С уважением, Рюмин Е.В. </p>
-                    </div>
-                    <div class="fix-8-12">
-                    	<p class="small left">На сегодняшний день инновационная технология Tactile Track защищена двумя патентами, выданными Федеральной службой по интеллектуальной собственности.</p>
-                    	<img src="assets/img/patent.jpg" alt="Патент" data-action="zoom">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="background" style="background-image:url(assets/img/rr_11.jpg)"></div>
-    </section>
-
-   
-   
-    <!-- pop up video main -->
-    <div class="popup autoplay" data-popup-id="main-video">
-        <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-        <div class="content">
-            <div class="container">
-                <div class="wrap">
-                    <div class="fix-12-12">
-                        <div class="embedVideo popupContent">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/npsXqrsPreI" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   
-    <!-- pop up video how it works-->
-    <div class="popup autoplay" data-popup-id="10-0">
-        <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-        <div class="content">
-            <div class="container">
-                <div class="wrap">
-                    <div class="fix-12-12">
-                        <div class="embedVideo popupContent">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/z7-WbbbHqS0" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--Pop-up заказа товара-->
-    <div class="popup order-popup" data-popup-id="order-popup">
-        <div class="content">
-            <div class="container">
-                <div class="wrap left top padding-top-8 padding-bottom-4 padding-left-3 padding-right-3">
-                    <div class="fix-10-12 popupContent padding-top-3 padding-bottom-3 padding-left-3 padding-right-3 checkout-page">
-                        <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></svg>
-                        </div>
-                        <div class="col-12-12 checkout-header">
-                            <div class="left checkout-logo">
-                                <a href="#home"><svg style="width:166px;height:47px" width="166" height="47" viewBox="0 0 271 68" xmlns="http://www.w3.org/2000/svg"><title>Tactile Track Logo</title><g fill="none"><path d="M41.424 24.534c2.677 0 5.106 1.088 6.871 2.849l.009.009c1.761 1.765 2.849 4.194 2.849 6.87 0 2.677-1.088 5.106-2.849 6.871l-.009.008c-1.765 1.762-4.194 2.85-6.871 2.85-2.676 0-5.105-1.088-6.87-2.85l-.009-.008c-1.761-1.765-2.849-4.194-2.849-6.871 0-2.676 1.088-5.105 2.849-6.87l.009-.009c1.765-1.761 4.194-2.849 6.87-2.849zm0-11.938c5.983 0 11.401 2.426 15.321 6.346s6.346 9.338 6.346 15.32c0 5.983-2.426 11.4-6.346 15.32-3.92 3.921-9.338 6.346-15.321 6.346-5.982 0-11.4-2.425-15.32-6.346-3.92-3.92-6.346-9.337-6.346-15.32 0-5.982 2.426-11.4 6.346-15.32s9.338-6.346 15.32-6.346zm12.191 9.476c-3.118-3.12-7.429-5.049-12.191-5.049-4.761 0-9.071 1.929-12.19 5.049-3.12 3.118-5.049 7.429-5.049 12.19 0 4.762 1.929 9.072 5.049 12.191 3.119 3.12 7.429 5.049 12.19 5.049 4.762 0 9.073-1.929 12.191-5.049 3.12-3.119 5.049-7.429 5.049-12.191 0-4.761-1.929-9.072-5.049-12.19zm8.441-8.442c-5.279-5.279-12.574-8.544-20.632-8.544-8.057 0-15.352 3.265-20.631 8.544-5.279 5.28-8.545 12.575-8.545 20.632 0 8.058 3.266 15.353 8.545 20.632 5.279 5.279 12.574 8.545 20.631 8.545 8.058 0 15.353-3.266 20.632-8.545 5.279-5.279 8.545-12.574 8.545-20.632 0-8.057-3.266-15.352-8.545-20.632z" fill="#fff"></path><path d="M9.327 66.567h-8.761l2.184-8.248c1.845 2.96 4.019 5.692 6.473 8.145l.104.103" fill="#00A3DB"></path><path d="M32.143 66.567h-16.153c-1.276-1.006-2.491-2.086-3.638-3.233-3.242-3.242-5.946-7.025-7.964-11.2l3.671-13.863c.912 7.677 4.413 14.561 9.604 19.752 3.971 3.971 8.932 6.952 14.48 8.544" fill="#00A3DB"></path><path d="M73.522 1.958h8.761l-2.184 8.247c-1.845-2.959-4.019-5.691-6.473-8.145l-.104-.102" fill="#D9222A"></path><path d="M50.705 1.958h16.154c1.275 1.005 2.49 2.085 3.638 3.232 3.243 3.243 5.946 7.025 7.964 11.201l-3.671 13.863c-.912-7.677-4.413-14.561-9.604-19.753-3.971-3.971-8.932-6.952-14.481-8.543" fill="#D9222A"></path><path d="M236.15 29.53h-12.735c-1.333 0-2.541-.169-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.007-.338.021-.38l5.184-19.333h7.499c2.562.172 2.514 1.19 2.086 2.929l-3.876 14.489v.139c0 .462.491.691 1.459.691h2.688l2.688 2.36.516 1.496" fill="#fff"></path><path d="M209.47 29.53h-6.787l4.067-15.206h10.368l-3.282 12.196c-.938 2.775-2.351 2.991-4.366 3.01zm-1.913-18.247h-30.232v-3.857h41.611l-.636 2.427c-.264 1.067-1.064 1.497-2.108 1.43h-8.635z" fill="#fff"></path><path d="M204.698 11.283h-4.555c-1.092 0-1.715.277-1.86.829l-3.428 12.732v.139c0 .462.491.691 1.458.691h4.848l-1.034 3.856h-10.656c-1.333 0-2.543-.166-3.601-.545-1.291-.463-1.929-1.086-1.929-1.846 0-.214.007-.345.021-.38l.207-.691 3.747-13.956.034-.138c0-.463-.498-.691-1.493-.691l-3.525-.014 1.03-3.843h1.037l16.015-5.557-1.5 5.557h6.221l-1.037 3.857" fill="#fff"></path><path d="M142.318 28.147l-.368-1.395h-13.263l-.983 1.249c-.786 1.266-1.634 1.526-3.326 1.529h-3.648l15.11-19.028c.725-.933 1.762-1.673 3.096-2.226 1.307-.566 2.703-.85 4.168-.85 1.396 0 2.661.277 3.809.83 1.12.553 1.797 1.271 2.025 2.142l4.942 19.132h-8.423c-1.685.043-2.47-.074-3.139-1.383zm-3.582-14.023l-6.968 8.771h7.823c.739-.047 1.135-.737.982-1.53l-1.837-7.241z" fill="#fff"></path><path d="M154.03 49.979c0 .373-.061.708-.145 1.009-.548 1.957-2.247 3.625-5.034 4.695-2.573.988-4.805 1.008-7.478 1.075 3.447 1.426 3.482 1.885 6.089 4.49l5.351 5.347h-11.242c-1.541-.075-1.95-.259-3.333-1.528l-5.981-6.047-1.515 5.609c-.521 1.407-1.401 1.85-2.856 1.966h-9.294l5.91-22.104h14.522c3.822 0 7.043.345 9.677 1.03 3.552.96 5.329 2.446 5.329 4.458zm-11.688.573c0-.684-.443-1.223-1.334-1.617-.934-.394-1.936-.588-3.021-.588h-1.639c-.832.099-1.335.094-1.581 1.179l-1.072 4.068h2.916c1.217 0 2.392-.221 3.526-.65 1.216-.512 1.921-1.168 2.128-1.963.049-.125.077-.263.077-.429z" fill="#fff"></path><path d="M107.118 61.99l-.461 1.72c-.836 2.785-2.102 2.865-4.226 2.885h-3.438v-4.605h8.125" fill="#fff"></path><path d="M217.974 48.347h-10.038c-2.164 0-3.85.913-5.067 2.737-.697 1.023-1.299 2.509-1.796 4.458-.45 1.646-.671 2.869-.671 3.671 0 2.35 1.237 3.525 3.705 3.525h9.66c2.791.074 4.442.341 4.309 3.857h-14.999c-4.036 0-7.361-.871-9.967-2.613-2.606-1.742-3.905-3.912-3.905-6.518 0-.553.096-1.196.283-1.922.809-3.034 3.115-5.636 6.926-7.796 3.834-2.173 8.025-3.255 12.573-3.255h13.47c-1.233 3.104-1.173 3.856-4.483 3.856" fill="#fff"></path><path d="M229.042 25.674h4.765c2.791.074 4.442.341 4.309 3.856h-9.074v-3.856" fill="#fff"></path><path d="M182.764 11.283h-9.919c-2.163 0-3.849.913-5.066 2.738-.698 1.022-1.3 2.509-1.797 4.458-.45 1.645-.671 2.868-.671 3.669 0 2.351 1.238 3.526 3.705 3.526h12.435l-.454 1.7c-.563 1.523-1.895 2.157-4.37 2.157h-8.641c-4.037 0-7.361-.871-9.967-2.613-2.606-1.741-3.905-3.912-3.905-6.518 0-.553.097-1.196.283-1.921.809-3.035 3.117-5.634 6.926-7.797 3.836-2.171 8.025-3.256 12.573-3.256h12.434l-.477 1.786c-.454 1.57-1.098 2.071-3.089 2.071" fill="#fff"></path><path d="M263.145 11.276l-7.53.007c-1.091.001-1.711.278-1.859.836l-1.175 4.431h14.515l-1.05 3.857h-14.502l-1.216 4.437v.139c0 .462.49.691 1.458.691h12.842l-.02.016-.45 1.684c-.563 1.523-1.895 2.157-4.369 2.157h-3.33v-.001h-11.516c-1.333 0-2.54-.168-3.601-.545-1.29-.459-1.929-1.086-1.929-1.846 0-.214.008-.338.021-.38l4.459-16.582c.228-.878 1.153-1.576 2.771-2.101 1.376-.436 2.772-.65 4.175-.65h18.669l-1.036 3.857h-5.327v-.007" fill="#fff"></path><path d="M244.065 55.239l10.126 11.356h-10.085c-1.373.089-3.493-.559-4.619-2.142l-4.822-5.426-1.294 4.788-2.059 1.769-3.767 1.011h-6.545l4.978-18.619 2.288-1.981 3.121-1.504h7.149l-2.433 9.11 11.971-9.11h9.94l-13.949 10.748" fill="#fff"></path><path d="M233.869 61.99l-.46 1.72c-.837 2.785-2.103 2.865-4.227 2.885h-3.437v-4.605h8.124" fill="#fff"></path><path d="M225.681 49.096l.46-1.72c.837-2.786 2.103-2.865 4.227-2.885h3.437v4.605h-8.124" fill="#fff"></path><path d="M176.272 65.204l-.368-1.394h-13.264l-.982 1.249c-.786 1.265-1.633 1.526-3.326 1.529h-3.648l15.11-19.028c.726-.934 1.762-1.673 3.097-2.226 1.306-.567 2.702-.85 4.168-.85 1.395 0 2.66.276 3.808.829 1.12.553 1.797 1.272 2.025 2.142l4.942 19.133h-8.423c-1.685.043-2.47-.074-3.139-1.384zm-3.582-14.023l-6.967 8.772h7.822c.739-.048 1.136-.738.982-1.531l-1.837-7.241z" fill="#fff"></path><path d="M129.92 6.721h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.786-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"></path><path d="M119.983 43.786h-5.94c-1.375 0-2.147.347-2.329 1.029l-5.057 18.895c-.836 2.785-2.102 2.865-4.226 2.885h-9.511l5.834-21.78v-.138c0-.594-.608-.891-1.818-.891h-9.58l.779-2.971c.623-1.319 1.635-1.762 2.981-1.881h33.8l-.694 2.682c-.645 2.05-1.598 2.17-4.239 2.17" fill="#fff"></path></g></svg></a>
-                            </div>
-                            <div class="checkout-phone small"><strong>+38 099 111 11 11, </strong><strong>080 050 38 08</strong></div>
-                        </div>
-                        <div id="form_1" class="grid fixedSpaces equal fromCenter order-cover active">
-                            <div class="col-12-12">
-                                <h2 class="margin-bottom-6 center">Оформление заказа</h2>
-                            </div>
-                            <div class="col-6-12">
-
-                                <div class="step-row">
-
-                                    <p class="chechout-step_number small">1</p>
-                                    <p class="checkout-step small">Контактные данные</p>
-
-                                    <form id="step_1" class="wide">
-
-                                        <input class="" id="mark" type="hidden" name="mark" value="Tactile Track TT01">
-
-                                        <div class="form-row">
-                                            <input class="" id="name_s" type="text" name="name" placeholder="Имя" required="">
-                                        </div>
-                                        <div class="form-row">
-                                            <input class="" id="email_s" type="email" name="email" placeholder="E-mail" required="">
-                                            <div id="mes_err" class="error-form"></div>
-                                        </div>
-                                        <div class="form-row">
-                                            <input id="btn-checkout" class="button green btn-checkout go_form" type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green">
-                                        </div>
-                                    </form>
-
-                                </div>
-
-                                <div class="step-row">
-                                    <p class="chechout-step_number small grey">2</p>
-                                    <p class="checkout-step small">Выбор способа оплаты</p>
-                                    <div class="payment-methods">
-                                        <a href="#" class="pay-wrap">
-                                            <img src="assets/img/paypal.png" alt="PayPal">
-                                        </a>
-                                        <a href="#" class="pay-wrap">
-                                            <img src="assets/img/mastercard.png" alt="MasterCard">
-                                        </a>
-                                        <a href="#" class="pay-wrap">
-                                            <img src="assets/img/visa.png" alt="Visa">
-                                        </a>
-
-
-                                    </div>
-                                </div>
-
-                                <div class="step-row">
-                                    <p class="chechout-step_number small grey">3</p>
-                                    <p class="checkout-step small">Подтверждение платежа</p>
-                                </div>
-
-                                <div class="step-row">
-                                    <p class="chechout-step_number small grey">4</p>
-                                    <p class="checkout-step small">Доставка</p>
-                                </div>
-
-                            </div>
-                            <div class="col-6-12">
-
-                                <div class="checkout-cart">
-                                    <p class="checkout-title bold">Информация о заказе</p>
-                                    <div class="checkout-cart_content">
-
-                                        <div class="checkout-cart_content-right">
-                                            <img src="assets/img/rr_model1.png" alt="Tactile Track TT01">
-                                        </div>
-
-                                        <div class="checkout-cart_content-left">
-                                            <p class="bold">Модель Tactile Track TT01</p>
-                                            <p class="checkout-amount">1 x 13500грн</p>
-                                            <!--<a href="#" class="cart-delete">х Удалить</a>-->
-                                        </div>
-                                    </div>
-
-
-                                    <div class="checkout-cart_footer">
-                                        <p class="total-amount">Итого: 13500 грн</p>
-                                        <i class="checkout-delivery">* без учёта стоимости доставки</i>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="grid fixedSpaces equal fromCenter success-message center" id="form_2">
-                            <h3>Извините, но в данный момент товара нет на складе.</h3>
-                            <p>Следующая поставка ожидается в феврале 2018 года. Мы сообщим вам о появлении товара на ваш email, телефон, либо другим удобным для вас способом.</p>
-                            <form>
-                                <div class="form-row">
-                                    <textarea name="order-message" id="order-message" cols="30" rows="10" placeholder="Дополнительные контактные данные, вопросы  и комментарии можно оставить тут"></textarea>
-                                </div>
-
-                                <div class="form-row">
-                                    <input id="btn-checkout-2" class="button green btn-checkout go_form_2" type="submit" value="Отправить сообщение" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green">
-                                </div>
-
-                            </form>
-
-                        </div>
-
-                    </div>
-                </div>
-</div>
-        </div>
-    </div>
-
-    <!-- Preloader -->
-    <div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
-    <!-- bodyclick.net, Analyzer - START -->
-    <script type="text/javascript">
-        var ref = escape(document.referrer);
-        var server = 'banalyze.net';
-        document.write('<scr' + 'ipt type="text/jav' + 'ascript" src="http://' + server + '/analyze.php?ref=' + ref + '"></scr' + 'ipt>');
-
-    </script>
-    <!-- bodyclick.net, END -->
-    <script src="js/custom.js"></script>
-</body>
-
-</html>
+									<h3 class="uppercase">Андрей Ситалов</h3>
+									<p class="small">Шеф дизайнер</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="fix-8-12">
+						<h3 class="margin-bottom-4 margin-top-2 left">Несколько слов от основателя Tactile Track</h3>
+						<p class="small left">Спасибо вам, что обратили внимание на первый в мире тактильный навигатор Tactile Track. Это совершенно новый инновационный продукт, созданный нами с нуля. Он существенно отличается функционалом и принципами работы от любого GPS-навигатора, что официально подтверждается выданными на него патентами. Здесь мы не стали развлекать вас приевшейся инфографикой, массой рекламных схем и картинок, а отобразили лишь основные, на наш взгляд, важные акценты. У нас нет цели продать вам “за три цены” давно известную в мире продукцию китайского производства.</p>
+						<p class="small left">Мы предлагаем вам стать, одним из первых в мире, обладателем новой революционной технологии, которая основана на нестандартном решении задействовать 5ый орган чувств - тактильное восприятие. Надеюсь, вы оцените новые преимущества путешествия с Tactile Track. </p>
+						<p class="small left margin-bottom-5">С уважением, Рюмин Е.В. </p>
+					</div>
+					<div class="fix-8-12">
+						<p class="small left">На сегодняшний день инновационная технология Tactile Track защищена двумя патентами, выданными Федеральной службой по интеллектуальной собственности.</p>
+						<img src="assets/img/patent.jpg" alt="Патент" data-action="zoom">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/rr_11.jpg)"></div>
+	</section>
+	
+<?php require_once 'footer.php' ?>

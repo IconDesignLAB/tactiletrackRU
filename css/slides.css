@@ -4097,8 +4097,12 @@ img.zoom-img {
     background: #fff;
     color: #000;
     font-family: 'Open Sans', sans-serif;
-    min-height: 500px;
+    min-height: 350px;
     position: relative;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	border-radius: 5px;
 }
 .checkout-page .close {
     position: absolute;
@@ -4219,9 +4223,23 @@ form .form-row textarea{
     transition: all .25s;
 }
 
-form .form-row input:focus {
+form .form-row textarea {
+	border-radius: 5px;
+    font-size: 19px;
+    line-height: 25px;
+	padding: 15px;
+	max-width: 95%;
+}
+
+.textarea-row {
+	margin-bottom: 25px;
+}
+
+form .form-row input:focus,
+form .form-row textarea:focus {
     border-color: rgba(0,0,0,.7);
     box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+	color: #000;
 }
 
 input::-webkit-input-placeholder {
@@ -4402,7 +4420,7 @@ input::-ms-input-placeholder {
 
 .btn-buy {
 	display: inline-block;
-    border: 1px solid rgba(233,30,99,0.2);
+    border: 1px solid rgba(233,30,99,0.4);
 	margin-left: 10px;
 	border-radius: 100px;
     position: relative;
@@ -4473,6 +4491,16 @@ input::-ms-input-placeholder {
 .header-phone {
     display: inline-block;
     vertical-align: middle;
+}
+.order-popup .checkout-phone {
+	text-align: left;
+}
+.order-popup .checkout-phone strong{
+	font-weight: normal;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: block;
+	font-family: 'Open Sans Confensed', sans-serif;
 }
 
 @media screen and (max-width:1400px) {
@@ -4582,9 +4610,6 @@ input::-ms-input-placeholder {
 }
 
 /*custom styles END*/
-
-
-
 
 /* Slides Custom Styles */
 .twitterIcon, .panelIcon { position:relative; top:5px;}
