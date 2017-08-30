@@ -4542,6 +4542,7 @@ input::-ms-input-placeholder {
         top: 0;
         right: 0;
         padding: 15px;
+		margin: 0 35px;
 		border-radius: 100px;
 		background-color: rgba(0,0,0,.5);
     }
