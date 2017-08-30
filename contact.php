@@ -359,7 +359,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                         <label class="desc stroke round left ae-9" for="notes55" id="title4">Сообщение <span class="req" id="req_4">*</span></label>
                                         <textarea class="field textarea medium stroke round left ae-9" cols="50" id="notes55" type="text" name="notes55" onkeyup="" required="" rows="10" spellcheck="true" tabindex="3" placeholder="Введите Ваше ообщение"></textarea>
 
-                                        <input class="button wide pink round uppercase ae-10 button-55" type="submit" name="submit" value="Отправить" data-success-text="Спасибо!" data-success-class="green" onclick="onClick()">
+                                        <input class="button wide pink round uppercase ae-10 button-55 g-recaptcha" type="submit" name="submit" value="Отправить" data-success-text="Спасибо!" data-success-class="green" onclick="onClick()" data-badge="inline" data-sitekey="6Lc5Yi4UAAAAAJHJ1U87TAMm5sRBeeFSdK2budnS" data-callback="YourOnSubmitFn">
 
                                         <div style="display: none;">
                                             <label for="comment">Do Not Fill This Out</label>
