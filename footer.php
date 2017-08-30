@@ -46,7 +46,7 @@
 					</div>
 					<div id="form_1" class="grid fixedSpaces equal fromCenter order-cover active">
 						<div class="col-12-12">
-							<h2 class="margin-bottom-6 center">Оформление заказа</h2>
+							<h2 class="margin-bottom-4 center">Оформление заказа</h2>
 						</div>
 						<div class="col-6-12">
 
@@ -67,7 +67,7 @@
 										<div id="mes_err" class="error-form"></div>
 									</div>
 									<div class="form-row">
-										<input id="btn-checkout" class="button green btn-checkout go_form g-recaptcha" type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green" data-sitekey="6Lc5Yi4UAAAAAJHJ1U87TAMm5sRBeeFSdK2budnS" data-callback="YourOnSubmitFn">
+										<input id="btn-checkout" class="button green btn-checkout go_form g-recaptcha" data-badge="inline" type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green" data-sitekey="6Lc5Yi4UAAAAAJHJ1U87TAMm5sRBeeFSdK2budnS" data-callback="YourOnSubmitFn">
 									</div>
 								</form>
 
@@ -133,7 +133,7 @@
 						<p>Следующая поставка ожидается в феврале 2018 года. Мы сообщим Вам как только товар появится на складе на email или удобным для Вас способом.</p>
 						<form>
 							<div class="form-row textarea-row">
-								<textarea name="order-message" id="order-message" cols="30" rows="10" placeholder="Дополнительные контакты и комментарии можете оставить здесь"></textarea>
+								<textarea name="order-message" id="order-message" rows="5" placeholder="Дополнительные контакты и комментарии можете оставить здесь"></textarea>
 								<div id="mes_err_2" class="error-form"></div>
 							</div>
 

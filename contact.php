@@ -289,7 +289,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <li><a href=contact.php>Контакты</a></li>
                 <li><a href="garantee.php">Гарантия</a></li>
                 <li><a href="faq.php">FAQ</a></li>
-				<li><a href="#Models">Купить</a></li>
+                <li><a class="popupTrigger" href="#" data-popup-id="order-popup">Купить</a>
                 <!--<li><a href="#Order">Заказать</a></li>-->
             </ul>
             

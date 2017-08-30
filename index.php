@@ -294,7 +294,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <li><a href=contact.php>Контакты</a></li>
                 <li><a href="garantee.php">Гарантия</a></li>
                 <li><a href="faq.php">FAQ</a></li>
-                <li><a href="#Models">Купить</a>
+                <li><a class="popupTrigger" href="#" data-popup-id="order-popup">Купить</a>
                 <!--<li><a href="#Order">Заказать</a></li>-->
             </ul>
             
@@ -570,7 +570,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                 <div class="wrap">
 
                     <div class="fix-10-12">
-                        <h1 class="small ae-1 margin-bottom-5">Заказать прямо сейчас</h1>
+                        <h1 class="small ae-1 margin-bottom-3">Заказать прямо сейчас</h1>
                         <ul class="grid fixedSpaces equal fromCenter">
                             <li class="col-12-12">
                                 <a href="#Order" class="box-70 ae-1" style="background-color:#BDD6D3;">
@@ -578,7 +578,7 @@ src="https://www.facebook.com/tr?id=1827022840908361&ev=PageView
                                         <img src="assets/img/rr_model1.png" alt="Image">
                                     </div>
                                     <div class="info-70">
-                                        <div class="category-70">9500 р.<span style="text-decoration:line-through;">13580 р.</span></div>
+                                        <div class="category-70">9500 р.<span style="text-decoration:line-through; display: block;">13580 р.</span></div>
                                         <div class="title-70">Модель TT01</div>
                                         <p class="small equalElement">Стильная черно-красная расцветка</p>
                                         <button class="button round pink uppercase wide cropBottom popupTrigger" data-popup-id="order-popup">Купить</button>

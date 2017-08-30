@@ -519,9 +519,30 @@ small.small {
   
   h1.small,
   .h1.small {
-    font-size:40px;
+    font-size:30px;
   }
+	p {
+		font-size: 23px;
+	}
+	.button.uppercase.small {
+		font-size: 12px !important;
+	}
+	.success-message {
+		padding: 0 15px;
+	}
   
+	form .form-row input, form .form-row textarea {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.title-70 {
+		max-width: 100% !important;
+		font-size: 25px !important;
+	}
+	.popup .wrap {
+		padding: 70px 15px !important;
+	}
+	
   .mobileCrop { margin:0 !important;}
   .mobileCropBottom { margin-bottom:0 !important;}
   .mobileCropTop { margin-top:0 !important;}
@@ -4370,7 +4391,8 @@ input::-ms-input-placeholder {
     height: auto;
 }
 .pay-wrap {
-    max-width: 25%;
+    width: 25%;
+	max-width: 100px;
     -webkit-filter: grayscale(60%);
     -o-filter: grayscale(60%);
     filter: grayscale(60%);
@@ -4519,8 +4541,13 @@ input::-ms-input-placeholder {
         position: fixed;
         top: 0;
         right: 0;
-        padding: 25px;
+        padding: 15px;
+		border-radius: 100px;
+		background-color: rgba(0,0,0,.5);
     }
+	.grecaptcha-badge {
+		display: none;
+	}
 }
     
 @media screen and (max-width:600px) {
