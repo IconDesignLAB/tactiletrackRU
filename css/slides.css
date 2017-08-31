@@ -4584,9 +4584,12 @@ form .form-row input[type="submit"] {
     }
     .order-popup .checkout-phone strong{
         display: block;
-        margin-bottom: 15px;
         text-align: center;
     }
+	.order-popup .checkout-phone{
+		margin-bottom: 15px;
+	}
+	
     .order-popup .checkout-phone {
         text-align: center;
         display: block;
