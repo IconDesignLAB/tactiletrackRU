@@ -531,7 +531,8 @@ small.small {
 		padding: 0 15px;
 	}
   
-	form .form-row input, form .form-row textarea {
+	form .form-row input,
+	form .form-row textarea {
 		font-size: 14px;
 		line-height: 25px;
 	}
@@ -4187,7 +4188,7 @@ p:not(.hero) + p {
 .step-row {
     padding-left: 55px;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 p.chechout-step_number {
@@ -4226,34 +4227,41 @@ p.chechout-step_number {
     border-color: #9E9E9E;
 }
 
-.form-row {
-}
-
-form .form-row input,
-form .form-row textarea{
+form .form-row input {
     border: 1px solid rgba(0,0,0,.4);
-    max-width: 100%;
-    padding: 5px 15px;
+	padding: 0 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
-    line-height: 35px;
+	line-height: 42px;
+	margin: 0;
     font-weight: normal;
     border-radius: 0;
     -webkit-transition: all .25s;
     -o-transition: all .25s;
     transition: all .25s;
+	width: 100%;
+	max-width: 400px !important;
 }
 
 form .form-row textarea {
-	border-radius: 5px;
-    font-size: 19px;
-    line-height: 25px;
-	padding: 15px;
-	max-width: 95%;
+    border: 1px solid rgba(0,0,0,.4);
+    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+    font-weight: normal;
+    border-radius: 0;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+	width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+	padding: 10px 20px;
+	max-width: 100% !important;
+	margin: 0 auto 19px;
 }
 
 .textarea-row {
-	margin-bottom: 25px;
+	margin-bottom: 19px;
 }
 
 form .form-row input:focus,
@@ -4284,6 +4292,10 @@ input::-ms-input-placeholder {
     line-height: 1.5;
 }
 
+.form-row	{ 
+margin-bottom: 10px;
+}
+
 .checkout-cart {
     background: rgba(0,163,219,0.1);
     border: 3px solid rgba(0,163,219,0.1);
@@ -4299,7 +4311,7 @@ input::-ms-input-placeholder {
 }
 
 .form-row .btn-checkout {
-    max-width: 230px;
+    max-width: 200px;
     border: none;
 	opacity: 0.9;
 
@@ -4524,7 +4536,13 @@ input::-ms-input-placeholder {
 	display: block;
 	font-family: 'Open Sans Confensed', sans-serif;
 }
+.grecaptcha-badge {
+	display: none !important;
+}
 
+form .form-row input[type="submit"] {
+	text-align: center;
+}
 @media screen and (max-width:1400px) {
     .sections .top-menu.menu.uppercase li {
         margin: 0 7px;
@@ -4538,12 +4556,11 @@ input::-ms-input-placeholder {
 }
 @media screen and (max-width:1200px) {
     .checkout-page .close {
-        padding: 15px;
-		margin: 0 45px;
+        padding: 0;
+		margin: 0;
+		right: 0;
+		top: -40px;
     }
-	.grecaptcha-badge {
-		display: none;
-	}
 }
     
 @media screen and (max-width:600px) {
@@ -4560,6 +4577,7 @@ input::-ms-input-placeholder {
         -ms-justify-content: center;
         -o-justify-content: center;
         justify-content: center;
+		margin-bottom: 0;
     }
     .order-popup .checkout-logo{
         margin-bottom: 15px;
@@ -4579,7 +4597,7 @@ input::-ms-input-placeholder {
         padding-left: 0;
     }
     .order-popup .checkout-page {
-        padding: 25px 15px !important;
+        padding: 25px 15px 23px !important;
     }
     .order-popup p.chechout-step_number {
         width: 35px;
@@ -4617,21 +4635,35 @@ input::-ms-input-placeholder {
     .success-message h3,
     .success-message h4{
         font-size: 17px;
-        line-height: 20px;
+        line-height: 19px;
     }
     .success-message p {
         font-size: 14px;
-        line-height: 16px;
+        line-height: 19px;
+		margin-bottom: 20px;
     }
-    form .form-row textarea {
-        font-size: 14px;
-        line-height: 20px;
-    }
+
     .success-message {
         text-align: left !important;
     }
+	form .form-row input[type="submit"],
+	form .form-row input {
+		font-size: 14px;
+		line-height: 40px;
+		padding: 0 10px;
+	}
+    form .form-row textarea {
+        font-size: 14px;
+        line-height: 19px;
+		padding: 5px 10px;
+    }
+	form .form-row input[type="submit"] {
+		margin: 0 auto;
+	}
+	.form-row .btn-checkout {
+		max-width: 100%;
+	}
 }
-
 /*custom styles END*/
 
 /* Slides Custom Styles */
