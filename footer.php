@@ -46,7 +46,7 @@
 					</div>
 					<div id="form_1" class="grid fixedSpaces equal fromCenter order-cover active">
 						<div class="col-12-12">
-							<h2 class="margin-bottom-4 center">Оформление заказа</h2>
+							<h2 class="margin-bottom-3 center">Оформление заказа</h2>
 						</div>
 						<div class="col-6-12">
 

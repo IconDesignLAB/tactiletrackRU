@@ -4568,8 +4568,8 @@ form .form-row input[type="submit"] {
         padding: 70px 15px !important;
     }
     .order-popup h2 {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 21px;
+        line-height: 25px;
     }
     .order-popup .checkout-header {
         -webkit-justify-content: center;
@@ -4584,7 +4584,7 @@ form .form-row input[type="submit"] {
     }
     .order-popup .checkout-phone strong{
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
         text-align: center;
     }
     .order-popup .checkout-phone {
