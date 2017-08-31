@@ -4260,10 +4260,6 @@ form .form-row textarea {
 	margin: 0 auto 19px;
 }
 
-.textarea-row {
-	margin-bottom: 19px;
-}
-
 form .form-row input:focus,
 form .form-row textarea:focus {
     border-color: rgba(0,0,0,.7);
@@ -4292,8 +4288,12 @@ input::-ms-input-placeholder {
     line-height: 1.5;
 }
 
-.form-row	{ 
-margin-bottom: 10px;
+.form-row { 
+	margin-bottom: 10px;
+}
+
+.textarea-row {
+	margin-bottom: 19px;
 }
 
 .checkout-cart {
