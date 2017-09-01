@@ -67,7 +67,7 @@
 										<div id="mes_err" class="error-form"></div>
 									</div>
 									<div class="form-row">
-										<input id="btn-checkout" class="button green btn-checkout go_form g-recaptcha"  type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green" data-badge="inline" data-sitekey="6Lc5Yi4UAAAAAJHJ1U87TAMm5sRBeeFSdK2budnS" data-callback="YourOnSubmitFn">
+										<input id="btn-checkout" class="button green btn-checkout go_form g-recaptcha"  required type="submit" value="Далее" data-success-text="Спасибо! Ваш заказ принят" data-success-class="green" data-badge="inline" data-sitekey="6Lc5Yi4UAAAAAJHJ1U87TAMm5sRBeeFSdK2budnS" data-callback="YourOnSubmitFn">
 									</div>
 								</form>
 

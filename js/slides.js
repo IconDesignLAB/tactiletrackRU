@@ -1592,10 +1592,6 @@ $(document).ready(function() { "use strict";
     },4000);
   });
 							  
-	$('.tel-btn').on('click', function() {
-		$('.tel-btn_drop').toggleClass('active');
-	});
-							  
 // end on dom ready
 });
 
