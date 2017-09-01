@@ -15,7 +15,7 @@ setTimeout(function () {
          var name = $('#name_s').val();
          var email = $('#email_s').val();
 
-        if(name.length >= 2 && email.length >= 5){
+        if(name.length >= 1 && email.length >= 1){
             $('#btn-checkout').addClass('active');
         }else {
             $('#btn-checkout').removeClass('active');
@@ -27,7 +27,7 @@ setTimeout(function () {
 
          var message = $('#order-message').val();
        
-        if(message.length >= 8){
+        if(message.length >= 1){
             $('#btn-checkout-2').addClass('active');
         }else {
             $('#btn-checkout-2').removeClass('active');
