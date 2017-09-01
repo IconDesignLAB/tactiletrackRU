@@ -2,13 +2,13 @@
 if ( ! session_id() ) @ session_start();
 /* SETTINGS */
 //$yourEmail = "itactiletrack@gmail.com";
-const Y_EMAIL = "roman.rudnik@gmail.com";
+const Y_EMAIL = "itactiletrack@gmail.com";
 const EMAIL_S = "Заказ с сайта Tactile Track";
 
 
 
         if($_POST['action'] == 'index'){
-            if(!empty($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+            if(!empty($_POST['email'])){
                 index();
                 exit;
             }else{
@@ -72,12 +72,12 @@ function index(){
 
 
         $message=
-            'New preorder of Tactile Track.
+            'Сообщение с сайта (форма заказа) Tactile Track.
 
-Name: '.$name.'
+Имя: '.$name.'
 Email: '.$email.'
-Model: '.$model.'
-Quantity: '.$quantity.'
+Модель: '.$model.'
+Количество: '.$quantity.'
 
 
 -----------------------------------------------------
@@ -123,15 +123,15 @@ function notes(){
 
 
     $message=
-        'New preorder of Tactile Track.
+        'Сообщение с сайта (форма заказа) Tactile Track.
 
-Name: '.$name.'
+Имя: '.$name.'
 Email: '.$email.'
-Model: '.$model.'
-Quantity: '.$quantity.'
+Модель: '.$model.'
+Количество: '.$quantity.'
 
 
-Additional information:
+Дополнительное сообщение к заказу:
 '.print_r($notes, TRUE).'
 
 -- \r\n

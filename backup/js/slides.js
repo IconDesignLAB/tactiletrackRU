@@ -1591,11 +1591,6 @@ $(document).ready(function() { "use strict";
       $("#contact-form")[0].reset();
     },4000);
   });
-							  
-	$('.tel-btn').on('click', function() {
-		$('.tel-btn_drop').toggleClass('active');
-	});
-							  
+  
 // end on dom ready
 });
-

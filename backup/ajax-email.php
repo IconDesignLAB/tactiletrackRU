@@ -3,7 +3,7 @@
 /* SETTINGS */
 //$yourEmail = "itactiletrack@gmail.com";
 $yourEmail = "itactiletrack@gmail.com";
-$emailSubject = "Сообщение с сайта Tactile Track";
+$emailSubject = "Tactile Track Preorder";
 
 
 
@@ -54,12 +54,14 @@ if($_POST){
 		 
 
 	$message=
-'Сообщение с сайта
+'New preorder of Tactile Track.
 
-Имя: '.$name.'
+Name: '.$name.'
 Email: '.$email.'
+Model: '.$model.'
+Quantity: '.$quantity.'
 
-Сообщение:
+Additional information:
 '.print_r($notes, TRUE)."
 
 -- \r\n
