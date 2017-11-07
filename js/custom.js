@@ -92,7 +92,7 @@ setTimeout(function () {
         }
     });
 });
-$('.tel-btn').on('click', function() {
-	$('.tel-btn_drop').toggleClass('active');
-});
+	$('.tel-btn').on('click', function() {
+		$('.tel-btn_drop').toggleClass('active');
+	});
 })(jQuery);
